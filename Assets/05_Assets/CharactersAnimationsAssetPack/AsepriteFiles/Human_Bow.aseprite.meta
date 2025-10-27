@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 60696e65b75ffc249a7610268a7c8e7b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638971854134271136
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Human_Bow_Frame_0
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 278
+      width: 32
+      height: 44
+    spriteID: f97ae5ee526036046b24797e36b51c1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 278}
+  - name: Human_Bow_Frame_1
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 330
+      width: 32
+      height: 44
+    spriteID: facbb7e6136925f478f32e65f580dc1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 330}
+  - name: Human_Bow_Frame_2
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 382
+      width: 32
+      height: 44
+    spriteID: eb71d33245bed9a428e76431a8fc7b35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 382}
+  - name: Human_Bow_Frame_3
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 4
+      width: 32
+      height: 40
+    spriteID: db0366bbd153e9f4cb033b3d7232b18d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 4}
+  - name: Human_Bow_Frame_4
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 470
+      width: 32
+      height: 38
+    spriteID: 334db0628526cd34a9f4f5ee6be78c9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 470}
+  - name: Human_Bow_Frame_5
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 52
+      width: 32
+      height: 40
+    spriteID: c1fba604f8b08804198f3993a7cba7a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 52}
+  - name: Human_Bow_Frame_6
+    originalName: 
+    pivot: {x: 0.49999994, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 368
+      width: 28
+      height: 46
+    spriteID: 1d7634873f8124a4e973b36d8b506dfa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 368}
+  - name: Human_Bow_Frame_7
+    originalName: 
+    pivot: {x: 0.49999994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 112
+      width: 28
+      height: 44
+    spriteID: 085966bf53e302e4d902e6ac01eeb71f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 112}
+  - name: Human_Bow_Frame_8
+    originalName: 
+    pivot: {x: 0.49999994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 164
+      width: 28
+      height: 44
+    spriteID: 1edbcb83835134c4c99e03effb16b726
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 164}
+  - name: Human_Bow_Frame_9
+    originalName: 
+    pivot: {x: 0.49999994, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 422
+      width: 28
+      height: 46
+    spriteID: 282bd8dd86e03f34c902139649ac90bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 422}
+  - name: Human_Bow_Frame_10
+    originalName: 
+    pivot: {x: 0.49999994, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 4
+      width: 28
+      height: 46
+    spriteID: 08bb98c80bf1f844397a9db82ebc690f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 4}
+  - name: Human_Bow_Frame_11
+    originalName: 
+    pivot: {x: 0.49999994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 216
+      width: 28
+      height: 44
+    spriteID: 8eb905bcdbc3f3441b8195b2c6189348
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 216}
+  - name: Human_Bow_Frame_12
+    originalName: 
+    pivot: {x: 0.49999994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 268
+      width: 28
+      height: 44
+    spriteID: 1673ae8a1867d0144afd5f0042dd7d77
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 268}
+  - name: Human_Bow_Frame_13
+    originalName: 
+    pivot: {x: 0.49999994, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 58
+      width: 28
+      height: 46
+    spriteID: 7d32b17d11de39847abcb67dee2dfcbb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 58}
+  - name: Human_Bow_Frame_14
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 434
+      width: 32
+      height: 44
+    spriteID: 908ae479981eba54eaad3272d81473bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 434}
+  - name: Human_Bow_Frame_15
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 54
+      width: 32
+      height: 44
+    spriteID: b79861cc88a7b774e9ec287fa624bcea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 54}
+  - name: Human_Bow_Frame_16
+    originalName: 
+    pivot: {x: 0.41176465, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 118
+      width: 34
+      height: 46
+    spriteID: 4c203c527b10d824e8884ba53fe9d10d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 118}
+  - name: Human_Bow_Frame_17
+    originalName: 
+    pivot: {x: 0.41176465, y: -1.4399999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 422
+      width: 34
+      height: 50
+    spriteID: 67d5b1d68b7c065458db6183c9d4a8e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 422}
+  - name: Human_Bow_Frame_18
+    originalName: 
+    pivot: {x: 0.41176465, y: -1.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 362
+      width: 34
+      height: 52
+    spriteID: 5e40afedab94f614a9b5d6bf5fb329f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 362}
+  - name: Human_Bow_Frame_19
+    originalName: 
+    pivot: {x: 0.41176465, y: -1.4399999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 4
+      width: 34
+      height: 50
+    spriteID: 5644f844695dc114b941a919aea4a0fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 4}
+  - name: Human_Bow_Frame_20
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 106
+      width: 32
+      height: 44
+    spriteID: 00c926a171bd0fa45955d2ef00089c47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 106}
+  - name: Human_Bow_Frame_21
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 158
+      width: 32
+      height: 44
+    spriteID: c6f2666cc0b20d44e8439067ddf33d81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 158}
+  - name: Human_Bow_Frame_22
+    originalName: 
+    pivot: {x: 0.4666666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 264
+      width: 30
+      height: 44
+    spriteID: eb75e0a8389b7e94b9570f328a4afe7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 264}
+  - name: Human_Bow_Frame_23
+    originalName: 
+    pivot: {x: 0.50000006, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 210
+      width: 32
+      height: 44
+    spriteID: a7b239eb9ce0ed6439c1b63db18941d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 210}
+  - name: Human_Bow_Frame_24
+    originalName: 
+    pivot: {x: 0.4705883, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 172
+      width: 34
+      height: 46
+    spriteID: 9788bc6a088110546bd64968e4ab108d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 172}
+  - name: Human_Bow_Frame_25
+    originalName: 
+    pivot: {x: 0.49999994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 320
+      width: 28
+      height: 44
+    spriteID: ed56f41187182d74580de59fc7e5d3ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 320}
+  - name: Human_Bow_Frame_26
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 262
+      width: 32
+      height: 44
+    spriteID: 63f3bc045dd1d754da43eda75a9b6534
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 262}
+  - name: Human_Bow_Frame_27
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 314
+      width: 32
+      height: 44
+    spriteID: 62ae9da9f5fb9dd4291c5ab3103ebc03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 314}
+  - name: Human_Bow_Frame_28
+    originalName: 
+    pivot: {x: 0.49999994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 372
+      width: 28
+      height: 44
+    spriteID: 2daaec88d14ddd54ca9c7bcb88af7499
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 372}
+  - name: Human_Bow_Frame_29
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 316
+      width: 30
+      height: 44
+    spriteID: 13ae637cbbeefee4fa3919d909c4cebd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 316}
+  - name: Human_Bow_Frame_30
+    originalName: 
+    pivot: {x: 0.25000003, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 308
+      width: 64
+      height: 46
+    spriteID: cd24f6c1e2e414f4dad32ca893193fbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 308}
+  - name: Human_Bow_Frame_31
+    originalName: 
+    pivot: {x: 0.17391306, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 202
+      width: 92
+      height: 46
+    spriteID: 2627e470be57d13489fc9362e74068e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 202}
+  - name: Human_Bow_Frame_32
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 366
+      width: 32
+      height: 44
+    spriteID: 936458e5db1afc54983558a2c079d3be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 366}
+  - name: Human_Bow_Frame_33
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 418
+      width: 32
+      height: 44
+    spriteID: 5fa099f9728e65b48bb3ecb4ccd22a01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 418}
+  - name: Human_Bow_Frame_34
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 4
+      width: 32
+      height: 44
+    spriteID: 8eca8f0773c6070409c099beb4f24ba2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 4}
+  - name: Human_Bow_Frame_35
+    originalName: 
+    pivot: {x: 0.49999994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 424
+      width: 28
+      height: 44
+    spriteID: 24b0f48a05c0bc44fbd3151253424e1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 424}
+  - name: Human_Bow_Frame_36
+    originalName: 
+    pivot: {x: 0.4705883, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 226
+      width: 34
+      height: 44
+    spriteID: 0fd6a563667dc8a46b396d73bcec9041
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 226}
+  - name: Human_Bow_Frame_37
+    originalName: 
+    pivot: {x: 0.4444445, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 4
+      width: 36
+      height: 42
+    spriteID: 286f5e75da42c63458f893740056ab9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 4}
+  - name: Human_Bow_Frame_38
+    originalName: 
+    pivot: {x: 0.19148937, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 94
+      height: 108
+    spriteID: d22cd14dc25023642abc4104d56c9174
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Human_Bow_Frame_39
+    originalName: 
+    pivot: {x: 0.15555555, y: -0.9729729}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 120
+      width: 90
+      height: 74
+    spriteID: d7b2f49385268a84db27404d0a1250e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 120}
+  - name: Human_Bow_Frame_40
+    originalName: 
+    pivot: {x: 0.14893615, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 256
+      width: 94
+      height: 44
+    spriteID: a28b340433bad5240af81a1dbe6a909c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 256}
+  - name: Human_Bow_Frame_41
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 56
+      width: 32
+      height: 44
+    spriteID: b6c56dc8dd4676c4397e7a16d6801228
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 56}
+  - name: Human_Bow_Frame_42
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 108
+      width: 32
+      height: 44
+    spriteID: 523c856ec2ac5674b87b01b2ae593fc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 108}
+  - name: Human_Bow_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 414
+      width: 36
+      height: 48
+    spriteID: e7c80131983030a479fc833015d9133d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 414}
+  - name: Human_Bow_Frame_44
+    originalName: 
+    pivot: {x: 0.58823526, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 62
+      width: 34
+      height: 48
+    spriteID: c3ae15e50024bec4db886118ac1382a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 62}
+  - name: Human_Bow_Frame_45
+    originalName: 
+    pivot: {x: 0.50000006, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 32
+      height: 44
+    spriteID: 9da7906bb2216fb4baabc5fcd981d4c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 160}
+  - name: Human_Bow_Frame_46
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 212
+      width: 32
+      height: 44
+    spriteID: 14c0e223a717f874880e53998c6cecb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 212}
+  - name: Human_Bow_Frame_47
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 362
+      width: 40
+      height: 44
+    spriteID: 96c78d74a5984c646be62944949ee688
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 362}
+  - name: Human_Bow_Frame_48
+    originalName: 
+    pivot: {x: 0.40909094, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 470
+      width: 44
+      height: 36
+    spriteID: 0056ddd5f56279b4db27eb76e51ae226
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 470}
+  - name: Human_Bow_Frame_49
+    originalName: 
+    pivot: {x: 0.39130434, y: -3.2727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 154
+      width: 46
+      height: 22
+    spriteID: a7b5a1324768bf4449b9eefe8f576569
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 154}
+  - name: Human_Bow_Frame_50
+    originalName: 
+    pivot: {x: 0.375, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 308
+      y: 4
+      width: 48
+      height: 24
+    spriteID: 8bd02c417bfe8c84bad6a338131fedbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 308, y: 4}
+  - name: Human_Bow_Frame_51
+    originalName: 
+    pivot: {x: 0.35999998, y: -3.2727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 4
+      width: 50
+      height: 22
+    spriteID: 7e322aca98f69e5469006cc8de7b695d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 4}
+  - name: Human_Bow_Frame_52
+    originalName: 
+    pivot: {x: 0.35999998, y: -3.2727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 34
+      width: 50
+      height: 22
+    spriteID: 747b72c3c5fe97d47b248a29689afda4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 34}
+  - name: Human_Bow_Frame_53
+    originalName: 
+    pivot: {x: 0.35999998, y: -3.2727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 64
+      width: 50
+      height: 22
+    spriteID: a19e60a6ce7c53f4dbae7aadee03f586
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 64}
+  - name: Human_Bow_Frame_54
+    originalName: 
+    pivot: {x: 0.35999998, y: -3.2727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 94
+      width: 50
+      height: 22
+    spriteID: 1c134904375183d4ab817d34659a2cb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 94}
+  - name: Human_Bow_Frame_55
+    originalName: 
+    pivot: {x: 0.35999998, y: -3.2727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 124
+      width: 50
+      height: 22
+    spriteID: da9697e5c702507409170c1b7bef8018
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 124}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1869367808
+    name: Human_Bow
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Human_Bow_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: f97ae5ee526036046b24797e36b51c1c
+    - name: Human_Bow_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: facbb7e6136925f478f32e65f580dc1b
+    - name: Human_Bow_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: eb71d33245bed9a428e76431a8fc7b35
+    - name: Human_Bow_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 40
+      spriteId: db0366bbd153e9f4cb033b3d7232b18d
+    - name: Human_Bow_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 38
+      spriteId: 334db0628526cd34a9f4f5ee6be78c9b
+    - name: Human_Bow_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 40
+      spriteId: c1fba604f8b08804198f3993a7cba7a8
+    - name: Human_Bow_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 82
+        y: 72
+        width: 28
+        height: 46
+      spriteId: 1d7634873f8124a4e973b36d8b506dfa
+    - name: Human_Bow_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 82
+        y: 72
+        width: 28
+        height: 44
+      spriteId: 085966bf53e302e4d902e6ac01eeb71f
+    - name: Human_Bow_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 82
+        y: 72
+        width: 28
+        height: 44
+      spriteId: 1edbcb83835134c4c99e03effb16b726
+    - name: Human_Bow_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 82
+        y: 72
+        width: 28
+        height: 46
+      spriteId: 282bd8dd86e03f34c902139649ac90bc
+    - name: Human_Bow_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 82
+        y: 72
+        width: 28
+        height: 46
+      spriteId: 08bb98c80bf1f844397a9db82ebc690f
+    - name: Human_Bow_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 82
+        y: 72
+        width: 28
+        height: 44
+      spriteId: 8eb905bcdbc3f3441b8195b2c6189348
+    - name: Human_Bow_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 82
+        y: 72
+        width: 28
+        height: 44
+      spriteId: 1673ae8a1867d0144afd5f0042dd7d77
+    - name: Human_Bow_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 82
+        y: 72
+        width: 28
+        height: 46
+      spriteId: 7d32b17d11de39847abcb67dee2dfcbb
+    - name: Human_Bow_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: 908ae479981eba54eaad3272d81473bb
+    - name: Human_Bow_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: b79861cc88a7b774e9ec287fa624bcea
+    - name: Human_Bow_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 82
+        y: 72
+        width: 34
+        height: 46
+      spriteId: 4c203c527b10d824e8884ba53fe9d10d
+    - name: Human_Bow_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 82
+        y: 72
+        width: 34
+        height: 50
+      spriteId: 67d5b1d68b7c065458db6183c9d4a8e2
+    - name: Human_Bow_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 82
+        y: 72
+        width: 34
+        height: 52
+      spriteId: 5e40afedab94f614a9b5d6bf5fb329f9
+    - name: Human_Bow_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 82
+        y: 72
+        width: 34
+        height: 50
+      spriteId: 5644f844695dc114b941a919aea4a0fc
+    - name: Human_Bow_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: 00c926a171bd0fa45955d2ef00089c47
+    - name: Human_Bow_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: c6f2666cc0b20d44e8439067ddf33d81
+    - name: Human_Bow_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 82
+        y: 72
+        width: 30
+        height: 44
+      spriteId: eb75e0a8389b7e94b9570f328a4afe7e
+    - name: Human_Bow_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 80
+        y: 72
+        width: 32
+        height: 44
+      spriteId: a7b239eb9ce0ed6439c1b63db18941d8
+    - name: Human_Bow_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 80
+        y: 72
+        width: 34
+        height: 46
+      spriteId: 9788bc6a088110546bd64968e4ab108d
+    - name: Human_Bow_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 82
+        y: 72
+        width: 28
+        height: 44
+      spriteId: ed56f41187182d74580de59fc7e5d3ac
+    - name: Human_Bow_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: 63f3bc045dd1d754da43eda75a9b6534
+    - name: Human_Bow_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: 62ae9da9f5fb9dd4291c5ab3103ebc03
+    - name: Human_Bow_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 82
+        y: 72
+        width: 28
+        height: 44
+      spriteId: 2daaec88d14ddd54ca9c7bcb88af7499
+    - name: Human_Bow_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 80
+        y: 72
+        width: 30
+        height: 44
+      spriteId: 13ae637cbbeefee4fa3919d909c4cebd
+    - name: Human_Bow_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 80
+        y: 72
+        width: 64
+        height: 46
+      spriteId: cd24f6c1e2e414f4dad32ca893193fbf
+    - name: Human_Bow_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 80
+        y: 72
+        width: 92
+        height: 46
+      spriteId: 2627e470be57d13489fc9362e74068e7
+    - name: Human_Bow_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: 936458e5db1afc54983558a2c079d3be
+    - name: Human_Bow_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: 5fa099f9728e65b48bb3ecb4ccd22a01
+    - name: Human_Bow_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: 8eca8f0773c6070409c099beb4f24ba2
+    - name: Human_Bow_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 82
+        y: 72
+        width: 28
+        height: 44
+      spriteId: 24b0f48a05c0bc44fbd3151253424e1b
+    - name: Human_Bow_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 80
+        y: 72
+        width: 34
+        height: 44
+      spriteId: 0fd6a563667dc8a46b396d73bcec9041
+    - name: Human_Bow_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 80
+        y: 72
+        width: 36
+        height: 42
+      spriteId: 286f5e75da42c63458f893740056ab9c
+    - name: Human_Bow_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 78
+        y: 72
+        width: 94
+        height: 108
+      spriteId: d22cd14dc25023642abc4104d56c9174
+    - name: Human_Bow_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 82
+        y: 72
+        width: 90
+        height: 74
+      spriteId: d7b2f49385268a84db27404d0a1250e6
+    - name: Human_Bow_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 82
+        y: 72
+        width: 94
+        height: 44
+      spriteId: a28b340433bad5240af81a1dbe6a909c
+    - name: Human_Bow_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: b6c56dc8dd4676c4397e7a16d6801228
+    - name: Human_Bow_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: 523c856ec2ac5674b87b01b2ae593fc8
+    - name: Human_Bow_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 78
+        y: 72
+        width: 36
+        height: 48
+      spriteId: e7c80131983030a479fc833015d9133d
+    - name: Human_Bow_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 76
+        y: 72
+        width: 34
+        height: 48
+      spriteId: c3ae15e50024bec4db886118ac1382a7
+    - name: Human_Bow_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 80
+        y: 72
+        width: 32
+        height: 44
+      spriteId: 9da7906bb2216fb4baabc5fcd981d4c1
+    - name: Human_Bow_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 82
+        y: 72
+        width: 32
+        height: 44
+      spriteId: 14c0e223a717f874880e53998c6cecb1
+    - name: Human_Bow_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 78
+        y: 72
+        width: 40
+        height: 44
+      spriteId: 96c78d74a5984c646be62944949ee688
+    - name: Human_Bow_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 78
+        y: 72
+        width: 44
+        height: 36
+      spriteId: 0056ddd5f56279b4db27eb76e51ae226
+    - name: Human_Bow_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 78
+        y: 72
+        width: 46
+        height: 22
+      spriteId: a7b5a1324768bf4449b9eefe8f576569
+    - name: Human_Bow_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 78
+        y: 72
+        width: 48
+        height: 24
+      spriteId: 8bd02c417bfe8c84bad6a338131fedbd
+    - name: Human_Bow_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 78
+        y: 72
+        width: 50
+        height: 22
+      spriteId: 7e322aca98f69e5469006cc8de7b695d
+    - name: Human_Bow_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 78
+        y: 72
+        width: 50
+        height: 22
+      spriteId: 747b72c3c5fe97d47b248a29689afda4
+    - name: Human_Bow_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 78
+        y: 72
+        width: 50
+        height: 22
+      spriteId: a19e60a6ce7c53f4dbae7aadee03f586
+    - name: Human_Bow_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 78
+        y: 72
+        width: 50
+        height: 22
+      spriteId: 1c134904375183d4ab817d34659a2cb1
+    - name: Human_Bow_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 78
+        y: 72
+        width: 50
+        height: 22
+      spriteId: da9697e5c702507409170c1b7bef8018
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 192, y: 192}

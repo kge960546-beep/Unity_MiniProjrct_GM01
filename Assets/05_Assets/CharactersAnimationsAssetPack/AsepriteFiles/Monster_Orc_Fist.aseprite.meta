@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: b2d8e2fd6a2652349a3531ea4f2fb26a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638971854374078381
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Monster_Orc_Fist_Frame_0
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 116
+      width: 15
+      height: 21
+    spriteID: 0f6f15c1d7f3cd24b95a09e5cbe6bf13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 116}
+  - name: Monster_Orc_Fist_Frame_1
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 145
+      width: 15
+      height: 21
+    spriteID: 0a96abce175f813429b2cf895ef5a9aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 145}
+  - name: Monster_Orc_Fist_Frame_2
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 232
+      width: 15
+      height: 20
+    spriteID: 6cb128f2a603a2643b30478b1996137e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 232}
+  - name: Monster_Orc_Fist_Frame_3
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 34
+      width: 15
+      height: 19
+    spriteID: 0725dcd4e528ebc44b7b1ce067f32175
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 34}
+  - name: Monster_Orc_Fist_Frame_4
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 61
+      width: 15
+      height: 19
+    spriteID: b8ee433c95d99fa45a2c1bbfe48a530f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 61}
+  - name: Monster_Orc_Fist_Frame_5
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 150
+      width: 15
+      height: 20
+    spriteID: 65da6912e51e9fc4eaf1ac26b3c2ecd7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 150}
+  - name: Monster_Orc_Fist_Frame_6
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 174
+      width: 15
+      height: 21
+    spriteID: a52a7dff538f50c4c9f5f856b9640164
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 174}
+  - name: Monster_Orc_Fist_Frame_7
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 203
+      width: 15
+      height: 21
+    spriteID: c99106f0e42384e47bf9b9cbed44c2bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 203}
+  - name: Monster_Orc_Fist_Frame_8
+    originalName: 
+    pivot: {x: 0.53846145, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 34
+      width: 13
+      height: 22
+    spriteID: c987bd047d2df4b42834b7f350b7c72f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 34}
+  - name: Monster_Orc_Fist_Frame_9
+    originalName: 
+    pivot: {x: 0.53846145, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 64
+      width: 13
+      height: 22
+    spriteID: cec7bfaa9964d71439e8001177818904
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 64}
+  - name: Monster_Orc_Fist_Frame_10
+    originalName: 
+    pivot: {x: 0.49999994, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 206
+      width: 14
+      height: 21
+    spriteID: b0911e168c9c95e44beba206c570fe4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 206}
+  - name: Monster_Orc_Fist_Frame_11
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 34
+      width: 15
+      height: 21
+    spriteID: 123cba2d57db7fc43a431c2fc6e6ecf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 34}
+  - name: Monster_Orc_Fist_Frame_12
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 181
+      width: 15
+      height: 22
+    spriteID: 0d27e51842a564d4d9576f0cffc71819
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 181}
+  - name: Monster_Orc_Fist_Frame_13
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 211
+      width: 15
+      height: 22
+    spriteID: b3a752e1702db3641b3b93577a9fb83e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 211}
+  - name: Monster_Orc_Fist_Frame_14
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 63
+      width: 15
+      height: 21
+    spriteID: ddd3c1cbab322714d86d6cd6280ab0c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 63}
+  - name: Monster_Orc_Fist_Frame_15
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 92
+      width: 15
+      height: 21
+    spriteID: f7201eee5fd48864a90fdc5d1a5fe888
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 92}
+  - name: Monster_Orc_Fist_Frame_16
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 92
+      width: 15
+      height: 23
+    spriteID: cc4e13a7d13d54841886e8c2448613d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 92}
+  - name: Monster_Orc_Fist_Frame_17
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.4399999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 173
+      width: 15
+      height: 25
+    spriteID: 9d504e3e092efdb47a07f686d7be0132
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 173}
+  - name: Monster_Orc_Fist_Frame_18
+    originalName: 
+    pivot: {x: 0.50000006, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 141
+      width: 16
+      height: 24
+    spriteID: faa1bb6a016c01c4aa08980da6deeae1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 141}
+  - name: Monster_Orc_Fist_Frame_19
+    originalName: 
+    pivot: {x: 0.50000006, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 206
+      width: 16
+      height: 22
+    spriteID: ac8bf38c67f9c4f45b5d1f068519aefa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 206}
+  - name: Monster_Orc_Fist_Frame_20
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 121
+      width: 15
+      height: 21
+    spriteID: e979bbcf3073fa64ebd0e41d70ea3f41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 121}
+  - name: Monster_Orc_Fist_Frame_21
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 150
+      width: 15
+      height: 21
+    spriteID: 43da7713f10094142be8fef3b62f86c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 150}
+  - name: Monster_Orc_Fist_Frame_22
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 179
+      width: 15
+      height: 21
+    spriteID: 5ce71175d7bfbf24e93e8a8493980239
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 179}
+  - name: Monster_Orc_Fist_Frame_23
+    originalName: 
+    pivot: {x: 0.5625, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 123
+      width: 16
+      height: 21
+    spriteID: 40775df9844453949a081e76f50731aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 123}
+  - name: Monster_Orc_Fist_Frame_24
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 34
+      width: 17
+      height: 21
+    spriteID: ce3b431d12c68ed4a8887d013967f13b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 34}
+  - name: Monster_Orc_Fist_Frame_25
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 208
+      width: 15
+      height: 21
+    spriteID: 8e81cae92947def4d89c7a33921b3620
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 208}
+  - name: Monster_Orc_Fist_Frame_26
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 34
+      width: 15
+      height: 21
+    spriteID: c801c328a49cd8d4fb0f5aa56850c9fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 34}
+  - name: Monster_Orc_Fist_Frame_27
+    originalName: 
+    pivot: {x: 0.5625, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 88
+      width: 16
+      height: 20
+    spriteID: 687f94dd36e473b48aed3a4a577d12dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 88}
+  - name: Monster_Orc_Fist_Frame_28
+    originalName: 
+    pivot: {x: 0.58823526, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 34
+      width: 17
+      height: 19
+    spriteID: 56d86cc29b9a6654896689286210b8c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 34}
+  - name: Monster_Orc_Fist_Frame_29
+    originalName: 
+    pivot: {x: 0.58823526, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 61
+      width: 17
+      height: 19
+    spriteID: 267884180b828994798f0b5f1911bf22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 61}
+  - name: Monster_Orc_Fist_Frame_30
+    originalName: 
+    pivot: {x: 0.25000003, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 4
+      width: 32
+      height: 18
+    spriteID: 7f60e94321b79124ba682bdf098e9465
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 4}
+  - name: Monster_Orc_Fist_Frame_31
+    originalName: 
+    pivot: {x: 0.22580642, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 4
+      width: 31
+      height: 18
+    spriteID: fa261693a75e04e46b3165430a5d7a4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 4}
+  - name: Monster_Orc_Fist_Frame_32
+    originalName: 
+    pivot: {x: 0.4666666, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 88
+      width: 15
+      height: 19
+    spriteID: 5c12a1d057cead544ae7370962d6d037
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 88}
+  - name: Monster_Orc_Fist_Frame_33
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 178
+      width: 15
+      height: 20
+    spriteID: 75d2e8e4b39111b45a27e34554c86c70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 178}
+  - name: Monster_Orc_Fist_Frame_34
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 63
+      width: 15
+      height: 21
+    spriteID: 562131a241f8e144791b2898a91caa81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 63}
+  - name: Monster_Orc_Fist_Frame_35
+    originalName: 
+    pivot: {x: 0.4666666, y: -1.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 107
+      width: 15
+      height: 26
+    spriteID: e184d72c709552146b79295d5adff908
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 107}
+  - name: Monster_Orc_Fist_Frame_36
+    originalName: 
+    pivot: {x: 0.3333334, y: -1.2413794}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 70
+      width: 15
+      height: 29
+    spriteID: 3e226eba064531846971ceee294694ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 70}
+  - name: Monster_Orc_Fist_Frame_37
+    originalName: 
+    pivot: {x: 0.31250006, y: -1.2857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 34
+      width: 16
+      height: 28
+    spriteID: 452e2f0875e4525448028399eb00f340
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 34}
+  - name: Monster_Orc_Fist_Frame_38
+    originalName: 
+    pivot: {x: 0.19047615, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 188
+      y: 4
+      width: 21
+      height: 19
+    spriteID: ee3405f1dcb921a47a4c732a0c211a4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 188, y: 4}
+  - name: Monster_Orc_Fist_Frame_39
+    originalName: 
+    pivot: {x: -0.0666666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 4
+      width: 30
+      height: 22
+    spriteID: 7020469dd7676b6408bbf8e57f4f96e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 4}
+  - name: Monster_Orc_Fist_Frame_40
+    originalName: 
+    pivot: {x: 0, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 32
+      height: 22
+    spriteID: 7794150a341299b49a632f081080163d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Monster_Orc_Fist_Frame_41
+    originalName: 
+    pivot: {x: 0.43749994, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 152
+      width: 16
+      height: 21
+    spriteID: 247bc101ba57c884ea71b050893db4ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 152}
+  - name: Monster_Orc_Fist_Frame_42
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 92
+      width: 15
+      height: 21
+    spriteID: 737c658e920a8bb4b8b3e69eecc83a5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 92}
+  - name: Monster_Orc_Fist_Frame_43
+    originalName: 
+    pivot: {x: 0.61111116, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 4
+      width: 18
+      height: 22
+    spriteID: 820f2ca198334514281e2e468888e7c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 4}
+  - name: Monster_Orc_Fist_Frame_44
+    originalName: 
+    pivot: {x: 0.6315789, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 4
+      width: 19
+      height: 22
+    spriteID: 17716baef03f58d488f6f065648da04b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 4}
+  - name: Monster_Orc_Fist_Frame_45
+    originalName: 
+    pivot: {x: 0.58823526, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 63
+      width: 17
+      height: 21
+    spriteID: dbd102c9093873e45bd27191aba03bb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 63}
+  - name: Monster_Orc_Fist_Frame_46
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 121
+      width: 15
+      height: 21
+    spriteID: 72561672b74371e4291bf6093a65bee0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 121}
+  - name: Monster_Orc_Fist_Frame_47
+    originalName: 
+    pivot: {x: 0.4666666, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 115
+      width: 15
+      height: 19
+    spriteID: ce4b422a751883e4098c80a74a6d28ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 115}
+  - name: Monster_Orc_Fist_Frame_48
+    originalName: 
+    pivot: {x: 0.33333334, y: -2.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 34
+      width: 18
+      height: 15
+    spriteID: 98288ba28cd2b9147b99b81f7b737d24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 34}
+  - name: Monster_Orc_Fist_Frame_49
+    originalName: 
+    pivot: {x: 0.22727278, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 34
+      width: 22
+      height: 10
+    spriteID: 54123de64adf50345829b905a2f09dc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 34}
+  - name: Monster_Orc_Fist_Frame_50
+    originalName: 
+    pivot: {x: 0.19047615, y: -3.2727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 34
+      width: 21
+      height: 11
+    spriteID: 4a14e64a3a4e796499fa59b5a6ae7874
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 34}
+  - name: Monster_Orc_Fist_Frame_51
+    originalName: 
+    pivot: {x: 0.13636364, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 52
+      width: 22
+      height: 10
+    spriteID: b0dde29f6cb8d5b4688ac57a10458d12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 52}
+  - name: Monster_Orc_Fist_Frame_52
+    originalName: 
+    pivot: {x: 0.13636364, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 70
+      width: 22
+      height: 10
+    spriteID: 680ea19732077d24597af0e763da4175
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 70}
+  - name: Monster_Orc_Fist_Frame_53
+    originalName: 
+    pivot: {x: 0.13636364, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 88
+      width: 22
+      height: 10
+    spriteID: af3cc096706d05548964a70acc71ce47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 88}
+  - name: Monster_Orc_Fist_Frame_54
+    originalName: 
+    pivot: {x: 0.13636364, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 106
+      width: 22
+      height: 10
+    spriteID: 39e07b4726266b040bcae5bc51c306fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 106}
+  - name: Monster_Orc_Fist_Frame_55
+    originalName: 
+    pivot: {x: 0.13636364, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 124
+      width: 22
+      height: 10
+    spriteID: f294a333e65b8b64cacce30fb078db12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 124}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1875455752
+    name: Monster_Orc_Fist
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Monster_Orc_Fist_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: 0f6f15c1d7f3cd24b95a09e5cbe6bf13
+    - name: Monster_Orc_Fist_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: 0a96abce175f813429b2cf895ef5a9aa
+    - name: Monster_Orc_Fist_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 20
+      spriteId: 6cb128f2a603a2643b30478b1996137e
+    - name: Monster_Orc_Fist_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 0725dcd4e528ebc44b7b1ce067f32175
+    - name: Monster_Orc_Fist_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 19
+      spriteId: b8ee433c95d99fa45a2c1bbfe48a530f
+    - name: Monster_Orc_Fist_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 20
+      spriteId: 65da6912e51e9fc4eaf1ac26b3c2ecd7
+    - name: Monster_Orc_Fist_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: a52a7dff538f50c4c9f5f856b9640164
+    - name: Monster_Orc_Fist_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: c99106f0e42384e47bf9b9cbed44c2bb
+    - name: Monster_Orc_Fist_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 41
+        y: 36
+        width: 13
+        height: 22
+      spriteId: c987bd047d2df4b42834b7f350b7c72f
+    - name: Monster_Orc_Fist_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 41
+        y: 36
+        width: 13
+        height: 22
+      spriteId: cec7bfaa9964d71439e8001177818904
+    - name: Monster_Orc_Fist_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 41
+        y: 36
+        width: 14
+        height: 21
+      spriteId: b0911e168c9c95e44beba206c570fe4a
+    - name: Monster_Orc_Fist_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: 123cba2d57db7fc43a431c2fc6e6ecf7
+    - name: Monster_Orc_Fist_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 22
+      spriteId: 0d27e51842a564d4d9576f0cffc71819
+    - name: Monster_Orc_Fist_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 22
+      spriteId: b3a752e1702db3641b3b93577a9fb83e
+    - name: Monster_Orc_Fist_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: ddd3c1cbab322714d86d6cd6280ab0c9
+    - name: Monster_Orc_Fist_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: f7201eee5fd48864a90fdc5d1a5fe888
+    - name: Monster_Orc_Fist_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 23
+      spriteId: cc4e13a7d13d54841886e8c2448613d0
+    - name: Monster_Orc_Fist_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 25
+      spriteId: 9d504e3e092efdb47a07f686d7be0132
+    - name: Monster_Orc_Fist_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 40
+        y: 36
+        width: 16
+        height: 24
+      spriteId: faa1bb6a016c01c4aa08980da6deeae1
+    - name: Monster_Orc_Fist_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 40
+        y: 36
+        width: 16
+        height: 22
+      spriteId: ac8bf38c67f9c4f45b5d1f068519aefa
+    - name: Monster_Orc_Fist_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: e979bbcf3073fa64ebd0e41d70ea3f41
+    - name: Monster_Orc_Fist_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: 43da7713f10094142be8fef3b62f86c0
+    - name: Monster_Orc_Fist_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: 5ce71175d7bfbf24e93e8a8493980239
+    - name: Monster_Orc_Fist_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 39
+        y: 36
+        width: 16
+        height: 21
+      spriteId: 40775df9844453949a081e76f50731aa
+    - name: Monster_Orc_Fist_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 39
+        y: 36
+        width: 17
+        height: 21
+      spriteId: ce3b431d12c68ed4a8887d013967f13b
+    - name: Monster_Orc_Fist_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: 8e81cae92947def4d89c7a33921b3620
+    - name: Monster_Orc_Fist_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: c801c328a49cd8d4fb0f5aa56850c9fb
+    - name: Monster_Orc_Fist_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 39
+        y: 36
+        width: 16
+        height: 20
+      spriteId: 687f94dd36e473b48aed3a4a577d12dc
+    - name: Monster_Orc_Fist_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 38
+        y: 36
+        width: 17
+        height: 19
+      spriteId: 56d86cc29b9a6654896689286210b8c9
+    - name: Monster_Orc_Fist_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 38
+        y: 36
+        width: 17
+        height: 19
+      spriteId: 267884180b828994798f0b5f1911bf22
+    - name: Monster_Orc_Fist_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 40
+        y: 36
+        width: 32
+        height: 18
+      spriteId: 7f60e94321b79124ba682bdf098e9465
+    - name: Monster_Orc_Fist_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 41
+        y: 36
+        width: 31
+        height: 18
+      spriteId: fa261693a75e04e46b3165430a5d7a4f
+    - name: Monster_Orc_Fist_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 41
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 5c12a1d057cead544ae7370962d6d037
+    - name: Monster_Orc_Fist_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 20
+      spriteId: 75d2e8e4b39111b45a27e34554c86c70
+    - name: Monster_Orc_Fist_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: 562131a241f8e144791b2898a91caa81
+    - name: Monster_Orc_Fist_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 41
+        y: 36
+        width: 15
+        height: 26
+      spriteId: e184d72c709552146b79295d5adff908
+    - name: Monster_Orc_Fist_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 43
+        y: 36
+        width: 15
+        height: 29
+      spriteId: 3e226eba064531846971ceee294694ef
+    - name: Monster_Orc_Fist_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 43
+        y: 36
+        width: 16
+        height: 28
+      spriteId: 452e2f0875e4525448028399eb00f340
+    - name: Monster_Orc_Fist_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 44
+        y: 36
+        width: 21
+        height: 19
+      spriteId: ee3405f1dcb921a47a4c732a0c211a4b
+    - name: Monster_Orc_Fist_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 50
+        y: 36
+        width: 30
+        height: 22
+      spriteId: 7020469dd7676b6408bbf8e57f4f96e0
+    - name: Monster_Orc_Fist_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 48
+        y: 36
+        width: 32
+        height: 22
+      spriteId: 7794150a341299b49a632f081080163d
+    - name: Monster_Orc_Fist_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 41
+        y: 36
+        width: 16
+        height: 21
+      spriteId: 247bc101ba57c884ea71b050893db4ca
+    - name: Monster_Orc_Fist_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: 737c658e920a8bb4b8b3e69eecc83a5d
+    - name: Monster_Orc_Fist_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 37
+        y: 36
+        width: 18
+        height: 22
+      spriteId: 820f2ca198334514281e2e468888e7c1
+    - name: Monster_Orc_Fist_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 36
+        y: 36
+        width: 19
+        height: 22
+      spriteId: 17716baef03f58d488f6f065648da04b
+    - name: Monster_Orc_Fist_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 38
+        y: 36
+        width: 17
+        height: 21
+      spriteId: dbd102c9093873e45bd27191aba03bb0
+    - name: Monster_Orc_Fist_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      spriteId: 72561672b74371e4291bf6093a65bee0
+    - name: Monster_Orc_Fist_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 41
+        y: 36
+        width: 15
+        height: 19
+      spriteId: ce4b422a751883e4098c80a74a6d28ee
+    - name: Monster_Orc_Fist_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 42
+        y: 36
+        width: 18
+        height: 15
+      spriteId: 98288ba28cd2b9147b99b81f7b737d24
+    - name: Monster_Orc_Fist_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 43
+        y: 36
+        width: 22
+        height: 10
+      spriteId: 54123de64adf50345829b905a2f09dc5
+    - name: Monster_Orc_Fist_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 44
+        y: 36
+        width: 21
+        height: 11
+      spriteId: 4a14e64a3a4e796499fa59b5a6ae7874
+    - name: Monster_Orc_Fist_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 45
+        y: 36
+        width: 22
+        height: 10
+      spriteId: b0dde29f6cb8d5b4688ac57a10458d12
+    - name: Monster_Orc_Fist_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 45
+        y: 36
+        width: 22
+        height: 10
+      spriteId: 680ea19732077d24597af0e763da4175
+    - name: Monster_Orc_Fist_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 45
+        y: 36
+        width: 22
+        height: 10
+      spriteId: af3cc096706d05548964a70acc71ce47
+    - name: Monster_Orc_Fist_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 45
+        y: 36
+        width: 22
+        height: 10
+      spriteId: 39e07b4726266b040bcae5bc51c306fd
+    - name: Monster_Orc_Fist_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 45
+        y: 36
+        width: 22
+        height: 10
+      spriteId: f294a333e65b8b64cacce30fb078db12
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 96}

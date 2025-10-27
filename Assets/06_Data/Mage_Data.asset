@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5064f3215a0e212439de5d5790b9ddff, type: 3}
+  m_Name: Mage_Data
+  m_EditorClassIdentifier: 
+  CharacterName: Mage
+  CharacterPrefab: {fileID: 6836483330934461809, guid: 351a4c8d0c81c024198873c12a97a129, type: 3}
+  HPMax: 100
+  AttackPower: 30
+  AttackSpeed: 0.3
+  moveSpeed: 2
+  attackRange: 15
+  isRenged: 1
+  projectilePrefab: {fileID: 56226461665655948, guid: 3a5fd6a863d2b1b44b098f1d337377ef, type: 3}

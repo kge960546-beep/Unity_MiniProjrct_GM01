@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5064f3215a0e212439de5d5790b9ddff, type: 3}
+  m_Name: Arther_Data
+  m_EditorClassIdentifier: 
+  CharacterName: Archer
+  CharacterPrefab: {fileID: 5251797839194311277, guid: 2d7edde0c9bfa5545af649bfc322f6bf, type: 3}
+  HPMax: 150
+  AttackPower: 15
+  AttackSpeed: 0.5
+  moveSpeed: 3
+  attackRange: 10
+  isRenged: 1
+  projectilePrefab: {fileID: 1618706507104784629, guid: 610a5f7e6b74a2442b643734b569f1d0, type: 3}

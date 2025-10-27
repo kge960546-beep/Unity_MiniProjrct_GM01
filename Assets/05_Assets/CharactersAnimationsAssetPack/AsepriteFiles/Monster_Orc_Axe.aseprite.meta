@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 3899d1f10a2359e47b80a8a57b22e4db
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638971854354445087
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Monster_Orc_Axe_Frame_0
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 129
+      width: 21
+      height: 21
+    spriteID: 2216120cfdfffe444be8636e9da1f69c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 129}
+  - name: Monster_Orc_Axe_Frame_1
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 158
+      width: 21
+      height: 21
+    spriteID: 2258b2f1bf1f3f941862c1bd4fbf3ff6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 158}
+  - name: Monster_Orc_Axe_Frame_2
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 94
+      width: 21
+      height: 20
+    spriteID: 0268c6f3cc3cfd34fbea03164d6548ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 94}
+  - name: Monster_Orc_Axe_Frame_3
+    originalName: 
+    pivot: {x: 0.47619045, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 269
+      width: 21
+      height: 19
+    spriteID: 5679639e0c3f9974ba1336f0fb7486fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 269}
+  - name: Monster_Orc_Axe_Frame_4
+    originalName: 
+    pivot: {x: 0.47619045, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 296
+      width: 21
+      height: 19
+    spriteID: c872b38844d564f489983221de61e345
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 296}
+  - name: Monster_Orc_Axe_Frame_5
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 122
+      width: 21
+      height: 20
+    spriteID: 13b128ebf508bf5469c33ca3bb45b4d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 122}
+  - name: Monster_Orc_Axe_Frame_6
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 187
+      width: 21
+      height: 21
+    spriteID: ca42315797f307a42876853cf8600ade
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 187}
+  - name: Monster_Orc_Axe_Frame_7
+    originalName: 
+    pivot: {x: 0.38095245, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 216
+      width: 21
+      height: 21
+    spriteID: 001e6a340676b8e4bb5a06cbbd4cdd37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 216}
+  - name: Monster_Orc_Axe_Frame_8
+    originalName: 
+    pivot: {x: 0.40000007, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 33
+      width: 20
+      height: 22
+    spriteID: 55e6bfa079bb3764f8703cb0bd63b224
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 33}
+  - name: Monster_Orc_Axe_Frame_9
+    originalName: 
+    pivot: {x: 0.42105266, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 208
+      width: 19
+      height: 22
+    spriteID: af75d08f5f274294eaa5a7396b29d095
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 208}
+  - name: Monster_Orc_Axe_Frame_10
+    originalName: 
+    pivot: {x: 0.40000007, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 150
+      width: 20
+      height: 21
+    spriteID: 515ecbc5e32fd724082c16250a86f27f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 150}
+  - name: Monster_Orc_Axe_Frame_11
+    originalName: 
+    pivot: {x: 0.38095245, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 245
+      width: 21
+      height: 21
+    spriteID: d970b1dd9e83c4a468574392b3c59cd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 245}
+  - name: Monster_Orc_Axe_Frame_12
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 4
+      width: 21
+      height: 22
+    spriteID: ff30ca088023ae243982f1013c053126
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 4}
+  - name: Monster_Orc_Axe_Frame_13
+    originalName: 
+    pivot: {x: 0.47619045, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 34
+      width: 21
+      height: 22
+    spriteID: cf355e764883d10468c0fbbf8a58391b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 34}
+  - name: Monster_Orc_Axe_Frame_14
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 274
+      width: 21
+      height: 21
+    spriteID: a367c4ed50f8f0948aac14385c64ceec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 274}
+  - name: Monster_Orc_Axe_Frame_15
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 303
+      width: 21
+      height: 21
+    spriteID: 6c637c6132c178146976cdaa8ab21547
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 303}
+  - name: Monster_Orc_Axe_Frame_16
+    originalName: 
+    pivot: {x: 0.38888884, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 238
+      width: 18
+      height: 23
+    spriteID: 40efcc47a98f4bb4085d51561e74dc06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 238}
+  - name: Monster_Orc_Axe_Frame_17
+    originalName: 
+    pivot: {x: 0.38888884, y: -1.4399999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 96
+      width: 18
+      height: 25
+    spriteID: f504f03a23e5f3846957db230a764d81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 96}
+  - name: Monster_Orc_Axe_Frame_18
+    originalName: 
+    pivot: {x: 0.31578946, y: -1.4399999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 394
+      width: 19
+      height: 25
+    spriteID: 1f5356d0ad380294fa82b37c260452d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 394}
+  - name: Monster_Orc_Axe_Frame_19
+    originalName: 
+    pivot: {x: 0.31578946, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 63
+      width: 19
+      height: 23
+    spriteID: be762edf8822529439cdfedb544205b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 63}
+  - name: Monster_Orc_Axe_Frame_20
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 332
+      width: 21
+      height: 21
+    spriteID: f958589e5bec08d468d8d1db8a7f44f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 332}
+  - name: Monster_Orc_Axe_Frame_21
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 361
+      width: 21
+      height: 21
+    spriteID: 4b0c6fdf84bfb334bb226fca708f2da5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 361}
+  - name: Monster_Orc_Axe_Frame_22
+    originalName: 
+    pivot: {x: 0.42105266, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 323
+      width: 19
+      height: 21
+    spriteID: 651eb1988c4e2b8498d29c0912bb3b13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 323}
+  - name: Monster_Orc_Axe_Frame_23
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 179
+      width: 20
+      height: 21
+    spriteID: d34c759faf017ec4982f2aeccd1c77a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 179}
+  - name: Monster_Orc_Axe_Frame_24
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 390
+      width: 21
+      height: 21
+    spriteID: 80e093ab992d34e4496cedb6a69264b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 390}
+  - name: Monster_Orc_Axe_Frame_25
+    originalName: 
+    pivot: {x: 0.4444445, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 352
+      width: 18
+      height: 21
+    spriteID: 0266c28efd601c54f866dce338da5afd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 352}
+  - name: Monster_Orc_Axe_Frame_26
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 419
+      width: 21
+      height: 21
+    spriteID: 9b9a94109c2d9a14793a496071b93eae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 419}
+  - name: Monster_Orc_Axe_Frame_27
+    originalName: 
+    pivot: {x: 0.4444445, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 381
+      width: 18
+      height: 21
+    spriteID: 6f2a28eef9d08e44fac0302744e28c31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 381}
+  - name: Monster_Orc_Axe_Frame_28
+    originalName: 
+    pivot: {x: 0.42105266, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 64
+      width: 19
+      height: 24
+    spriteID: 167a3b9b02c9de549a0d2c224b97c184
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 64}
+  - name: Monster_Orc_Axe_Frame_29
+    originalName: 
+    pivot: {x: 0.6470589, y: -1.2413794}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 394
+      width: 17
+      height: 29
+    spriteID: 79cbaeadb40bd8740b3576cc651edea5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 394}
+  - name: Monster_Orc_Axe_Frame_30
+    originalName: 
+    pivot: {x: 0.21874997, y: -1.2413794}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 87
+      width: 32
+      height: 29
+    spriteID: fed09f75bac62a94dae057e268641b1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 87}
+  - name: Monster_Orc_Axe_Frame_31
+    originalName: 
+    pivot: {x: 0.21874997, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 156
+      width: 32
+      height: 21
+    spriteID: b2fbfbfb1693aca429b4abe517c57ffc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 156}
+  - name: Monster_Orc_Axe_Frame_32
+    originalName: 
+    pivot: {x: 0.24137929, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 340
+      width: 29
+      height: 18
+    spriteID: 4d5f89e05fef72340b8b456ac5af873f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 340}
+  - name: Monster_Orc_Axe_Frame_33
+    originalName: 
+    pivot: {x: 0.31818178, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 4
+      width: 22
+      height: 20
+    spriteID: 1a57e1f9868f17e43810dc06250e0804
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 4}
+  - name: Monster_Orc_Axe_Frame_34
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 448
+      width: 21
+      height: 21
+    spriteID: 5e8e9b380b7f78a43a0eeae86a9f4600
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 448}
+  - name: Monster_Orc_Axe_Frame_35
+    originalName: 
+    pivot: {x: 0.43478256, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 461
+      width: 23
+      height: 21
+    spriteID: 92d6f6dad4d381f45a025a1a6fa6160d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 461}
+  - name: Monster_Orc_Axe_Frame_36
+    originalName: 
+    pivot: {x: 0.84, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 286
+      width: 25
+      height: 22
+    spriteID: 4f84fa16214148447a6ae95752b2e654
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 286}
+  - name: Monster_Orc_Axe_Frame_37
+    originalName: 
+    pivot: {x: 0.86956525, y: -1.2413794}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 185
+      width: 23
+      height: 29
+    spriteID: f382db54163a0ac43a8312cc24922f9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 185}
+  - name: Monster_Orc_Axe_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.9729729}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 44
+      height: 37
+    spriteID: 1c2463fba2b3c90419fe36048f8af897
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Monster_Orc_Axe_Frame_39
+    originalName: 
+    pivot: {x: 0.1842105, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 49
+      width: 38
+      height: 30
+    spriteID: 3b8ed1b4c389be840aaa8b34668a2243
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 49}
+  - name: Monster_Orc_Axe_Frame_40
+    originalName: 
+    pivot: {x: 0.1842105, y: -1.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 124
+      width: 38
+      height: 24
+    spriteID: 92b26d99122558849a3d156f1a18880d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 124}
+  - name: Monster_Orc_Axe_Frame_41
+    originalName: 
+    pivot: {x: 0.31818178, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 32
+      width: 22
+      height: 20
+    spriteID: df20d74dc3d2006469c585bf9a2cbf79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 32}
+  - name: Monster_Orc_Axe_Frame_42
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 477
+      width: 21
+      height: 21
+    spriteID: a803383631f233248afc0c50b4be17c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 477}
+  - name: Monster_Orc_Axe_Frame_43
+    originalName: 
+    pivot: {x: 0.43478256, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 222
+      width: 23
+      height: 24
+    spriteID: 5153f994a3b0e4f44b8e5af1495b3087
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 222}
+  - name: Monster_Orc_Axe_Frame_44
+    originalName: 
+    pivot: {x: 0.4782609, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 254
+      width: 23
+      height: 24
+    spriteID: 02097ede3eb543c408c7f022cd4ddf18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 254}
+  - name: Monster_Orc_Axe_Frame_45
+    originalName: 
+    pivot: {x: 0.40909094, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 431
+      width: 22
+      height: 22
+    spriteID: a243f086cce0f2048abc9fd47d0dc6d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 431}
+  - name: Monster_Orc_Axe_Frame_46
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 4
+      width: 21
+      height: 21
+    spriteID: c9d26e3c1151c3149bc5cb807899ea57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 4}
+  - name: Monster_Orc_Axe_Frame_47
+    originalName: 
+    pivot: {x: 0.34615386, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 366
+      width: 26
+      height: 20
+    spriteID: c2ce972afbaa4d84caf480ec8508a079
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 366}
+  - name: Monster_Orc_Axe_Frame_48
+    originalName: 
+    pivot: {x: 0.4705882, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 316
+      width: 34
+      height: 16
+    spriteID: adb368894cdc66d4d8fff934f7892f95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 316}
+  - name: Monster_Orc_Axe_Frame_49
+    originalName: 
+    pivot: {x: 0.52500004, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 94
+      width: 40
+      height: 10
+    spriteID: 1b6625e6474e47d4c840acbac8b1e014
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 94}
+  - name: Monster_Orc_Axe_Frame_50
+    originalName: 
+    pivot: {x: 0.5476191, y: -3.2727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 490
+      width: 42
+      height: 11
+    spriteID: 5806b6ec508d27a4e956f2230e7d24f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 490}
+  - name: Monster_Orc_Axe_Frame_51
+    originalName: 
+    pivot: {x: 0.5476191, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 4
+      width: 42
+      height: 10
+    spriteID: 990e840fe4413434583816f0dcf92c03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 4}
+  - name: Monster_Orc_Axe_Frame_52
+    originalName: 
+    pivot: {x: 0.5476191, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 22
+      width: 42
+      height: 10
+    spriteID: a6b9859e330e9ca43bce7cceba550fa3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 22}
+  - name: Monster_Orc_Axe_Frame_53
+    originalName: 
+    pivot: {x: 0.5476191, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 40
+      width: 42
+      height: 10
+    spriteID: 2ddf84d9dec4e5a4da093e15508034c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 40}
+  - name: Monster_Orc_Axe_Frame_54
+    originalName: 
+    pivot: {x: 0.5476191, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 58
+      width: 42
+      height: 10
+    spriteID: 5ef5efdc9ec60bf45a8a7ef17895fd16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 58}
+  - name: Monster_Orc_Axe_Frame_55
+    originalName: 
+    pivot: {x: 0.5476191, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 76
+      width: 42
+      height: 10
+    spriteID: cce8bd041e0042d4ca6bdca50b3c2901
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 76}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 34507998
+    name: Monster_Orc_Axe
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Monster_Orc_Axe_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: 2216120cfdfffe444be8636e9da1f69c
+    - name: Monster_Orc_Axe_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: 2258b2f1bf1f3f941862c1bd4fbf3ff6
+    - name: Monster_Orc_Axe_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 20
+      spriteId: 0268c6f3cc3cfd34fbea03164d6548ff
+    - name: Monster_Orc_Axe_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 38
+        y: 36
+        width: 21
+        height: 19
+      spriteId: 5679639e0c3f9974ba1336f0fb7486fe
+    - name: Monster_Orc_Axe_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 38
+        y: 36
+        width: 21
+        height: 19
+      spriteId: c872b38844d564f489983221de61e345
+    - name: Monster_Orc_Axe_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 20
+      spriteId: 13b128ebf508bf5469c33ca3bb45b4d6
+    - name: Monster_Orc_Axe_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: ca42315797f307a42876853cf8600ade
+    - name: Monster_Orc_Axe_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 40
+        y: 36
+        width: 21
+        height: 21
+      spriteId: 001e6a340676b8e4bb5a06cbbd4cdd37
+    - name: Monster_Orc_Axe_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 40
+        y: 36
+        width: 20
+        height: 22
+      spriteId: 55e6bfa079bb3764f8703cb0bd63b224
+    - name: Monster_Orc_Axe_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 40
+        y: 36
+        width: 19
+        height: 22
+      spriteId: af75d08f5f274294eaa5a7396b29d095
+    - name: Monster_Orc_Axe_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 40
+        y: 36
+        width: 20
+        height: 21
+      spriteId: 515ecbc5e32fd724082c16250a86f27f
+    - name: Monster_Orc_Axe_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 40
+        y: 36
+        width: 21
+        height: 21
+      spriteId: d970b1dd9e83c4a468574392b3c59cd6
+    - name: Monster_Orc_Axe_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 22
+      spriteId: ff30ca088023ae243982f1013c053126
+    - name: Monster_Orc_Axe_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 38
+        y: 36
+        width: 21
+        height: 22
+      spriteId: cf355e764883d10468c0fbbf8a58391b
+    - name: Monster_Orc_Axe_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: a367c4ed50f8f0948aac14385c64ceec
+    - name: Monster_Orc_Axe_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: 6c637c6132c178146976cdaa8ab21547
+    - name: Monster_Orc_Axe_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 41
+        y: 36
+        width: 18
+        height: 23
+      spriteId: 40efcc47a98f4bb4085d51561e74dc06
+    - name: Monster_Orc_Axe_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 41
+        y: 36
+        width: 18
+        height: 25
+      spriteId: f504f03a23e5f3846957db230a764d81
+    - name: Monster_Orc_Axe_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 42
+        y: 36
+        width: 19
+        height: 25
+      spriteId: 1f5356d0ad380294fa82b37c260452d1
+    - name: Monster_Orc_Axe_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 42
+        y: 36
+        width: 19
+        height: 23
+      spriteId: be762edf8822529439cdfedb544205b6
+    - name: Monster_Orc_Axe_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: f958589e5bec08d468d8d1db8a7f44f1
+    - name: Monster_Orc_Axe_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: 4b0c6fdf84bfb334bb226fca708f2da5
+    - name: Monster_Orc_Axe_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 40
+        y: 36
+        width: 19
+        height: 21
+      spriteId: 651eb1988c4e2b8498d29c0912bb3b13
+    - name: Monster_Orc_Axe_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 39
+        y: 36
+        width: 20
+        height: 21
+      spriteId: d34c759faf017ec4982f2aeccd1c77a1
+    - name: Monster_Orc_Axe_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: 80e093ab992d34e4496cedb6a69264b7
+    - name: Monster_Orc_Axe_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 40
+        y: 36
+        width: 18
+        height: 21
+      spriteId: 0266c28efd601c54f866dce338da5afd
+    - name: Monster_Orc_Axe_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: 9b9a94109c2d9a14793a496071b93eae
+    - name: Monster_Orc_Axe_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 40
+        y: 36
+        width: 18
+        height: 21
+      spriteId: 6f2a28eef9d08e44fac0302744e28c31
+    - name: Monster_Orc_Axe_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 40
+        y: 36
+        width: 19
+        height: 24
+      spriteId: 167a3b9b02c9de549a0d2c224b97c184
+    - name: Monster_Orc_Axe_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 37
+        y: 36
+        width: 17
+        height: 29
+      spriteId: 79cbaeadb40bd8740b3576cc651edea5
+    - name: Monster_Orc_Axe_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 41
+        y: 36
+        width: 32
+        height: 29
+      spriteId: fed09f75bac62a94dae057e268641b1e
+    - name: Monster_Orc_Axe_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 41
+        y: 36
+        width: 32
+        height: 21
+      spriteId: b2fbfbfb1693aca429b4abe517c57ffc
+    - name: Monster_Orc_Axe_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 41
+        y: 36
+        width: 29
+        height: 18
+      spriteId: 4d5f89e05fef72340b8b456ac5af873f
+    - name: Monster_Orc_Axe_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 41
+        y: 36
+        width: 22
+        height: 20
+      spriteId: 1a57e1f9868f17e43810dc06250e0804
+    - name: Monster_Orc_Axe_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: 5e8e9b380b7f78a43a0eeae86a9f4600
+    - name: Monster_Orc_Axe_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 38
+        y: 36
+        width: 23
+        height: 21
+      spriteId: 92d6f6dad4d381f45a025a1a6fa6160d
+    - name: Monster_Orc_Axe_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 27
+        y: 36
+        width: 25
+        height: 22
+      spriteId: 4f84fa16214148447a6ae95752b2e654
+    - name: Monster_Orc_Axe_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 28
+        y: 36
+        width: 23
+        height: 29
+      spriteId: f382db54163a0ac43a8312cc24922f9c
+    - name: Monster_Orc_Axe_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 26
+        y: 36
+        width: 44
+        height: 37
+      spriteId: 1c2463fba2b3c90419fe36048f8af897
+    - name: Monster_Orc_Axe_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 41
+        y: 30
+        width: 38
+        height: 30
+      spriteId: 3b8ed1b4c389be840aaa8b34668a2243
+    - name: Monster_Orc_Axe_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 41
+        y: 30
+        width: 38
+        height: 24
+      spriteId: 92b26d99122558849a3d156f1a18880d
+    - name: Monster_Orc_Axe_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 41
+        y: 36
+        width: 22
+        height: 20
+      spriteId: df20d74dc3d2006469c585bf9a2cbf79
+    - name: Monster_Orc_Axe_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: a803383631f233248afc0c50b4be17c2
+    - name: Monster_Orc_Axe_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 38
+        y: 36
+        width: 23
+        height: 24
+      spriteId: 5153f994a3b0e4f44b8e5af1495b3087
+    - name: Monster_Orc_Axe_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 37
+        y: 36
+        width: 23
+        height: 24
+      spriteId: 02097ede3eb543c408c7f022cd4ddf18
+    - name: Monster_Orc_Axe_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 39
+        y: 36
+        width: 22
+        height: 22
+      spriteId: a243f086cce0f2048abc9fd47d0dc6d3
+    - name: Monster_Orc_Axe_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: c9d26e3c1151c3149bc5cb807899ea57
+    - name: Monster_Orc_Axe_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 39
+        y: 36
+        width: 26
+        height: 20
+      spriteId: c2ce972afbaa4d84caf480ec8508a079
+    - name: Monster_Orc_Axe_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 32
+        y: 36
+        width: 34
+        height: 16
+      spriteId: adb368894cdc66d4d8fff934f7892f95
+    - name: Monster_Orc_Axe_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 27
+        y: 36
+        width: 40
+        height: 10
+      spriteId: 1b6625e6474e47d4c840acbac8b1e014
+    - name: Monster_Orc_Axe_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 25
+        y: 36
+        width: 42
+        height: 11
+      spriteId: 5806b6ec508d27a4e956f2230e7d24f7
+    - name: Monster_Orc_Axe_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 25
+        y: 36
+        width: 42
+        height: 10
+      spriteId: 990e840fe4413434583816f0dcf92c03
+    - name: Monster_Orc_Axe_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 25
+        y: 36
+        width: 42
+        height: 10
+      spriteId: a6b9859e330e9ca43bce7cceba550fa3
+    - name: Monster_Orc_Axe_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 25
+        y: 36
+        width: 42
+        height: 10
+      spriteId: 2ddf84d9dec4e5a4da093e15508034c8
+    - name: Monster_Orc_Axe_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 25
+        y: 36
+        width: 42
+        height: 10
+      spriteId: 5ef5efdc9ec60bf45a8a7ef17895fd16
+    - name: Monster_Orc_Axe_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 25
+        y: 36
+        width: 42
+        height: 10
+      spriteId: cce8bd041e0042d4ca6bdca50b3c2901
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 96}

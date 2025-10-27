@@ -1,0 +1,1460 @@
+fileFormatVersion: 2
+guid: b6a967e8ada2b3746afdf65262b01e67
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 710
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7583926709436184e9ea9ccc4d07ffa9
+      internalID: -1071834631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 710
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09c33f74b2d03f4b938a1dda941dc2a
+      internalID: -766644256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 710
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9136fd92b6cb7e74898ab3ece0b8277e
+      internalID: 1484315128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 710
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598f01a057b9a174b9fa4f16264747bb
+      internalID: 1740384673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 710
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63ca837c5943d24fb10f1385f31cc7e
+      internalID: 1135766444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 710
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d3dc2806de5284087469d178b23864
+      internalID: -1334312085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 614
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0ca985d22d92f44a63a49a6192c309
+      internalID: 381365587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 615
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d01af0a7886af140bf06b35ad84a10b
+      internalID: 124711685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 615
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab4c73105d39da4d87b9efe8cf8cb8e
+      internalID: 1338737364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 615
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d479ea0c6e9c24580432b92dd5d21e
+      internalID: 1525221063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 615
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7eb787fa98418140aa7b4f702d7ded2
+      internalID: -928734405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 615
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894f25cd9112a9247aa7c190da1b5e75
+      internalID: -214716113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 615
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6400d810c75db81449e11e65433465bd
+      internalID: 397472114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 615
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae32196fa4cd6d48a3aac77ffa5cc10
+      internalID: 891194545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 518
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8681ec1d94f98429a5aa236e686f6b
+      internalID: -162449676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 518
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bf2e0a44982d74faa752d23e38c8e3
+      internalID: 1540286860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 520
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951d1211181789648bff252c7900d2f6
+      internalID: 1266148107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 522
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379273303ca93914e82254269129c113
+      internalID: 1115228571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 522
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751cb2dd34eb3234e8ff227a4342020f
+      internalID: -1423935622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 520
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c35a2be40011243bf9977bd99a2c65
+      internalID: 1181755694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 422
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bebcee7e82004842826db4b72437942
+      internalID: 955473910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 422
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267b3989bfeebb24bb15fc4469616775
+      internalID: -1388693208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 423
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1067232345a1f1149ab0d160438015e8
+      internalID: 1427013128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 422
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb31ded28163ae74fbac14cd57aad927
+      internalID: 1641298853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 421
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e147254865eaea4abed5e81799da692
+      internalID: 274380498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 423
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8dae0d2dd6ddc4dbfa889c20d75edc
+      internalID: 455262730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 326
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac8c98ff84b52741ae6ce71aae9f5ad
+      internalID: 2101241712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 325
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b6f36607397134bb7059a6089d9767
+      internalID: 885440188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 326
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56178a74f3dd18a4c9abba2ebcb73dcc
+      internalID: -1154900455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 327
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0f74009a66d2240b57f64b814afb65
+      internalID: 346567077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 327
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c110b20df00dad54caafae85156cac67
+      internalID: 666232830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 327
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148f278fe90ccba4c984b38590fdc96d
+      internalID: 1796008358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 331
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5363cf30a6373754ba7370e71d24b91e
+      internalID: -636609291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 325
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac39d71cf855574bbff3f47d653461e
+      internalID: -395421053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 326
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc4918356ee5b94fb01d2918f347757
+      internalID: -1229867970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 230
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc25c0f3142f4d48987609cbd0a1995
+      internalID: -1843592076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 231
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffaa1b5b719a6e4bb4917337924f43c
+      internalID: 191031847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 231
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ae9e188ba6ab04dbf6b21cca089a93
+      internalID: 1008607831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 231
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f40e724da1f1af439def9f7063682e1
+      internalID: 1188037428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 231
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d648c880e24fd5345852464fbfa54a2b
+      internalID: 890189597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 231
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df668992a2ab27840a817802cc59b052
+      internalID: -900314937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 231
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d578b93289e27154a8e9a59c5940c418
+      internalID: -769600274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 229
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71364a6ba7307844d80daf113cea6cdc
+      internalID: 1829436051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 231
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4eaf311a264ef4d9956d495fa1944b
+      internalID: -137724158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 230
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f73043fd91af7349b8a8760d83bda55
+      internalID: 121709095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 134
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4691b5ce3b604e6419649ead258d5dfd
+      internalID: -1057850832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 133
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0418f2179948a1445a110861f69d197a
+      internalID: 1569311695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 133
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee137cb88326cb408a8fa97d45105f8
+      internalID: -2067439909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 134
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa7369e836eb0b44895dc42e273355e
+      internalID: 1540298574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 38
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f730045984bd6c418cce56f9d7fefb5
+      internalID: -479246629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 39
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b702c3d57a1ae40a9d7d9f21c067cc
+      internalID: 902511214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 39
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0eb880a85c75d34180447f03d966551
+      internalID: -545935368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 39
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d48d0fb9480f446a498e72ac58be0d
+      internalID: -1559524754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 39
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2652a1c3db2c0c34f9e4def1c064f417
+      internalID: -1192008520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 39
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1558103b2e3af614db42f59a7324cd0f
+      internalID: 989855681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 39
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32f45239a9c88f4d9700ea420305fbc
+      internalID: 1246273793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 39
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2212e63202dc28499f5e8bd7c7d7a5a
+      internalID: -116771175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 39
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50357e87254a894f9918d540bcc7aaf
+      internalID: -44960341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 39
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050427d4326e94e41b55053860fe0eb3
+      internalID: -704918936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Bow-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 256
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f408d98fa0a67824c845f1c50d2efdab
+      internalID: -537538315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Human_Bow-Sheet_0: -1071834631
+      Human_Bow-Sheet_1: -766644256
+      Human_Bow-Sheet_10: -928734405
+      Human_Bow-Sheet_11: -214716113
+      Human_Bow-Sheet_12: 397472114
+      Human_Bow-Sheet_13: 891194545
+      Human_Bow-Sheet_14: -162449676
+      Human_Bow-Sheet_15: 1540286860
+      Human_Bow-Sheet_16: 1266148107
+      Human_Bow-Sheet_17: 1115228571
+      Human_Bow-Sheet_18: -1423935622
+      Human_Bow-Sheet_19: 1181755694
+      Human_Bow-Sheet_2: 1484315128
+      Human_Bow-Sheet_20: 955473910
+      Human_Bow-Sheet_21: -1388693208
+      Human_Bow-Sheet_22: 1427013128
+      Human_Bow-Sheet_23: 1641298853
+      Human_Bow-Sheet_24: 274380498
+      Human_Bow-Sheet_25: 455262730
+      Human_Bow-Sheet_26: 2101241712
+      Human_Bow-Sheet_27: 885440188
+      Human_Bow-Sheet_28: -1154900455
+      Human_Bow-Sheet_29: 346567077
+      Human_Bow-Sheet_3: 1740384673
+      Human_Bow-Sheet_30: 666232830
+      Human_Bow-Sheet_31: 1796008358
+      Human_Bow-Sheet_32: -636609291
+      Human_Bow-Sheet_33: -395421053
+      Human_Bow-Sheet_34: -1229867970
+      Human_Bow-Sheet_35: -1843592076
+      Human_Bow-Sheet_36: 191031847
+      Human_Bow-Sheet_37: 1008607831
+      Human_Bow-Sheet_38: 1188037428
+      Human_Bow-Sheet_39: 890189597
+      Human_Bow-Sheet_4: 1135766444
+      Human_Bow-Sheet_40: -900314937
+      Human_Bow-Sheet_41: -769600274
+      Human_Bow-Sheet_42: 1829436051
+      Human_Bow-Sheet_43: -137724158
+      Human_Bow-Sheet_44: 121709095
+      Human_Bow-Sheet_45: -1057850832
+      Human_Bow-Sheet_46: 1569311695
+      Human_Bow-Sheet_47: -2067439909
+      Human_Bow-Sheet_48: 1540298574
+      Human_Bow-Sheet_49: -479246629
+      Human_Bow-Sheet_5: -1334312085
+      Human_Bow-Sheet_50: 902511214
+      Human_Bow-Sheet_51: -545935368
+      Human_Bow-Sheet_52: -1559524754
+      Human_Bow-Sheet_53: -1192008520
+      Human_Bow-Sheet_54: 989855681
+      Human_Bow-Sheet_55: 1246273793
+      Human_Bow-Sheet_56: -116771175
+      Human_Bow-Sheet_57: -44960341
+      Human_Bow-Sheet_58: -704918936
+      Human_Bow-Sheet_59: -537538315
+      Human_Bow-Sheet_6: 381365587
+      Human_Bow-Sheet_7: 124711685
+      Human_Bow-Sheet_8: 1338737364
+      Human_Bow-Sheet_9: 1525221063
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

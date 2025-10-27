@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 3355fd3bd4446a8439cb9433de8fd58e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638971854393019276
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Monster_Orc_Shield_Frame_0
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 217
+      width: 24
+      height: 22
+    spriteID: 924afa9e17092014eb39f6a38b100f2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 217}
+  - name: Monster_Orc_Shield_Frame_1
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 247
+      width: 24
+      height: 22
+    spriteID: 1bb5ad0f150cbe24bb32e1cb10d5b22a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 247}
+  - name: Monster_Orc_Shield_Frame_2
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 487
+      width: 24
+      height: 21
+    spriteID: fac648833c8b307429b89919d2bfc6e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 487}
+  - name: Monster_Orc_Shield_Frame_3
+    originalName: 
+    pivot: {x: 0.56, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 4
+      width: 25
+      height: 20
+    spriteID: b4d3d36aef6b79b458a81993b6a26459
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 4}
+  - name: Monster_Orc_Shield_Frame_4
+    originalName: 
+    pivot: {x: 0.56, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 32
+      width: 25
+      height: 20
+    spriteID: c1615e5716df7944e8786f1edd6d8b40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 32}
+  - name: Monster_Orc_Shield_Frame_5
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 125
+      width: 24
+      height: 21
+    spriteID: ee6158413a4128a499a8e7c8ec882bd9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 125}
+  - name: Monster_Orc_Shield_Frame_6
+    originalName: 
+    pivot: {x: 0.5769231, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 34
+      width: 26
+      height: 22
+    spriteID: 21060404801fe1549ad54d920f94f1f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 34}
+  - name: Monster_Orc_Shield_Frame_7
+    originalName: 
+    pivot: {x: 0.5833334, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 277
+      width: 24
+      height: 22
+    spriteID: 75f0bafc9a3354e428f05f6cb8c7f2d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 277}
+  - name: Monster_Orc_Shield_Frame_8
+    originalName: 
+    pivot: {x: 0.59090906, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 94
+      width: 22
+      height: 23
+    spriteID: c9a75f8f6df8f0146a5ec34b05f684cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 94}
+  - name: Monster_Orc_Shield_Frame_9
+    originalName: 
+    pivot: {x: 0.5500001, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 212
+      width: 20
+      height: 23
+    spriteID: 304af03e099caac4ba51722f7550c870
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 212}
+  - name: Monster_Orc_Shield_Frame_10
+    originalName: 
+    pivot: {x: 0.5263157, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 273
+      width: 19
+      height: 22
+    spriteID: e3cf12e1bf54b6142920599e0d481215
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 273}
+  - name: Monster_Orc_Shield_Frame_11
+    originalName: 
+    pivot: {x: 0.5238096, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 182
+      width: 21
+      height: 22
+    spriteID: 5e8541cee87a3754a8f125abc6508e50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 182}
+  - name: Monster_Orc_Shield_Frame_12
+    originalName: 
+    pivot: {x: 0.5652173, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 186
+      width: 23
+      height: 23
+    spriteID: 918db7a7bb54d0744a256476f6fcd422
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 186}
+  - name: Monster_Orc_Shield_Frame_13
+    originalName: 
+    pivot: {x: 0.5769231, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 284
+      width: 26
+      height: 23
+    spriteID: f345b1162c11c9949a859f5332dd2926
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 284}
+  - name: Monster_Orc_Shield_Frame_14
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 307
+      width: 24
+      height: 22
+    spriteID: d73f049858fb3b34cba022e53c42e6ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 307}
+  - name: Monster_Orc_Shield_Frame_15
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 337
+      width: 24
+      height: 22
+    spriteID: 6cce107e9f43ed24692f8c3ea5818c23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 337}
+  - name: Monster_Orc_Shield_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 436
+      width: 24
+      height: 24
+    spriteID: 52630d7db3b7b1b4286819b93019a9f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 436}
+  - name: Monster_Orc_Shield_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -1.4399999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 251
+      width: 24
+      height: 25
+    spriteID: c6d4f2f5649b9aa4599b7ca6d8fe735f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 251}
+  - name: Monster_Orc_Shield_Frame_18
+    originalName: 
+    pivot: {x: 0.5217391, y: -1.4399999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 468
+      width: 23
+      height: 25
+    spriteID: 05905ac245815dc45bd23910b3129611
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 468}
+  - name: Monster_Orc_Shield_Frame_19
+    originalName: 
+    pivot: {x: 0.5217391, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 94
+      width: 23
+      height: 24
+    spriteID: 5838e6892c370e343801d4c3b9e60e7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 94}
+  - name: Monster_Orc_Shield_Frame_20
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 367
+      width: 24
+      height: 22
+    spriteID: 3f152be687620de43a96340c1c124256
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 367}
+  - name: Monster_Orc_Shield_Frame_21
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 397
+      width: 24
+      height: 22
+    spriteID: 9e93aaead515f3d43bb99b3d77df28d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 397}
+  - name: Monster_Orc_Shield_Frame_22
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 64
+      width: 26
+      height: 22
+    spriteID: e8d951a0c8c82a84a992e1e3aa5aa8e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 64}
+  - name: Monster_Orc_Shield_Frame_23
+    originalName: 
+    pivot: {x: 0.5555556, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 346
+      width: 27
+      height: 22
+    spriteID: 1f408139a9c3b49419199f6437795d43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 346}
+  - name: Monster_Orc_Shield_Frame_24
+    originalName: 
+    pivot: {x: 0.53571427, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 191
+      width: 28
+      height: 22
+    spriteID: f677efc65b7dce840b16edf59d6be7ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 191}
+  - name: Monster_Orc_Shield_Frame_25
+    originalName: 
+    pivot: {x: 0.56, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 126
+      width: 25
+      height: 22
+    spriteID: 71d35cbc1c920c14fb3c8456bdffdf12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 126}
+  - name: Monster_Orc_Shield_Frame_26
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 427
+      width: 24
+      height: 22
+    spriteID: 1497be811d2da4d49a472b30daf04479
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 427}
+  - name: Monster_Orc_Shield_Frame_27
+    originalName: 
+    pivot: {x: 0.59259254, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 376
+      width: 27
+      height: 22
+    spriteID: 5845229161d85ec4bac090d5adca529d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 376}
+  - name: Monster_Orc_Shield_Frame_28
+    originalName: 
+    pivot: {x: 0.59259254, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 406
+      width: 27
+      height: 22
+    spriteID: 62cc9a25ce08192469811dfe23d73d51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 406}
+  - name: Monster_Orc_Shield_Frame_29
+    originalName: 
+    pivot: {x: 0.64285713, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 221
+      width: 28
+      height: 22
+    spriteID: 6b7a5a4888539a84e90d26ca5c9b7d4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 221}
+  - name: Monster_Orc_Shield_Frame_30
+    originalName: 
+    pivot: {x: 0.4583333, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 4
+      width: 48
+      height: 22
+    spriteID: 4149b5397a7e5a3449b0554bc6542e09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 4}
+  - name: Monster_Orc_Shield_Frame_31
+    originalName: 
+    pivot: {x: 0.2647059, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 130
+      width: 34
+      height: 22
+    spriteID: 587d78f8164885442bf113d5fef76313
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 130}
+  - name: Monster_Orc_Shield_Frame_32
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 186
+      width: 17
+      height: 22
+    spriteID: bc3f1e10d89cce8448868f3055058996
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 186}
+  - name: Monster_Orc_Shield_Frame_33
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 243
+      width: 20
+      height: 22
+    spriteID: c1505949ab76a6e419d8c6a2077d7888
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 243}
+  - name: Monster_Orc_Shield_Frame_34
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 457
+      width: 24
+      height: 22
+    spriteID: 7df8b47d010b0b04e854242f78dde9fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 457}
+  - name: Monster_Orc_Shield_Frame_35
+    originalName: 
+    pivot: {x: 0.26315793, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 303
+      width: 19
+      height: 22
+    spriteID: e225b599bba9f8a449829234eda0dfe1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 303}
+  - name: Monster_Orc_Shield_Frame_36
+    originalName: 
+    pivot: {x: 0, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 94
+      width: 17
+      height: 21
+    spriteID: 8d49222a4c317fd42a582230b598bc45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 94}
+  - name: Monster_Orc_Shield_Frame_37
+    originalName: 
+    pivot: {x: -0.105263054, y: -1.5909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 333
+      width: 19
+      height: 22
+    spriteID: 8cbfd83cebfd29448bfe4e7a17b9cb4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 333}
+  - name: Monster_Orc_Shield_Frame_38
+    originalName: 
+    pivot: {x: 0.40476194, y: -0.78947365}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 42
+      height: 38
+    spriteID: 76863786a2ff7064481caa46caeca15d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Monster_Orc_Shield_Frame_39
+    originalName: 
+    pivot: {x: 0.4, y: -1.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 50
+      width: 40
+      height: 32
+    spriteID: 16dde2c985f0a224b8328be5fb6eb920
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 50}
+  - name: Monster_Orc_Shield_Frame_40
+    originalName: 
+    pivot: {x: 0.59259254, y: -1.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 90
+      width: 27
+      height: 32
+    spriteID: 309d65f5d96521c4d8ce0f57925cd98c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 90}
+  - name: Monster_Orc_Shield_Frame_41
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 4
+      width: 24
+      height: 22
+    spriteID: fe215edfe19c2d54fa33782f1508e817
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 4}
+  - name: Monster_Orc_Shield_Frame_42
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 34
+      width: 24
+      height: 22
+    spriteID: 8e17d53c0dde50547b4b8d2bf22b6d5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 34}
+  - name: Monster_Orc_Shield_Frame_43
+    originalName: 
+    pivot: {x: 0.6153846, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 315
+      width: 26
+      height: 23
+    spriteID: 1d1a7eb2fb4c5a045a1f65726a81473f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 315}
+  - name: Monster_Orc_Shield_Frame_44
+    originalName: 
+    pivot: {x: 0.6296297, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 160
+      width: 27
+      height: 23
+    spriteID: a3d2f1548e1d5804f973dda6c94c5f8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 160}
+  - name: Monster_Orc_Shield_Frame_45
+    originalName: 
+    pivot: {x: 0.59999996, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 156
+      width: 25
+      height: 22
+    spriteID: fc5ccc66bae79b14c8cdb661b50789ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 156}
+  - name: Monster_Orc_Shield_Frame_46
+    originalName: 
+    pivot: {x: 0.5416666, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 64
+      width: 24
+      height: 22
+    spriteID: e287b8f217b2d4d4f91bbc31bbf5166f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 64}
+  - name: Monster_Orc_Shield_Frame_47
+    originalName: 
+    pivot: {x: 0.5833334, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 154
+      width: 24
+      height: 20
+    spriteID: d30f301f7a333d84d938481342c07b4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 154}
+  - name: Monster_Orc_Shield_Frame_48
+    originalName: 
+    pivot: {x: 0.5769231, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 4
+      width: 26
+      height: 16
+    spriteID: 81b0de7c480ab46419571b12ab0e334e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 4}
+  - name: Monster_Orc_Shield_Frame_49
+    originalName: 
+    pivot: {x: 0.55172414, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 125
+      width: 29
+      height: 12
+    spriteID: 8f4242762b971f447a66ff48facbd94f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 125}
+  - name: Monster_Orc_Shield_Frame_50
+    originalName: 
+    pivot: {x: 0.5666667, y: -2.7692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 4
+      width: 30
+      height: 13
+    spriteID: f51a69ba51554c545bff1e5908d11620
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 4}
+  - name: Monster_Orc_Shield_Frame_51
+    originalName: 
+    pivot: {x: 0.5625, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 25
+      width: 32
+      height: 12
+    spriteID: 4bfc653c78e1c984aa7ba8b69b951486
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 25}
+  - name: Monster_Orc_Shield_Frame_52
+    originalName: 
+    pivot: {x: 0.5625, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 45
+      width: 32
+      height: 12
+    spriteID: 1434fe927dbb0a841a1643b9088df65c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 45}
+  - name: Monster_Orc_Shield_Frame_53
+    originalName: 
+    pivot: {x: 0.5625, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 65
+      width: 32
+      height: 12
+    spriteID: a603d6734a1439f4c870258e6cf3499e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 65}
+  - name: Monster_Orc_Shield_Frame_54
+    originalName: 
+    pivot: {x: 0.5625, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 85
+      width: 32
+      height: 12
+    spriteID: 45c8dcd2b2cc31743a3a654588a910a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 85}
+  - name: Monster_Orc_Shield_Frame_55
+    originalName: 
+    pivot: {x: 0.5625, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 105
+      width: 32
+      height: 12
+    spriteID: 2f0bf9693c6ff984f8c99de216700850
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 105}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1339435879
+    name: Monster_Orc_Shield
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Monster_Orc_Shield_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      spriteId: 924afa9e17092014eb39f6a38b100f2e
+    - name: Monster_Orc_Shield_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      spriteId: 1bb5ad0f150cbe24bb32e1cb10d5b22a
+    - name: Monster_Orc_Shield_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 21
+      spriteId: fac648833c8b307429b89919d2bfc6e5
+    - name: Monster_Orc_Shield_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 34
+        y: 36
+        width: 25
+        height: 20
+      spriteId: b4d3d36aef6b79b458a81993b6a26459
+    - name: Monster_Orc_Shield_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 34
+        y: 36
+        width: 25
+        height: 20
+      spriteId: c1615e5716df7944e8786f1edd6d8b40
+    - name: Monster_Orc_Shield_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 21
+      spriteId: ee6158413a4128a499a8e7c8ec882bd9
+    - name: Monster_Orc_Shield_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 33
+        y: 36
+        width: 26
+        height: 22
+      spriteId: 21060404801fe1549ad54d920f94f1f6
+    - name: Monster_Orc_Shield_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 34
+        y: 36
+        width: 24
+        height: 22
+      spriteId: 75f0bafc9a3354e428f05f6cb8c7f2d3
+    - name: Monster_Orc_Shield_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 35
+        y: 36
+        width: 22
+        height: 23
+      spriteId: c9a75f8f6df8f0146a5ec34b05f684cf
+    - name: Monster_Orc_Shield_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 37
+        y: 36
+        width: 20
+        height: 23
+      spriteId: 304af03e099caac4ba51722f7550c870
+    - name: Monster_Orc_Shield_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 38
+        y: 36
+        width: 19
+        height: 22
+      spriteId: e3cf12e1bf54b6142920599e0d481215
+    - name: Monster_Orc_Shield_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 37
+        y: 36
+        width: 21
+        height: 22
+      spriteId: 5e8541cee87a3754a8f125abc6508e50
+    - name: Monster_Orc_Shield_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 35
+        y: 36
+        width: 23
+        height: 23
+      spriteId: 918db7a7bb54d0744a256476f6fcd422
+    - name: Monster_Orc_Shield_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 33
+        y: 36
+        width: 26
+        height: 23
+      spriteId: f345b1162c11c9949a859f5332dd2926
+    - name: Monster_Orc_Shield_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      spriteId: d73f049858fb3b34cba022e53c42e6ce
+    - name: Monster_Orc_Shield_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      spriteId: 6cce107e9f43ed24692f8c3ea5818c23
+    - name: Monster_Orc_Shield_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 36
+        y: 36
+        width: 24
+        height: 24
+      spriteId: 52630d7db3b7b1b4286819b93019a9f0
+    - name: Monster_Orc_Shield_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 36
+        y: 36
+        width: 24
+        height: 25
+      spriteId: c6d4f2f5649b9aa4599b7ca6d8fe735f
+    - name: Monster_Orc_Shield_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 36
+        y: 36
+        width: 23
+        height: 25
+      spriteId: 05905ac245815dc45bd23910b3129611
+    - name: Monster_Orc_Shield_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 36
+        y: 36
+        width: 23
+        height: 24
+      spriteId: 5838e6892c370e343801d4c3b9e60e7a
+    - name: Monster_Orc_Shield_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      spriteId: 3f152be687620de43a96340c1c124256
+    - name: Monster_Orc_Shield_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      spriteId: 9e93aaead515f3d43bb99b3d77df28d1
+    - name: Monster_Orc_Shield_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 34
+        y: 36
+        width: 26
+        height: 22
+      spriteId: e8d951a0c8c82a84a992e1e3aa5aa8e4
+    - name: Monster_Orc_Shield_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 33
+        y: 36
+        width: 27
+        height: 22
+      spriteId: 1f408139a9c3b49419199f6437795d43
+    - name: Monster_Orc_Shield_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 33
+        y: 36
+        width: 28
+        height: 22
+      spriteId: f677efc65b7dce840b16edf59d6be7ab
+    - name: Monster_Orc_Shield_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 34
+        y: 36
+        width: 25
+        height: 22
+      spriteId: 71d35cbc1c920c14fb3c8456bdffdf12
+    - name: Monster_Orc_Shield_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      spriteId: 1497be811d2da4d49a472b30daf04479
+    - name: Monster_Orc_Shield_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 32
+        y: 36
+        width: 27
+        height: 22
+      spriteId: 5845229161d85ec4bac090d5adca529d
+    - name: Monster_Orc_Shield_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 32
+        y: 36
+        width: 27
+        height: 22
+      spriteId: 62cc9a25ce08192469811dfe23d73d51
+    - name: Monster_Orc_Shield_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 30
+        y: 36
+        width: 28
+        height: 22
+      spriteId: 6b7a5a4888539a84e90d26ca5c9b7d4a
+    - name: Monster_Orc_Shield_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 26
+        y: 36
+        width: 48
+        height: 22
+      spriteId: 4149b5397a7e5a3449b0554bc6542e09
+    - name: Monster_Orc_Shield_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 39
+        y: 36
+        width: 34
+        height: 22
+      spriteId: 587d78f8164885442bf113d5fef76313
+    - name: Monster_Orc_Shield_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 39
+        y: 36
+        width: 17
+        height: 22
+      spriteId: bc3f1e10d89cce8448868f3055058996
+    - name: Monster_Orc_Shield_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 39
+        y: 36
+        width: 20
+        height: 22
+      spriteId: c1505949ab76a6e419d8c6a2077d7888
+    - name: Monster_Orc_Shield_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      spriteId: 7df8b47d010b0b04e854242f78dde9fb
+    - name: Monster_Orc_Shield_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 43
+        y: 36
+        width: 19
+        height: 22
+      spriteId: e225b599bba9f8a449829234eda0dfe1
+    - name: Monster_Orc_Shield_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 48
+        y: 36
+        width: 17
+        height: 21
+      spriteId: 8d49222a4c317fd42a582230b598bc45
+    - name: Monster_Orc_Shield_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 50
+        y: 35
+        width: 19
+        height: 22
+      spriteId: 8cbfd83cebfd29448bfe4e7a17b9cb4e
+    - name: Monster_Orc_Shield_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 31
+        y: 30
+        width: 42
+        height: 38
+      spriteId: 76863786a2ff7064481caa46caeca15d
+    - name: Monster_Orc_Shield_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 32
+        y: 36
+        width: 40
+        height: 32
+      spriteId: 16dde2c985f0a224b8328be5fb6eb920
+    - name: Monster_Orc_Shield_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 32
+        y: 36
+        width: 27
+        height: 32
+      spriteId: 309d65f5d96521c4d8ce0f57925cd98c
+    - name: Monster_Orc_Shield_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      spriteId: fe215edfe19c2d54fa33782f1508e817
+    - name: Monster_Orc_Shield_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      spriteId: 8e17d53c0dde50547b4b8d2bf22b6d5a
+    - name: Monster_Orc_Shield_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 32
+        y: 36
+        width: 26
+        height: 23
+      spriteId: 1d1a7eb2fb4c5a045a1f65726a81473f
+    - name: Monster_Orc_Shield_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 31
+        y: 36
+        width: 27
+        height: 23
+      spriteId: a3d2f1548e1d5804f973dda6c94c5f8b
+    - name: Monster_Orc_Shield_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 33
+        y: 36
+        width: 25
+        height: 22
+      spriteId: fc5ccc66bae79b14c8cdb661b50789ae
+    - name: Monster_Orc_Shield_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      spriteId: e287b8f217b2d4d4f91bbc31bbf5166f
+    - name: Monster_Orc_Shield_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 34
+        y: 36
+        width: 24
+        height: 20
+      spriteId: d30f301f7a333d84d938481342c07b4d
+    - name: Monster_Orc_Shield_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 33
+        y: 36
+        width: 26
+        height: 16
+      spriteId: 81b0de7c480ab46419571b12ab0e334e
+    - name: Monster_Orc_Shield_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 32
+        y: 36
+        width: 29
+        height: 12
+      spriteId: 8f4242762b971f447a66ff48facbd94f
+    - name: Monster_Orc_Shield_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 31
+        y: 36
+        width: 30
+        height: 13
+      spriteId: f51a69ba51554c545bff1e5908d11620
+    - name: Monster_Orc_Shield_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 30
+        y: 36
+        width: 32
+        height: 12
+      spriteId: 4bfc653c78e1c984aa7ba8b69b951486
+    - name: Monster_Orc_Shield_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 30
+        y: 36
+        width: 32
+        height: 12
+      spriteId: 1434fe927dbb0a841a1643b9088df65c
+    - name: Monster_Orc_Shield_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 30
+        y: 36
+        width: 32
+        height: 12
+      spriteId: a603d6734a1439f4c870258e6cf3499e
+    - name: Monster_Orc_Shield_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 30
+        y: 36
+        width: 32
+        height: 12
+      spriteId: 45c8dcd2b2cc31743a3a654588a910a3
+    - name: Monster_Orc_Shield_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 30
+        y: 36
+        width: 32
+        height: 12
+      spriteId: 2f0bf9693c6ff984f8c99de216700850
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 96}

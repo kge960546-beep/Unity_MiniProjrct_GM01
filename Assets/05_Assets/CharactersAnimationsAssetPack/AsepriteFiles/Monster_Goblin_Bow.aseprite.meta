@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: d4ea236959ced17429fed4bead4d4c70
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638971854336230511
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Monster_Goblin_Bow_Frame_0
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 117
+      width: 15
+      height: 19
+    spriteID: 54ce2f83af4bc32468579ffb291a8c11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 117}
+  - name: Monster_Goblin_Bow_Frame_1
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 117
+      width: 15
+      height: 19
+    spriteID: 268a75c66c548aa4a9a0a5bd04c7aa71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 117}
+  - name: Monster_Goblin_Bow_Frame_2
+    originalName: 
+    pivot: {x: 0.6, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 171
+      width: 15
+      height: 18
+    spriteID: f4201036bf6b58d4bad6d1838ae12845
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 171}
+  - name: Monster_Goblin_Bow_Frame_3
+    originalName: 
+    pivot: {x: 0.62499994, y: -2.1176472}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 188
+      y: 144
+      width: 16
+      height: 17
+    spriteID: fc9657737d1b2364aa16abbd1a14f1da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 188, y: 144}
+  - name: Monster_Goblin_Bow_Frame_4
+    originalName: 
+    pivot: {x: 0.62499994, y: -2.1176472}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 144
+      width: 16
+      height: 17
+    spriteID: fb047c41953912b4b9a69a221b509fa9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 144}
+  - name: Monster_Goblin_Bow_Frame_5
+    originalName: 
+    pivot: {x: 0.6, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 49
+      y: 171
+      width: 15
+      height: 18
+    spriteID: 326738e35d5cf044daeece7e5adc3efc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 49, y: 171}
+  - name: Monster_Goblin_Bow_Frame_6
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 117
+      width: 15
+      height: 19
+    spriteID: 8d5290d7097a48343a667c578e35f314
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 117}
+  - name: Monster_Goblin_Bow_Frame_7
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 117
+      width: 15
+      height: 19
+    spriteID: 180b45ceef544a346b616affce39bd98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 117}
+  - name: Monster_Goblin_Bow_Frame_8
+    originalName: 
+    pivot: {x: 0.5625, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 86
+      width: 16
+      height: 20
+    spriteID: 1eb89055788af5947b9f37e407d829d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 86}
+  - name: Monster_Goblin_Bow_Frame_9
+    originalName: 
+    pivot: {x: 0.25, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 58
+      width: 36
+      height: 20
+    spriteID: cdcdf77c72cdb564aaff60adc57c3cc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 58}
+  - name: Monster_Goblin_Bow_Frame_10
+    originalName: 
+    pivot: {x: 0.5625, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 31
+      width: 16
+      height: 19
+    spriteID: c898ea9d9dc686a4cb5e3021edd1170f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 31}
+  - name: Monster_Goblin_Bow_Frame_11
+    originalName: 
+    pivot: {x: 0.5625, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 86
+      width: 16
+      height: 19
+    spriteID: 4794763ea6e7b444795d64c99c3754c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 86}
+  - name: Monster_Goblin_Bow_Frame_12
+    originalName: 
+    pivot: {x: 0.6, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 58
+      width: 15
+      height: 20
+    spriteID: c9cc186a37d743246a80823658db2d91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 58}
+  - name: Monster_Goblin_Bow_Frame_13
+    originalName: 
+    pivot: {x: 0.6, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 58
+      width: 15
+      height: 20
+    spriteID: 868531d7649b3664d8c361897f21b697
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 58}
+  - name: Monster_Goblin_Bow_Frame_14
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 117
+      width: 15
+      height: 19
+    spriteID: 899df3e9a09303743b97d09b6d48cccd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 117}
+  - name: Monster_Goblin_Bow_Frame_15
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 117
+      width: 15
+      height: 19
+    spriteID: 9ecd8b597c68da24aa9ff9bc0f696e54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 117}
+  - name: Monster_Goblin_Bow_Frame_16
+    originalName: 
+    pivot: {x: 0.5625, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 86
+      width: 16
+      height: 21
+    spriteID: ae88d9a030d0f5d438b26ec03f6be2e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 86}
+  - name: Monster_Goblin_Bow_Frame_17
+    originalName: 
+    pivot: {x: 0.5625, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 86
+      width: 16
+      height: 23
+    spriteID: 75316fafc35d43e4490c8c30e229dfaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 86}
+  - name: Monster_Goblin_Bow_Frame_18
+    originalName: 
+    pivot: {x: 0.5625, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 86
+      width: 16
+      height: 23
+    spriteID: 32e25621171a00544940bb48e9800b6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 86}
+  - name: Monster_Goblin_Bow_Frame_19
+    originalName: 
+    pivot: {x: 0.5625, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 86
+      width: 16
+      height: 21
+    spriteID: 08801fa37b7709d46b40a5b26e8c6095
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 128, y: 86}
+  - name: Monster_Goblin_Bow_Frame_20
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 117
+      width: 15
+      height: 19
+    spriteID: c616e463455438442b6b2e5b93d0a20d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 117}
+  - name: Monster_Goblin_Bow_Frame_21
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 117
+      width: 15
+      height: 19
+    spriteID: bdce298b819307e47868818b25999776
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 117}
+  - name: Monster_Goblin_Bow_Frame_22
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 188
+      y: 117
+      width: 15
+      height: 19
+    spriteID: 5c113ba5c7c72d348b1dfc1705455da3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 188, y: 117}
+  - name: Monster_Goblin_Bow_Frame_23
+    originalName: 
+    pivot: {x: 0.5625, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 200
+      y: 86
+      width: 16
+      height: 19
+    spriteID: 2a8766caa7cccdb43a58b8765ac0d07d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 200, y: 86}
+  - name: Monster_Goblin_Bow_Frame_24
+    originalName: 
+    pivot: {x: 0.5555555, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 4
+      width: 18
+      height: 19
+    spriteID: 10d6478577f079448bf5012ca5a5189f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 4}
+  - name: Monster_Goblin_Bow_Frame_25
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 211
+      y: 117
+      width: 15
+      height: 19
+    spriteID: 3082962a687c19141ac471286326611e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 211, y: 117}
+  - name: Monster_Goblin_Bow_Frame_26
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 117
+      width: 15
+      height: 19
+    spriteID: a1141185493d13a4db5b0772bfa20796
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 117}
+  - name: Monster_Goblin_Bow_Frame_27
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 144
+      width: 15
+      height: 19
+    spriteID: e04e85e8583612a43b64fd90766cf690
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 144}
+  - name: Monster_Goblin_Bow_Frame_28
+    originalName: 
+    pivot: {x: 0.5625, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 86
+      width: 16
+      height: 19
+    spriteID: a0a3db04f81b85147a8cb3fb0b6fcb60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 86}
+  - name: Monster_Goblin_Bow_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 31
+      width: 18
+      height: 19
+    spriteID: 482aae672711dfa4cbe03c2fdd4077e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 31}
+  - name: Monster_Goblin_Bow_Frame_30
+    originalName: 
+    pivot: {x: 0.17391306, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 31
+      width: 46
+      height: 19
+    spriteID: 4655b5ff6818e444bbc102ccaddbc85c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 31}
+  - name: Monster_Goblin_Bow_Frame_31
+    originalName: 
+    pivot: {x: 0.17391306, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 31
+      width: 46
+      height: 19
+    spriteID: 624a43680ab75dd41905ee9aa89d4560
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 31}
+  - name: Monster_Goblin_Bow_Frame_32
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 144
+      width: 15
+      height: 19
+    spriteID: d1a94b606a258674b8f5437d9de1d02a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 144}
+  - name: Monster_Goblin_Bow_Frame_33
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 144
+      width: 15
+      height: 19
+    spriteID: 82a80fb0b97e4e7448469780aff957fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 144}
+  - name: Monster_Goblin_Bow_Frame_34
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 144
+      width: 15
+      height: 19
+    spriteID: abe164f1bf067c844915cc96d0406a49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 144}
+  - name: Monster_Goblin_Bow_Frame_35
+    originalName: 
+    pivot: {x: 1.0000001, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 171
+      width: 14
+      height: 20
+    spriteID: 1fcd4479b960017488d6d20c00eec4c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 171}
+  - name: Monster_Goblin_Bow_Frame_36
+    originalName: 
+    pivot: {x: 1.2, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 15
+      height: 19
+    spriteID: 336386460527a134ba1662bb67ce493f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 144}
+  - name: Monster_Goblin_Bow_Frame_37
+    originalName: 
+    pivot: {x: 1.0526316, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 31
+      width: 19
+      height: 18
+    spriteID: b8f7fe0714f51044a8071b9c964010f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 31}
+  - name: Monster_Goblin_Bow_Frame_38
+    originalName: 
+    pivot: {x: 0.3064516, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 62
+      height: 19
+    spriteID: 37df0cac0b5e8504fb11a21fecfb2a7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Monster_Goblin_Bow_Frame_39
+    originalName: 
+    pivot: {x: 0.27419356, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 4
+      width: 62
+      height: 19
+    spriteID: b0409975e76a18342b6a2a88a9e0bf8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 4}
+  - name: Monster_Goblin_Bow_Frame_40
+    originalName: 
+    pivot: {x: 0.24590164, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 4
+      width: 61
+      height: 19
+    spriteID: 400075c712fefe64eae076258549b598
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 4}
+  - name: Monster_Goblin_Bow_Frame_41
+    originalName: 
+    pivot: {x: 0.6666666, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 144
+      width: 15
+      height: 19
+    spriteID: 2f65efae0fffd8b4ca82d8e3680d8023
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 144}
+  - name: Monster_Goblin_Bow_Frame_42
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 144
+      width: 15
+      height: 19
+    spriteID: 0d3759961c2347943a69c5a6199ad6b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 144}
+  - name: Monster_Goblin_Bow_Frame_43
+    originalName: 
+    pivot: {x: 0.6666667, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 86
+      width: 18
+      height: 20
+    spriteID: c69180e336177bc4ca462a912ad88bf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 86}
+  - name: Monster_Goblin_Bow_Frame_44
+    originalName: 
+    pivot: {x: 0.7222222, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 86
+      width: 18
+      height: 20
+    spriteID: 99d68a0f6c1cf4d45842a0a072020f49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 86}
+  - name: Monster_Goblin_Bow_Frame_45
+    originalName: 
+    pivot: {x: 0.6470589, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 31
+      width: 17
+      height: 19
+    spriteID: 7e6c04da312d1bc4babfe694fd906d58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 31}
+  - name: Monster_Goblin_Bow_Frame_46
+    originalName: 
+    pivot: {x: 0.6, y: -1.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 144
+      width: 15
+      height: 19
+    spriteID: f32dccb4a354a7846a723c4748e601da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 144}
+  - name: Monster_Goblin_Bow_Frame_47
+    originalName: 
+    pivot: {x: 0.6666666, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 171
+      width: 15
+      height: 18
+    spriteID: 5c9dd0ff81a9d3242a1cb6895e7bdfb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 171}
+  - name: Monster_Goblin_Bow_Frame_48
+    originalName: 
+    pivot: {x: 0.75, y: -2.1176472}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 144
+      width: 16
+      height: 17
+    spriteID: f857d4fb59b8c3440bc5c83746105c94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 144}
+  - name: Monster_Goblin_Bow_Frame_49
+    originalName: 
+    pivot: {x: 0.8181819, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 171
+      width: 22
+      height: 12
+    spriteID: d39613b3a9dce044faa43d3c4018c7eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 171}
+  - name: Monster_Goblin_Bow_Frame_50
+    originalName: 
+    pivot: {x: 0.7916666, y: -2.7692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 31
+      width: 24
+      height: 13
+    spriteID: 177ee4447bf5e474783b5586f3990179
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 31}
+  - name: Monster_Goblin_Bow_Frame_51
+    originalName: 
+    pivot: {x: 0.8, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 58
+      width: 25
+      height: 12
+    spriteID: 4de8199acee227b438c2c9f75aa54229
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 58}
+  - name: Monster_Goblin_Bow_Frame_52
+    originalName: 
+    pivot: {x: 0.8, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 58
+      width: 25
+      height: 12
+    spriteID: 9ea06c9709da957409009858fb576901
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 58}
+  - name: Monster_Goblin_Bow_Frame_53
+    originalName: 
+    pivot: {x: 0.8, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 58
+      width: 25
+      height: 12
+    spriteID: 82253ee203a114a4aafe604046aa780d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 58}
+  - name: Monster_Goblin_Bow_Frame_54
+    originalName: 
+    pivot: {x: 0.8, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 193
+      y: 58
+      width: 25
+      height: 12
+    spriteID: 2b23e8fe54e07f4498320311778dc076
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 193, y: 58}
+  - name: Monster_Goblin_Bow_Frame_55
+    originalName: 
+    pivot: {x: 0.8, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 58
+      width: 25
+      height: 12
+    spriteID: f4ce6c9a67580454884da0e9da751ea1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 58}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1280018265
+    name: Monster_Goblin_Bow
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Monster_Goblin_Bow_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 54ce2f83af4bc32468579ffb291a8c11
+    - name: Monster_Goblin_Bow_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 268a75c66c548aa4a9a0a5bd04c7aa71
+    - name: Monster_Goblin_Bow_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 18
+      spriteId: f4201036bf6b58d4bad6d1838ae12845
+    - name: Monster_Goblin_Bow_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 38
+        y: 36
+        width: 16
+        height: 17
+      spriteId: fc9657737d1b2364aa16abbd1a14f1da
+    - name: Monster_Goblin_Bow_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 38
+        y: 36
+        width: 16
+        height: 17
+      spriteId: fb047c41953912b4b9a69a221b509fa9
+    - name: Monster_Goblin_Bow_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 18
+      spriteId: 326738e35d5cf044daeece7e5adc3efc
+    - name: Monster_Goblin_Bow_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 8d5290d7097a48343a667c578e35f314
+    - name: Monster_Goblin_Bow_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 180b45ceef544a346b616affce39bd98
+    - name: Monster_Goblin_Bow_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 39
+        y: 36
+        width: 16
+        height: 20
+      spriteId: 1eb89055788af5947b9f37e407d829d3
+    - name: Monster_Goblin_Bow_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 39
+        y: 36
+        width: 36
+        height: 20
+      spriteId: cdcdf77c72cdb564aaff60adc57c3cc6
+    - name: Monster_Goblin_Bow_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 39
+        y: 36
+        width: 16
+        height: 19
+      spriteId: c898ea9d9dc686a4cb5e3021edd1170f
+    - name: Monster_Goblin_Bow_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 39
+        y: 36
+        width: 16
+        height: 19
+      spriteId: 4794763ea6e7b444795d64c99c3754c5
+    - name: Monster_Goblin_Bow_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 20
+      spriteId: c9cc186a37d743246a80823658db2d91
+    - name: Monster_Goblin_Bow_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 20
+      spriteId: 868531d7649b3664d8c361897f21b697
+    - name: Monster_Goblin_Bow_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 899df3e9a09303743b97d09b6d48cccd
+    - name: Monster_Goblin_Bow_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 9ecd8b597c68da24aa9ff9bc0f696e54
+    - name: Monster_Goblin_Bow_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 39
+        y: 36
+        width: 16
+        height: 21
+      spriteId: ae88d9a030d0f5d438b26ec03f6be2e3
+    - name: Monster_Goblin_Bow_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 39
+        y: 36
+        width: 16
+        height: 23
+      spriteId: 75316fafc35d43e4490c8c30e229dfaf
+    - name: Monster_Goblin_Bow_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 39
+        y: 36
+        width: 16
+        height: 23
+      spriteId: 32e25621171a00544940bb48e9800b6d
+    - name: Monster_Goblin_Bow_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 39
+        y: 36
+        width: 16
+        height: 21
+      spriteId: 08801fa37b7709d46b40a5b26e8c6095
+    - name: Monster_Goblin_Bow_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: c616e463455438442b6b2e5b93d0a20d
+    - name: Monster_Goblin_Bow_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: bdce298b819307e47868818b25999776
+    - name: Monster_Goblin_Bow_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 5c113ba5c7c72d348b1dfc1705455da3
+    - name: Monster_Goblin_Bow_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 39
+        y: 36
+        width: 16
+        height: 19
+      spriteId: 2a8766caa7cccdb43a58b8765ac0d07d
+    - name: Monster_Goblin_Bow_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 38
+        y: 36
+        width: 18
+        height: 19
+      spriteId: 10d6478577f079448bf5012ca5a5189f
+    - name: Monster_Goblin_Bow_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 3082962a687c19141ac471286326611e
+    - name: Monster_Goblin_Bow_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: a1141185493d13a4db5b0772bfa20796
+    - name: Monster_Goblin_Bow_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: e04e85e8583612a43b64fd90766cf690
+    - name: Monster_Goblin_Bow_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 39
+        y: 36
+        width: 16
+        height: 19
+      spriteId: a0a3db04f81b85147a8cb3fb0b6fcb60
+    - name: Monster_Goblin_Bow_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 39
+        y: 36
+        width: 18
+        height: 19
+      spriteId: 482aae672711dfa4cbe03c2fdd4077e7
+    - name: Monster_Goblin_Bow_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 40
+        y: 36
+        width: 46
+        height: 19
+      spriteId: 4655b5ff6818e444bbc102ccaddbc85c
+    - name: Monster_Goblin_Bow_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 40
+        y: 36
+        width: 46
+        height: 19
+      spriteId: 624a43680ab75dd41905ee9aa89d4560
+    - name: Monster_Goblin_Bow_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 19
+      spriteId: d1a94b606a258674b8f5437d9de1d02a
+    - name: Monster_Goblin_Bow_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 40
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 82a80fb0b97e4e7448469780aff957fb
+    - name: Monster_Goblin_Bow_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: abe164f1bf067c844915cc96d0406a49
+    - name: Monster_Goblin_Bow_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 34
+        y: 36
+        width: 14
+        height: 20
+      spriteId: 1fcd4479b960017488d6d20c00eec4c9
+    - name: Monster_Goblin_Bow_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 30
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 336386460527a134ba1662bb67ce493f
+    - name: Monster_Goblin_Bow_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 28
+        y: 36
+        width: 19
+        height: 18
+      spriteId: b8f7fe0714f51044a8071b9c964010f9
+    - name: Monster_Goblin_Bow_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 29
+        y: 36
+        width: 62
+        height: 19
+      spriteId: 37df0cac0b5e8504fb11a21fecfb2a7a
+    - name: Monster_Goblin_Bow_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 31
+        y: 36
+        width: 62
+        height: 19
+      spriteId: b0409975e76a18342b6a2a88a9e0bf8e
+    - name: Monster_Goblin_Bow_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 33
+        y: 36
+        width: 61
+        height: 19
+      spriteId: 400075c712fefe64eae076258549b598
+    - name: Monster_Goblin_Bow_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 38
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 2f65efae0fffd8b4ca82d8e3680d8023
+    - name: Monster_Goblin_Bow_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: 0d3759961c2347943a69c5a6199ad6b9
+    - name: Monster_Goblin_Bow_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 36
+        y: 36
+        width: 18
+        height: 20
+      spriteId: c69180e336177bc4ca462a912ad88bf7
+    - name: Monster_Goblin_Bow_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 35
+        y: 36
+        width: 18
+        height: 20
+      spriteId: 99d68a0f6c1cf4d45842a0a072020f49
+    - name: Monster_Goblin_Bow_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 37
+        y: 36
+        width: 17
+        height: 19
+      spriteId: 7e6c04da312d1bc4babfe694fd906d58
+    - name: Monster_Goblin_Bow_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      spriteId: f32dccb4a354a7846a723c4748e601da
+    - name: Monster_Goblin_Bow_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 38
+        y: 36
+        width: 15
+        height: 18
+      spriteId: 5c9dd0ff81a9d3242a1cb6895e7bdfb9
+    - name: Monster_Goblin_Bow_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 36
+        y: 36
+        width: 16
+        height: 17
+      spriteId: f857d4fb59b8c3440bc5c83746105c94
+    - name: Monster_Goblin_Bow_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 30
+        y: 36
+        width: 22
+        height: 12
+      spriteId: d39613b3a9dce044faa43d3c4018c7eb
+    - name: Monster_Goblin_Bow_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 29
+        y: 36
+        width: 24
+        height: 13
+      spriteId: 177ee4447bf5e474783b5586f3990179
+    - name: Monster_Goblin_Bow_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 28
+        y: 36
+        width: 25
+        height: 12
+      spriteId: 4de8199acee227b438c2c9f75aa54229
+    - name: Monster_Goblin_Bow_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 28
+        y: 36
+        width: 25
+        height: 12
+      spriteId: 9ea06c9709da957409009858fb576901
+    - name: Monster_Goblin_Bow_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 28
+        y: 36
+        width: 25
+        height: 12
+      spriteId: 82253ee203a114a4aafe604046aa780d
+    - name: Monster_Goblin_Bow_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 28
+        y: 36
+        width: 25
+        height: 12
+      spriteId: 2b23e8fe54e07f4498320311778dc076
+    - name: Monster_Goblin_Bow_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 28
+        y: 36
+        width: 25
+        height: 12
+      spriteId: f4ce6c9a67580454884da0e9da751ea1
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 96}

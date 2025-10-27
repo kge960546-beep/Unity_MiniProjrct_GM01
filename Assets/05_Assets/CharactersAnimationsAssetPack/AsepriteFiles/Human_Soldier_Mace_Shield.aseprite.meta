@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: ff5b68d2cdc19b442a52aaa8697c0084
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638971854253684417
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Human_Soldier_Mace_Shield_Frame_0
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 217
+      width: 21
+      height: 22
+    spriteID: d355d8241bb29f645b1138956dcf0c30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 217}
+  - name: Human_Soldier_Mace_Shield_Frame_1
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 247
+      width: 21
+      height: 22
+    spriteID: b0d8d029f287d8c4db825e47fa4c882d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 247}
+  - name: Human_Soldier_Mace_Shield_Frame_2
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 4
+      width: 21
+      height: 21
+    spriteID: 3d322d6d29b571d409b074f8d85108f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 4}
+  - name: Human_Soldier_Mace_Shield_Frame_3
+    originalName: 
+    pivot: {x: 0.45454544, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 488
+      width: 22
+      height: 20
+    spriteID: e152de508a81ee14f84559c7decafe3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 488}
+  - name: Human_Soldier_Mace_Shield_Frame_4
+    originalName: 
+    pivot: {x: 0.45454544, y: -1.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 4
+      width: 22
+      height: 20
+    spriteID: 5a2f7f2b78101be4ea21625b98c45b5c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 4}
+  - name: Human_Soldier_Mace_Shield_Frame_5
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 33
+      width: 21
+      height: 21
+    spriteID: f89b7cf11980bf340b8f82d7b13f94e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 33}
+  - name: Human_Soldier_Mace_Shield_Frame_6
+    originalName: 
+    pivot: {x: 0.4736842, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 309
+      width: 19
+      height: 22
+    spriteID: 6ce8d241d16b81d41bebf4237ed270d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 309}
+  - name: Human_Soldier_Mace_Shield_Frame_7
+    originalName: 
+    pivot: {x: 0.4736842, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 339
+      width: 19
+      height: 22
+    spriteID: 18c665f2395ca5a46bdcb107f75a0d3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 339}
+  - name: Human_Soldier_Mace_Shield_Frame_8
+    originalName: 
+    pivot: {x: 0.4736842, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 152
+      width: 19
+      height: 23
+    spriteID: 825da061eac90354cbf18e15a2c973be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 152}
+  - name: Human_Soldier_Mace_Shield_Frame_9
+    originalName: 
+    pivot: {x: 0.4736842, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 183
+      width: 19
+      height: 23
+    spriteID: 4e5021056dde35140a29c8255476348f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 183}
+  - name: Human_Soldier_Mace_Shield_Frame_10
+    originalName: 
+    pivot: {x: 0.4736842, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 369
+      width: 19
+      height: 22
+    spriteID: d3a7710343ffb634bba4bffe127eaf2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 369}
+  - name: Human_Soldier_Mace_Shield_Frame_11
+    originalName: 
+    pivot: {x: 0.4736842, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 399
+      width: 19
+      height: 22
+    spriteID: 825440a1336adf04f989362b322c8d70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 399}
+  - name: Human_Soldier_Mace_Shield_Frame_12
+    originalName: 
+    pivot: {x: 0.4736842, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 214
+      width: 19
+      height: 23
+    spriteID: 0304ef82bfd4bf14db7fe541cc13dc7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 214}
+  - name: Human_Soldier_Mace_Shield_Frame_13
+    originalName: 
+    pivot: {x: 0.49999997, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 457
+      width: 20
+      height: 23
+    spriteID: 3362e1ddda4864f40bea1fb241faef9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 457}
+  - name: Human_Soldier_Mace_Shield_Frame_14
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 62
+      width: 20
+      height: 22
+    spriteID: c801f3f85c80a8a4b85cefc26e0dc1c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 62}
+  - name: Human_Soldier_Mace_Shield_Frame_15
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 92
+      width: 20
+      height: 22
+    spriteID: 25e3df607f0d66d409304508301ab2f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 92}
+  - name: Human_Soldier_Mace_Shield_Frame_16
+    originalName: 
+    pivot: {x: 0.4736842, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 83
+      y: 4
+      width: 19
+      height: 24
+    spriteID: 74b5631c51703d545aef7c873bcc7b3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 4}
+  - name: Human_Soldier_Mace_Shield_Frame_17
+    originalName: 
+    pivot: {x: 0.4736842, y: -1.4399999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 184
+      width: 19
+      height: 25
+    spriteID: 8e3b418c4b07b9a4eaf7dd85c0d0bcdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 184}
+  - name: Human_Soldier_Mace_Shield_Frame_18
+    originalName: 
+    pivot: {x: 0.4444445, y: -1.4399999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 83
+      y: 36
+      width: 18
+      height: 25
+    spriteID: bf19c8c3af5bde8438bfcc26f31b7171
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 36}
+  - name: Human_Soldier_Mace_Shield_Frame_19
+    originalName: 
+    pivot: {x: 0.4444445, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 245
+      width: 18
+      height: 24
+    spriteID: c491d94982b023b47a37762cad331de6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 245}
+  - name: Human_Soldier_Mace_Shield_Frame_20
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 277
+      width: 21
+      height: 22
+    spriteID: 11c2c68610db1054b91488fab90ecacf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 277}
+  - name: Human_Soldier_Mace_Shield_Frame_21
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 307
+      width: 21
+      height: 22
+    spriteID: e9e455fbf4f0bc046b7338e0c4f44038
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 307}
+  - name: Human_Soldier_Mace_Shield_Frame_22
+    originalName: 
+    pivot: {x: 0.43478256, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 310
+      width: 23
+      height: 22
+    spriteID: ab1b83e7b9673834ab619338e0148d9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 310}
+  - name: Human_Soldier_Mace_Shield_Frame_23
+    originalName: 
+    pivot: {x: 0.45833337, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 280
+      width: 24
+      height: 22
+    spriteID: d8710d726adee904084c4fb559f88363
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 280}
+  - name: Human_Soldier_Mace_Shield_Frame_24
+    originalName: 
+    pivot: {x: 0.46153846, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 219
+      width: 26
+      height: 22
+    spriteID: b5ed0d32733bf0a4294211756f7fe3c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 219}
+  - name: Human_Soldier_Mace_Shield_Frame_25
+    originalName: 
+    pivot: {x: 0.4782609, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 340
+      width: 23
+      height: 22
+    spriteID: 611f746e101a5aa4dbbd614fc066a773
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 340}
+  - name: Human_Soldier_Mace_Shield_Frame_26
+    originalName: 
+    pivot: {x: 0.45454544, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 431
+      width: 22
+      height: 22
+    spriteID: bcdd36dee06e959468ba0038de86eef1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 431}
+  - name: Human_Soldier_Mace_Shield_Frame_27
+    originalName: 
+    pivot: {x: 0.4736842, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 429
+      width: 19
+      height: 22
+    spriteID: 5e9a9eb4cab93524486bbcf27a480ba2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 429}
+  - name: Human_Soldier_Mace_Shield_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 83
+      y: 132
+      width: 18
+      height: 22
+    spriteID: 65f32f7c9faa45241ad131e32423255b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 132}
+  - name: Human_Soldier_Mace_Shield_Frame_29
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 337
+      width: 21
+      height: 22
+    spriteID: f645cef93eab2394082f18e1425ba3bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 337}
+  - name: Human_Soldier_Mace_Shield_Frame_30
+    originalName: 
+    pivot: {x: 0.2333333, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 122
+      width: 30
+      height: 22
+    spriteID: 60cbc390765209346a1b9147bf41d3b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 122}
+  - name: Human_Soldier_Mace_Shield_Frame_31
+    originalName: 
+    pivot: {x: 0.1875, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 4
+      width: 32
+      height: 22
+    spriteID: 0d2b0de701b8cde498c34bc89c38dfb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 4}
+  - name: Human_Soldier_Mace_Shield_Frame_32
+    originalName: 
+    pivot: {x: 0.41176465, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 83
+      y: 162
+      width: 17
+      height: 22
+    spriteID: a22e4d5c9327e064ea72e036ff983fd7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 162}
+  - name: Human_Soldier_Mace_Shield_Frame_33
+    originalName: 
+    pivot: {x: 0.42105266, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 459
+      width: 19
+      height: 22
+    spriteID: 18d82c6625f6ace4581a0f974d2f93f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 459}
+  - name: Human_Soldier_Mace_Shield_Frame_34
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 367
+      width: 21
+      height: 22
+    spriteID: 7503291633cf38c43977395fa254a26b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 367}
+  - name: Human_Soldier_Mace_Shield_Frame_35
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 397
+      width: 21
+      height: 22
+    spriteID: da84f357cde0001478ba2e415a672842
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 397}
+  - name: Human_Soldier_Mace_Shield_Frame_36
+    originalName: 
+    pivot: {x: 0.39130434, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 370
+      width: 23
+      height: 22
+    spriteID: cce3f9da61d79184b9dc5342fc652dac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 370}
+  - name: Human_Soldier_Mace_Shield_Frame_37
+    originalName: 
+    pivot: {x: 0.19354838, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 31
+      height: 32
+    spriteID: 61d62fe1d8812ce429564bfa3382ab6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Human_Soldier_Mace_Shield_Frame_38
+    originalName: 
+    pivot: {x: 0, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 44
+      width: 25
+      height: 32
+    spriteID: 4531038caa0e94948946d88d01fe0eee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 44}
+  - name: Human_Soldier_Mace_Shield_Frame_39
+    originalName: 
+    pivot: {x: 0, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 84
+      width: 25
+      height: 30
+    spriteID: 726814c9c906f344aa58fd13f4d3c2ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 84}
+  - name: Human_Soldier_Mace_Shield_Frame_40
+    originalName: 
+    pivot: {x: 0.16666667, y: -1.4399999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 83
+      y: 69
+      width: 18
+      height: 25
+    spriteID: 75ec243489de51746bcd7c83ebfb535c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 69}
+  - name: Human_Soldier_Mace_Shield_Frame_41
+    originalName: 
+    pivot: {x: 0.4444445, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 277
+      width: 18
+      height: 24
+    spriteID: cbd3c9e970e8c0648af5d005d01ab426
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 277}
+  - name: Human_Soldier_Mace_Shield_Frame_42
+    originalName: 
+    pivot: {x: 0.4736842, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 83
+      y: 102
+      width: 19
+      height: 22
+    spriteID: 0d1aa455dfdaafd4292484aaeb682f35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 102}
+  - name: Human_Soldier_Mace_Shield_Frame_43
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 400
+      width: 22
+      height: 23
+    spriteID: 8d50bc156739e8d45816cfc9d62a40f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 400}
+  - name: Human_Soldier_Mace_Shield_Frame_44
+    originalName: 
+    pivot: {x: 0.5652173, y: -1.5652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 249
+      width: 23
+      height: 23
+    spriteID: bc5ce17ee7389d1489b52f93ca35062d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 249}
+  - name: Human_Soldier_Mace_Shield_Frame_45
+    originalName: 
+    pivot: {x: 0.5500001, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 122
+      width: 20
+      height: 22
+    spriteID: 7db8296f4eb1d67499ac0f0c5a84e29f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 122}
+  - name: Human_Soldier_Mace_Shield_Frame_46
+    originalName: 
+    pivot: {x: 0.42857146, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 427
+      width: 21
+      height: 22
+    spriteID: fcc5427f71e72bf40bbb2e888dd7d147
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 427}
+  - name: Human_Soldier_Mace_Shield_Frame_47
+    originalName: 
+    pivot: {x: 0.50000006, y: -1.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 461
+      width: 22
+      height: 22
+    spriteID: b881a761038a12c4cab55857760abe7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 461}
+  - name: Human_Soldier_Mace_Shield_Frame_48
+    originalName: 
+    pivot: {x: 0.6296297, y: -1.2916666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 152
+      width: 27
+      height: 24
+    spriteID: 353cbc497277ad448a1e2f187fe2e3cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 152}
+  - name: Human_Soldier_Mace_Shield_Frame_49
+    originalName: 
+    pivot: {x: 0.6875, y: -1.5500001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 34
+      width: 32
+      height: 20
+    spriteID: d4b6883fd2eb11c439bbf3ddf0eba6b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 34}
+  - name: Human_Soldier_Mace_Shield_Frame_50
+    originalName: 
+    pivot: {x: 0.6875, y: -1.6315788}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 62
+      width: 32
+      height: 19
+    spriteID: 97b8ed825d5c830499059cc37f9b3013
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 62}
+  - name: Human_Soldier_Mace_Shield_Frame_51
+    originalName: 
+    pivot: {x: 0.6875, y: -1.7222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 89
+      width: 32
+      height: 18
+    spriteID: 12e6e76e74fec2a488c9b951c00b983c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 89}
+  - name: Human_Soldier_Mace_Shield_Frame_52
+    originalName: 
+    pivot: {x: 0.6875, y: -1.7222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 115
+      width: 32
+      height: 18
+    spriteID: 180acfc3293052e419f285397c5b1c5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 115}
+  - name: Human_Soldier_Mace_Shield_Frame_53
+    originalName: 
+    pivot: {x: 0.6875, y: -1.7222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 141
+      width: 32
+      height: 18
+    spriteID: 87ff86b72fab5b145aa5d7abec48a53a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 141}
+  - name: Human_Soldier_Mace_Shield_Frame_54
+    originalName: 
+    pivot: {x: 0.6875, y: -1.7222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 167
+      width: 32
+      height: 18
+    spriteID: 43197fa4c4fe760419a2998507de1c4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 167}
+  - name: Human_Soldier_Mace_Shield_Frame_55
+    originalName: 
+    pivot: {x: 0.6875, y: -1.7222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 193
+      width: 32
+      height: 18
+    spriteID: 2e5fa6fbdc776d3469ab2d5655dcc2c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 193}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -109405993
+    name: Human_Soldier_Mace_Shield
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Human_Soldier_Mace_Shield_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 22
+      spriteId: d355d8241bb29f645b1138956dcf0c30
+    - name: Human_Soldier_Mace_Shield_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 22
+      spriteId: b0d8d029f287d8c4db825e47fa4c882d
+    - name: Human_Soldier_Mace_Shield_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: 3d322d6d29b571d409b074f8d85108f8
+    - name: Human_Soldier_Mace_Shield_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 38
+        y: 36
+        width: 22
+        height: 20
+      spriteId: e152de508a81ee14f84559c7decafe3c
+    - name: Human_Soldier_Mace_Shield_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 38
+        y: 36
+        width: 22
+        height: 20
+      spriteId: 5a2f7f2b78101be4ea21625b98c45b5c
+    - name: Human_Soldier_Mace_Shield_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      spriteId: f89b7cf11980bf340b8f82d7b13f94e5
+    - name: Human_Soldier_Mace_Shield_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 39
+        y: 36
+        width: 19
+        height: 22
+      spriteId: 6ce8d241d16b81d41bebf4237ed270d5
+    - name: Human_Soldier_Mace_Shield_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 39
+        y: 36
+        width: 19
+        height: 22
+      spriteId: 18c665f2395ca5a46bdcb107f75a0d3d
+    - name: Human_Soldier_Mace_Shield_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 39
+        y: 36
+        width: 19
+        height: 23
+      spriteId: 825da061eac90354cbf18e15a2c973be
+    - name: Human_Soldier_Mace_Shield_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 39
+        y: 36
+        width: 19
+        height: 23
+      spriteId: 4e5021056dde35140a29c8255476348f
+    - name: Human_Soldier_Mace_Shield_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 39
+        y: 36
+        width: 19
+        height: 22
+      spriteId: d3a7710343ffb634bba4bffe127eaf2b
+    - name: Human_Soldier_Mace_Shield_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 39
+        y: 36
+        width: 19
+        height: 22
+      spriteId: 825440a1336adf04f989362b322c8d70
+    - name: Human_Soldier_Mace_Shield_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 39
+        y: 36
+        width: 19
+        height: 23
+      spriteId: 0304ef82bfd4bf14db7fe541cc13dc7e
+    - name: Human_Soldier_Mace_Shield_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 38
+        y: 36
+        width: 20
+        height: 23
+      spriteId: 3362e1ddda4864f40bea1fb241faef9c
+    - name: Human_Soldier_Mace_Shield_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 39
+        y: 36
+        width: 20
+        height: 22
+      spriteId: c801f3f85c80a8a4b85cefc26e0dc1c5
+    - name: Human_Soldier_Mace_Shield_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 39
+        y: 36
+        width: 20
+        height: 22
+      spriteId: 25e3df607f0d66d409304508301ab2f5
+    - name: Human_Soldier_Mace_Shield_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 39
+        y: 36
+        width: 19
+        height: 24
+      spriteId: 74b5631c51703d545aef7c873bcc7b3d
+    - name: Human_Soldier_Mace_Shield_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 39
+        y: 36
+        width: 19
+        height: 25
+      spriteId: 8e3b418c4b07b9a4eaf7dd85c0d0bcdd
+    - name: Human_Soldier_Mace_Shield_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 40
+        y: 36
+        width: 18
+        height: 25
+      spriteId: bf19c8c3af5bde8438bfcc26f31b7171
+    - name: Human_Soldier_Mace_Shield_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 40
+        y: 36
+        width: 18
+        height: 24
+      spriteId: c491d94982b023b47a37762cad331de6
+    - name: Human_Soldier_Mace_Shield_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 22
+      spriteId: 11c2c68610db1054b91488fab90ecacf
+    - name: Human_Soldier_Mace_Shield_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 22
+      spriteId: e9e455fbf4f0bc046b7338e0c4f44038
+    - name: Human_Soldier_Mace_Shield_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 38
+        y: 36
+        width: 23
+        height: 22
+      spriteId: ab1b83e7b9673834ab619338e0148d9c
+    - name: Human_Soldier_Mace_Shield_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 37
+        y: 36
+        width: 24
+        height: 22
+      spriteId: d8710d726adee904084c4fb559f88363
+    - name: Human_Soldier_Mace_Shield_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 36
+        y: 36
+        width: 26
+        height: 22
+      spriteId: b5ed0d32733bf0a4294211756f7fe3c8
+    - name: Human_Soldier_Mace_Shield_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 37
+        y: 36
+        width: 23
+        height: 22
+      spriteId: 611f746e101a5aa4dbbd614fc066a773
+    - name: Human_Soldier_Mace_Shield_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 38
+        y: 36
+        width: 22
+        height: 22
+      spriteId: bcdd36dee06e959468ba0038de86eef1
+    - name: Human_Soldier_Mace_Shield_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 39
+        y: 36
+        width: 19
+        height: 22
+      spriteId: 5e9a9eb4cab93524486bbcf27a480ba2
+    - name: Human_Soldier_Mace_Shield_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 39
+        y: 36
+        width: 18
+        height: 22
+      spriteId: 65f32f7c9faa45241ad131e32423255b
+    - name: Human_Soldier_Mace_Shield_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 36
+        y: 36
+        width: 21
+        height: 22
+      spriteId: f645cef93eab2394082f18e1425ba3bc
+    - name: Human_Soldier_Mace_Shield_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 41
+        y: 36
+        width: 30
+        height: 22
+      spriteId: 60cbc390765209346a1b9147bf41d3b8
+    - name: Human_Soldier_Mace_Shield_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 42
+        y: 36
+        width: 32
+        height: 22
+      spriteId: 0d2b0de701b8cde498c34bc89c38dfb4
+    - name: Human_Soldier_Mace_Shield_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 41
+        y: 36
+        width: 17
+        height: 22
+      spriteId: a22e4d5c9327e064ea72e036ff983fd7
+    - name: Human_Soldier_Mace_Shield_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 40
+        y: 36
+        width: 19
+        height: 22
+      spriteId: 18d82c6625f6ace4581a0f974d2f93f3
+    - name: Human_Soldier_Mace_Shield_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 22
+      spriteId: 7503291633cf38c43977395fa254a26b
+    - name: Human_Soldier_Mace_Shield_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 22
+      spriteId: da84f357cde0001478ba2e415a672842
+    - name: Human_Soldier_Mace_Shield_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 39
+        y: 36
+        width: 23
+        height: 22
+      spriteId: cce3f9da61d79184b9dc5342fc652dac
+    - name: Human_Soldier_Mace_Shield_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 42
+        y: 32
+        width: 31
+        height: 32
+      spriteId: 61d62fe1d8812ce429564bfa3382ab6c
+    - name: Human_Soldier_Mace_Shield_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 48
+        y: 32
+        width: 25
+        height: 32
+      spriteId: 4531038caa0e94948946d88d01fe0eee
+    - name: Human_Soldier_Mace_Shield_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 48
+        y: 33
+        width: 25
+        height: 30
+      spriteId: 726814c9c906f344aa58fd13f4d3c2ac
+    - name: Human_Soldier_Mace_Shield_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 45
+        y: 36
+        width: 18
+        height: 25
+      spriteId: 75ec243489de51746bcd7c83ebfb535c
+    - name: Human_Soldier_Mace_Shield_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 40
+        y: 36
+        width: 18
+        height: 24
+      spriteId: cbd3c9e970e8c0648af5d005d01ab426
+    - name: Human_Soldier_Mace_Shield_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 39
+        y: 36
+        width: 19
+        height: 22
+      spriteId: 0d1aa455dfdaafd4292484aaeb682f35
+    - name: Human_Soldier_Mace_Shield_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 36
+        y: 36
+        width: 22
+        height: 23
+      spriteId: 8d50bc156739e8d45816cfc9d62a40f6
+    - name: Human_Soldier_Mace_Shield_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 35
+        y: 36
+        width: 23
+        height: 23
+      spriteId: bc5ce17ee7389d1489b52f93ca35062d
+    - name: Human_Soldier_Mace_Shield_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 37
+        y: 36
+        width: 20
+        height: 22
+      spriteId: 7db8296f4eb1d67499ac0f0c5a84e29f
+    - name: Human_Soldier_Mace_Shield_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 39
+        y: 36
+        width: 21
+        height: 22
+      spriteId: fcc5427f71e72bf40bbb2e888dd7d147
+    - name: Human_Soldier_Mace_Shield_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 37
+        y: 36
+        width: 22
+        height: 22
+      spriteId: b881a761038a12c4cab55857760abe7a
+    - name: Human_Soldier_Mace_Shield_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 31
+        y: 31
+        width: 27
+        height: 24
+      spriteId: 353cbc497277ad448a1e2f187fe2e3cd
+    - name: Human_Soldier_Mace_Shield_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 26
+        y: 31
+        width: 32
+        height: 20
+      spriteId: d4b6883fd2eb11c439bbf3ddf0eba6b0
+    - name: Human_Soldier_Mace_Shield_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 26
+        y: 31
+        width: 32
+        height: 19
+      spriteId: 97b8ed825d5c830499059cc37f9b3013
+    - name: Human_Soldier_Mace_Shield_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 26
+        y: 31
+        width: 32
+        height: 18
+      spriteId: 12e6e76e74fec2a488c9b951c00b983c
+    - name: Human_Soldier_Mace_Shield_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 26
+        y: 31
+        width: 32
+        height: 18
+      spriteId: 180acfc3293052e419f285397c5b1c5e
+    - name: Human_Soldier_Mace_Shield_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 26
+        y: 31
+        width: 32
+        height: 18
+      spriteId: 87ff86b72fab5b145aa5d7abec48a53a
+    - name: Human_Soldier_Mace_Shield_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 26
+        y: 31
+        width: 32
+        height: 18
+      spriteId: 43197fa4c4fe760419a2998507de1c4c
+    - name: Human_Soldier_Mace_Shield_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 26
+        y: 31
+        width: 32
+        height: 18
+      spriteId: 2e5fa6fbdc776d3469ab2d5655dcc2c2
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 96}
