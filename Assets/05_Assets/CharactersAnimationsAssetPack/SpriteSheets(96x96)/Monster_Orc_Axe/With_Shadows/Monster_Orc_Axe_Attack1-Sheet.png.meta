@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Attack1-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e7f057d46ec4e4c8df0622df2f473c
+      internalID: -1165014698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Attack1-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 36
+        width: 18
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb7aba11159db0459fe80d0115c3164
+      internalID: 1007379358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Attack1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 36
+        width: 19
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf7dbdc279d7434dbda6d182bddafae
+      internalID: -1761882526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Attack1-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 36
+        width: 17
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dca6e89ca62f94790c8838a5039759
+      internalID: 723699037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Attack1-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 36
+        width: 32
+        height: 29
+      alignment: 9
+      pivot: {x: 0.23, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068af5942a2ab334699efcc82147d4f5
+      internalID: 949758286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Attack1-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 36
+        width: 32
+        height: 21
+      alignment: 9
+      pivot: {x: 0.23, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4560c0219f2e54e846af1ec101a7cf
+      internalID: -471565376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Attack1-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 36
+        width: 29
+        height: 18
+      alignment: 9
+      pivot: {x: 0.23, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd64739d0bb733b45bf7cbe42839d4b2
+      internalID: 1605041031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Attack1-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 36
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cd9728594d39b4b8e69dbfc944949b
+      internalID: 1660369602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Orc_Axe_Attack1-Sheet_0: -1165014698
+      Monster_Orc_Axe_Attack1-Sheet_1: 1007379358
+      Monster_Orc_Axe_Attack1-Sheet_2: -1761882526
+      Monster_Orc_Axe_Attack1-Sheet_3: 723699037
+      Monster_Orc_Axe_Attack1-Sheet_4: 949758286
+      Monster_Orc_Axe_Attack1-Sheet_5: -471565376
+      Monster_Orc_Axe_Attack1-Sheet_6: 1605041031
+      Monster_Orc_Axe_Attack1-Sheet_7: 1660369602
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

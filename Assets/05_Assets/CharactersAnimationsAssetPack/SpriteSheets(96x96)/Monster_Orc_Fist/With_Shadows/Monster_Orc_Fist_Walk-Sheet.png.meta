@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Walk-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3bda246e9641148b3daf12af501992
+      internalID: -1629894740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Walk-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 36
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90793cc70a9a634d94a1029f90866b8
+      internalID: 827926974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Walk-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 36
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a75aa7d50be0bc41a4c389c9794d5cb
+      internalID: -75903932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Walk-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 36
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9a225566ff0c646a295f84b3b467e7
+      internalID: 650314779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Walk-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 36
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15257f5b314dd7e4885be6fad75465e9
+      internalID: -1690914341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Walk-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 36
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f23448eef579684596219c709c9fedc
+      internalID: 1450537071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Walk-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 36
+        width: 15
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cab43234f49acd46b632e26c2886507
+      internalID: 220874316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Walk-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 36
+        width: 15
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9c67fb33466174cbfb4233101f887d
+      internalID: -797781739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Orc_Fist_Walk-Sheet_0: -1629894740
+      Monster_Orc_Fist_Walk-Sheet_1: 827926974
+      Monster_Orc_Fist_Walk-Sheet_2: -75903932
+      Monster_Orc_Fist_Walk-Sheet_3: 650314779
+      Monster_Orc_Fist_Walk-Sheet_4: -1690914341
+      Monster_Orc_Fist_Walk-Sheet_5: 1450537071
+      Monster_Orc_Fist_Walk-Sheet_6: 220874316
+      Monster_Orc_Fist_Walk-Sheet_7: -797781739
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

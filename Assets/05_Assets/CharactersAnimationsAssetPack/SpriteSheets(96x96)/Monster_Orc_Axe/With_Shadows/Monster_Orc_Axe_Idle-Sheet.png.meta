@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Idle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1508b2b53d3e114d92565db4dbca579
+      internalID: 1876360250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Idle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 36
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f363e3727b67464295332c33968c713
+      internalID: -524431217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 36
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822e0bb344c073540bf3c66769588a49
+      internalID: 1429901546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 36
+        width: 21
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f247104874e033429c1b02df3be9b64
+      internalID: -1144944109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 36
+        width: 21
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce08eb3a632e8c047a31df88380873b7
+      internalID: 1154877090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 36
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92013f1599b4f9b4c92eee14745967f9
+      internalID: 820216135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Orc_Axe_Idle-Sheet_0: 1876360250
+      Monster_Orc_Axe_Idle-Sheet_1: -524431217
+      Monster_Orc_Axe_Idle-Sheet_2: 1429901546
+      Monster_Orc_Axe_Idle-Sheet_3: -1144944109
+      Monster_Orc_Axe_Idle-Sheet_4: 1154877090
+      Monster_Orc_Axe_Idle-Sheet_5: 820216135
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

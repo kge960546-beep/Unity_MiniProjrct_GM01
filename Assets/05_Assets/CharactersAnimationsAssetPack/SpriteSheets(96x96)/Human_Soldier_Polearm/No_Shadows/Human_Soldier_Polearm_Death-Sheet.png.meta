@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Death-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 37
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d1809428d584345861e1200e03e204
+      internalID: 851463322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Death-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 38
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfc4b8235b49794f9a6898e7360875f
+      internalID: 707985906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Death-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 39
+        width: 35
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.69}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84057bfdcefb4049bdcb51ee28c122f
+      internalID: -1149853604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Death-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 39
+        width: 45
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.81}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c89b825b4c3934ca7a2e1acd8eae6e
+      internalID: -1508124867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Death-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 39
+        width: 49
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.81}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22bfe3bae3f4974592803747c63d39b
+      internalID: 2000840515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Death-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 38
+        width: 53
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccea0e362bf4cd47bad902d85410ccd
+      internalID: -1672502109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Death-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 38
+        width: 52
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77187ed5f5894b5448ee5199c0b64cf7
+      internalID: -1171919540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Death-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 38
+        width: 52
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef01e013158a8e49b22ff6e13f9ad29
+      internalID: 989533516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Death-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 38
+        width: 52
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacd1a951e237004b9ef2c64856ee543
+      internalID: -1263793310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Death-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 38
+        width: 52
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53a692bd8f61e94bb5100e9adb9f8d3
+      internalID: 1613343570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +342,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Human_Soldier_Polearm_Death-Sheet_0: 851463322
+      Human_Soldier_Polearm_Death-Sheet_1: 707985906
+      Human_Soldier_Polearm_Death-Sheet_10: -1603101556
+      Human_Soldier_Polearm_Death-Sheet_11: -1263793310
+      Human_Soldier_Polearm_Death-Sheet_12: -1495971335
+      Human_Soldier_Polearm_Death-Sheet_13: 1613343570
+      Human_Soldier_Polearm_Death-Sheet_14: -497707006
+      Human_Soldier_Polearm_Death-Sheet_2: -1149853604
+      Human_Soldier_Polearm_Death-Sheet_3: -1508124867
+      Human_Soldier_Polearm_Death-Sheet_4: 2000840515
+      Human_Soldier_Polearm_Death-Sheet_5: -1672502109
+      Human_Soldier_Polearm_Death-Sheet_6: -1330634556
+      Human_Soldier_Polearm_Death-Sheet_7: -1171919540
+      Human_Soldier_Polearm_Death-Sheet_8: 89031140
+      Human_Soldier_Polearm_Death-Sheet_9: 989533516
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

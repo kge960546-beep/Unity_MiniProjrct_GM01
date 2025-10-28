@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Idle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2a7f2b76e584448ba93d0e5bdd34ed
+      internalID: -1445495916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Idle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 36
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5528783e9d0644fa0d854932584e78
+      internalID: 377001701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 36
+        width: 24
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca076cef8ec7dc84880924d896faa1f2
+      internalID: 579965749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 36
+        width: 25
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b14ecb1399bd44290850363960a8e4
+      internalID: 1274797010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 36
+        width: 25
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac140cdcdd0ea5549ae648a662587125
+      internalID: -1770185004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 36
+        width: 24
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6899fd79fd7ad194f9f0c2876e7c6b64
+      internalID: -1434053316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Orc_Shield_Idle-Sheet_0: -1445495916
+      Monster_Orc_Shield_Idle-Sheet_1: 377001701
+      Monster_Orc_Shield_Idle-Sheet_2: 579965749
+      Monster_Orc_Shield_Idle-Sheet_3: 1274797010
+      Monster_Orc_Shield_Idle-Sheet_4: -1770185004
+      Monster_Orc_Shield_Idle-Sheet_5: -1434053316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

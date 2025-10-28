@@ -13,14 +13,15 @@ public class Character : MonoBehaviour
     private Animator anim;
     public bool isEnemy;
 
-    private int currentHP;
+    private int presentHP;
     private float lastAttackTime;
     private bool isHit = false;
+    private bool isDead = false;
 
-    private Transform currentTarget;
+    private Transform presentTarget;
 
     public enum State {Idle,Moving,Attacking}
-    private State currentState = State.Idle;    
+    private State presentState = State.Idle;    
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -28,14 +29,12 @@ public class Character : MonoBehaviour
     }
     void Start()
     {
-        currentHP = data.HPMax;
+        presentHP = data.HPMax;
         ChangeState(State.Idle);
     }
     void Update()
-    {
-        if (isHit) return;
-
-        switch(currentState)
+    {        
+        switch(presentState)
         {
             case State.Idle:
                 SearchTarget(); break;
@@ -47,19 +46,19 @@ public class Character : MonoBehaviour
     }
     void ChangeState(State newState)
     {
-        if (currentState == newState) return;
-        currentState = newState;
+        Debug.Log("ChangeState → " + newState);
+        if (presentState == newState) return;
+        presentState = newState;
         if (anim != null)
         {
-            anim.SetInteger("State",(int)newState);
-            if(newState == State.Attacking)
+            anim.SetInteger("State", (int)newState);
+            if (newState == State.Attacking)
             {
                 anim.SetFloat("attackSpeed", data.AttackSpeed);
                 lastAttackTime = Time.time - (1.0f / data.AttackSpeed);
             }
-        }
-}
-    
+        }    
+    }   
     public void SearchTarget()
     {
         Character nearestTarget = null;
@@ -79,35 +78,40 @@ public class Character : MonoBehaviour
 
         if(nearestTarget != null)
         {
-            currentTarget = nearestTarget.transform;
-            ChangeState(State.Moving);
-           
+            presentTarget = nearestTarget.transform;
+            ChangeState(State.Moving);           
         }
     }
     public void MoveTarget()
     {
-        if(currentTarget == null)
+        if(presentTarget == null)
         {
             ChangeState(State.Idle);
            
             return;
         }
-        float distance = Vector2.Distance(transform.position, currentTarget.position);
+        float distance = Vector2.Distance(transform.position, presentTarget.position);
         if(distance <= data.attackRange)
         {
+
             ChangeState(State.Attacking);
-           
+            
             return;
-        }        
-        transform.position = Vector2.MoveTowards(transform.position, currentTarget.position, data.moveSpeed * Time.deltaTime);        
+        }
+        if(presentTarget.position.x<transform.position.x)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else { spriteRenderer.flipX = false;}
+            transform.position = Vector2.MoveTowards(transform.position, presentTarget.position, data.moveSpeed * Time.deltaTime);        
     }
     public void AttackTarget()
     {
         float atkSpeed = data.AttackSpeed;
         int atkPower = data.AttackPower;
-        float distance = Vector2.Distance(transform.position, currentTarget.position);
+        float distance = Vector2.Distance(transform.position, presentTarget.position);
 
-        if (currentTarget == null) { SearchTarget(); return; }
+        if (presentTarget == null) { SearchTarget(); return; }
 
         if(distance > data.attackRange)
         {
@@ -127,19 +131,18 @@ public class Character : MonoBehaviour
                 lastAttackTime = Time.time;
             }
             else
-            {
-                Character enemy = currentTarget.GetComponent<Character>();
+            {                
+                Character enemy = presentTarget.GetComponent<Character>();
                 if (enemy == null) { ChangeState(State.Idle); return; }
-                enemy.TakeDamage(atkPower);
+                anim.SetTrigger("Attack");                
                 lastAttackTime = Time.time;
             }
                      
         }
-        if(!currentTarget.gameObject.activeSelf)
+        if(!presentTarget.gameObject.activeSelf)
         {
-            currentTarget = null;
-            ChangeState(State.Idle);
-           
+            presentTarget = null;
+            ChangeState(State.Idle);           
             return;
         }
     }
@@ -147,16 +150,14 @@ public class Character : MonoBehaviour
     {
         if (isHit) return;
 
-        currentHP -= damage;        
+        presentHP -= damage;        
 
         StartCoroutine(hitColor());
 
-        if (currentHP <= 0) Die();
-
+        if (presentHP <= 0) Die();
     }
     IEnumerator hitColor()
-    {
-        
+    {        
         isHit = true;
         if(spriteRenderer == null) yield break;
         Color originColor = spriteRenderer.color;
@@ -168,28 +169,41 @@ public class Character : MonoBehaviour
     }
     void Die()
     {
-       if(anim != null)
-        {
+        if(isDead) return;
+        isDead = true;
+
+        if(anim != null)
+        {            
             anim.SetTrigger("Dead");
         }
-
-       StartCoroutine(Dead());
+        StartCoroutine(Dead());
     }
     IEnumerator Dead()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.4f);
         gameObject.SetActive(false);
     }   
 
     private projectile projectilleCs;
     void FirePeojectile()
     {        
-        if (data.projectilePrefab == null || currentTarget == null) return;
+        if (data.projectilePrefab == null || presentTarget == null) return;
         //복제
         GameObject projectileObj = Instantiate(data.projectilePrefab, transform.position, Quaternion.identity);
         //스크립트 가져오기
         projectilleCs = projectileObj.GetComponent<projectile>();
         //공격력과 타겟 설정
-        projectilleCs.Initialize(currentTarget.GetComponent<Character>(),this,data.AttackPower);
+        projectilleCs.Initialize(presentTarget.GetComponent<Character>(),this,data.AttackPower);
+    }
+    void BlowHit()
+    {
+        if (presentTarget == null) return;
+
+        float atkSpeed = data.AttackSpeed;
+        int atkPower = data.AttackPower;
+        float distance = Vector2.Distance(transform.position, presentTarget.position);
+        Character enemy = presentTarget.GetComponent<Character>();
+        if (enemy == null || !enemy.gameObject.activeSelf) return;
+        enemy.TakeDamage(atkPower);
     }
 }

@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Slime_Attack1-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 36
+        width: 17
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec8a3fcb4d407046b77dd742ba459b8
+      internalID: -1539569645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Attack1-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 36
+        width: 17
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53038e037b091404fac616507750d801
+      internalID: -2090884582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Attack1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 36
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd43ba8fcb0d904b866de23af66617e
+      internalID: -1699338357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Attack1-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 36
+        width: 17
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d91224f1183b4244b762d627c0be691
+      internalID: -277298932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Attack1-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 36
+        width: 31
+        height: 18
+      alignment: 9
+      pivot: {x: 0.29, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0816bfcdbf9764f9421c8990ea64a1
+      internalID: -248599116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Attack1-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 36
+        width: 31
+        height: 18
+      alignment: 9
+      pivot: {x: 0.29, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b87885da3d715488525abf489e570d
+      internalID: 35337944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Attack1-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 36
+        width: 28
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1216d36c79d84ca438a3705eda65093a
+      internalID: -1933379056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Attack1-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 36
+        width: 19
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fc022bc4ca4d541ab0a408d68184b2
+      internalID: -480930021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Slime_Attack1-Sheet_0: -1539569645
+      Monster_Slime_Attack1-Sheet_1: -2090884582
+      Monster_Slime_Attack1-Sheet_2: -1699338357
+      Monster_Slime_Attack1-Sheet_3: -277298932
+      Monster_Slime_Attack1-Sheet_4: -248599116
+      Monster_Slime_Attack1-Sheet_5: 35337944
+      Monster_Slime_Attack1-Sheet_6: -1933379056
+      Monster_Slime_Attack1-Sheet_7: -480930021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

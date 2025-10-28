@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Attack1-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 38
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f871f1602342cb841b0fe7242dd88961
+      internalID: 1054134862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Attack1-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 39
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68614f581146a24eb4c17c42e0991ec
+      internalID: -2051529730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Attack1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 39
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d00b756875e2c949b91578d37aa5813
+      internalID: 2037161803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Attack1-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 39
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aa27d0e9d44884ca57a07cb2076797
+      internalID: -637000458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Attack1-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 39
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf406dba9d888694998c2bb7b71aa1bf
+      internalID: -1760123117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Attack1-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 39
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee02e1fa23125b946bbf0ce8d6e54efd
+      internalID: 815340951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Attack1-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 42
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8927e5045de9bd4bbe640bab3bab249
+      internalID: 1527127628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Attack1-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 39
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4acdf33759ca3048bfda36bc7e17128
+      internalID: 1727399785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Attack1-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 39
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef2242d81f5b1949ac4247ee71d0ee9
+      internalID: -606013152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +321,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Goblin_Bow_Attack1-Sheet_0: 1054134862
+      Monster_Goblin_Bow_Attack1-Sheet_1: -2051529730
+      Monster_Goblin_Bow_Attack1-Sheet_2: 2037161803
+      Monster_Goblin_Bow_Attack1-Sheet_3: -637000458
+      Monster_Goblin_Bow_Attack1-Sheet_4: -1760123117
+      Monster_Goblin_Bow_Attack1-Sheet_5: 815340951
+      Monster_Goblin_Bow_Attack1-Sheet_6: 1527127628
+      Monster_Goblin_Bow_Attack1-Sheet_7: 1727399785
+      Monster_Goblin_Bow_Attack1-Sheet_8: -606013152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Slime_Idle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 36
+        width: 17
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e70bbfdf32738547b6cddd607dd7133
+      internalID: 1898035031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Idle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 36
+        width: 17
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2fb6b9f4e4148438e662f493692707
+      internalID: -137367076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 36
+        width: 17
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba538dca9dd4ca42980c6da46caf4b8
+      internalID: 1599828989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 36
+        width: 19
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c2d014ff309ba43b9418174a81ac4a
+      internalID: 75292982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 36
+        width: 19
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c71fcac9f35fc4186909168766c9e1
+      internalID: -602265926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 36
+        width: 19
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6757748860d2d4fa8e407d5bfc6838
+      internalID: 186899052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Slime_Idle-Sheet_0: 1898035031
+      Monster_Slime_Idle-Sheet_1: -137367076
+      Monster_Slime_Idle-Sheet_2: 1599828989
+      Monster_Slime_Idle-Sheet_3: 75292982
+      Monster_Slime_Idle-Sheet_4: -602265926
+      Monster_Slime_Idle-Sheet_5: 186899052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

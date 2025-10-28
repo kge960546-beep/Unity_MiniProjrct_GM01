@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 15
@@ -2888,8 +2888,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c24ecea5410e766438d0595e36ca9943
-      internalID: -1848698132
+      spriteID: 0ba79c0f729054745a824a71f3b39b80
+      internalID: -2080745399
       vertices: []
       indices: 
       edges: []
@@ -2909,8 +2909,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92c95ca11382d9d4fbed77ec1ab417ee
-      internalID: -1639096114
+      spriteID: 9e9dcfeb2088bf2429a1f2d1fe45d1bd
+      internalID: -1115110070
       vertices: []
       indices: 
       edges: []
@@ -2963,8 +2963,8 @@ TextureImporter:
       tilemap_129: -1771178553
       tilemap_13: 1526999942
       tilemap_130: 969796849
-      tilemap_131: -1848698132
-      tilemap_132: -1639096114
+      tilemap_131: -2080745399
+      tilemap_132: -1115110070
       tilemap_14: 1667004063
       tilemap_15: 1707187576
       tilemap_16: 916622152

@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Walk-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 36
+        width: 26
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a84ceb6d8881714481d0f59392c1f54
+      internalID: -1653105904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Walk-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 36
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb3498904a4963499b63c9d12fb5e60
+      internalID: 126558744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Walk-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 36
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1bb03d41d4b7c4cab7f29b48259da6
+      internalID: 1761255398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Walk-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 36
+        width: 20
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb75f120e92422a4e9178bb3fd11f016
+      internalID: 1380290619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Walk-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 36
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914bb805082408c42bdb61e1f5d9c7db
+      internalID: 64698056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Walk-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 36
+        width: 21
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15f5fb7f70242a46827b92156dbf354
+      internalID: -1252754227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Walk-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 36
+        width: 23
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8919e4307a13eb64daee280d625b0ba6
+      internalID: 264540288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Walk-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 36
+        width: 26
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dffe3027902d240bab8cc7e6feeb4e
+      internalID: 1221938477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Orc_Shield_Walk-Sheet_0: -1653105904
+      Monster_Orc_Shield_Walk-Sheet_1: 126558744
+      Monster_Orc_Shield_Walk-Sheet_2: 1761255398
+      Monster_Orc_Shield_Walk-Sheet_3: 1380290619
+      Monster_Orc_Shield_Walk-Sheet_4: 64698056
+      Monster_Orc_Shield_Walk-Sheet_5: -1252754227
+      Monster_Orc_Shield_Walk-Sheet_6: 264540288
+      Monster_Orc_Shield_Walk-Sheet_7: 1221938477
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

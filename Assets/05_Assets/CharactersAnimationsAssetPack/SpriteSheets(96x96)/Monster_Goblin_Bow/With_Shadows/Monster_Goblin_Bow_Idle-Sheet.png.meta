@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Idle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a903816b631d5343aee6eb109334b9d
+      internalID: 1510515308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Idle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 36
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc839b062a48d945b6b818fb5f332de
+      internalID: -788703059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffaa87b7a79c9344b446b02f82b8cda
+      internalID: 313684031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 36
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946d21298aff8714a9dbbb62fb95863b
+      internalID: 1232568248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 36
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db46225093299b64482d7e17c1c2bf15
+      internalID: 244870600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb8acd00ec2a9e4a8495a4795daec45
+      internalID: 1520625478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Goblin_Bow_Idle-Sheet_0: 1510515308
+      Monster_Goblin_Bow_Idle-Sheet_1: -788703059
+      Monster_Goblin_Bow_Idle-Sheet_2: 313684031
+      Monster_Goblin_Bow_Idle-Sheet_3: 1232568248
+      Monster_Goblin_Bow_Idle-Sheet_4: 244870600
+      Monster_Goblin_Bow_Idle-Sheet_5: 1520625478
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

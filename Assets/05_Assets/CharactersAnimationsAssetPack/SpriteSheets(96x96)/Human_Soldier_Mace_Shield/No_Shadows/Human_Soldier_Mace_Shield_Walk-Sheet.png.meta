@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Walk-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 38
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5868b1007077b84a8a299734c3cd22a
+      internalID: 1057780980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Walk-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 39
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11b50a4a77421b489b9a93bfde52ff6
+      internalID: 1432356076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Walk-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 39
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e24fb8a17c576409d0fc4882dde299
+      internalID: -967995850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Walk-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 39
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6cf8afe8d36da4cb190861e4569a0b
+      internalID: 1972107308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Walk-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 39
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b13529501071bd46b7029cb58381785
+      internalID: -467884016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Walk-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 39
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d290da74d9a54149837aa81abbfb6df
+      internalID: -430062145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Walk-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 39
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd82ce26f70b21c4dbd2c9269d187b98
+      internalID: -483786156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Walk-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 38
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22aacd8764c40554ea0324d061df32b9
+      internalID: 1576084204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Human_Soldier_Mace_Shield_Walk-Sheet_0: 1057780980
+      Human_Soldier_Mace_Shield_Walk-Sheet_1: 1432356076
+      Human_Soldier_Mace_Shield_Walk-Sheet_2: -967995850
+      Human_Soldier_Mace_Shield_Walk-Sheet_3: 1972107308
+      Human_Soldier_Mace_Shield_Walk-Sheet_4: -467884016
+      Human_Soldier_Mace_Shield_Walk-Sheet_5: -430062145
+      Human_Soldier_Mace_Shield_Walk-Sheet_6: -483786156
+      Human_Soldier_Mace_Shield_Walk-Sheet_7: 1576084204
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

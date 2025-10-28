@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5064f3215a0e212439de5d5790b9ddff, type: 3}
+  m_Name: PolearmSoldier_Data
+  m_EditorClassIdentifier: 
+  CharacterName: PolearmSoldier
+  CharacterPrefab: {fileID: 1185544753483233750, guid: 51f7b939763ad6b43b43e3a2b9dd8826, type: 3}
+  HPMax: 150
+  AttackPower: 25
+  AttackSpeed: 1.5
+  moveSpeed: 3
+  attackRange: 3
+  isRenged: 0
+  projectilePrefab: {fileID: 0}

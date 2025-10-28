@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Death-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbbebafbc20e7b44b6436b893b7747f
+      internalID: -1566886432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Death-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 36
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a948d09c8be85444aa56b6c83f6c0c1
+      internalID: 845780337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Death-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 36
+        width: 26
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0827424f1da9bdb43a183814aae87171
+      internalID: -2009708404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Death-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 36
+        width: 29
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f75df7b10ee6942a5b08a4b3d13d75
+      internalID: -119124099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Death-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 36
+        width: 30
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a00da89648b71439207afca23b81f5
+      internalID: 1962599928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Death-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 36
+        width: 32
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc5befb19fe575469d9bcec375f45c3
+      internalID: -987011509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Death-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 36
+        width: 32
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593b2037040fb324091158dcdd7153b3
+      internalID: -1314629132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Death-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 36
+        width: 32
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe006469c36118c4d8933fb051b29edb
+      internalID: -518689133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Death-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 36
+        width: 32
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe49c4875aedeb4d96eaef6815eee0a
+      internalID: 1617089581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Death-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 36
+        width: 32
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e89899d1382d448b7f85b5e7204a99
+      internalID: -1335994036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +342,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Orc_Shield_Death-Sheet_0: -1566886432
+      Monster_Orc_Shield_Death-Sheet_1: 845780337
+      Monster_Orc_Shield_Death-Sheet_2: -2009708404
+      Monster_Orc_Shield_Death-Sheet_3: -119124099
+      Monster_Orc_Shield_Death-Sheet_4: 1962599928
+      Monster_Orc_Shield_Death-Sheet_5: -987011509
+      Monster_Orc_Shield_Death-Sheet_6: -1314629132
+      Monster_Orc_Shield_Death-Sheet_7: -518689133
+      Monster_Orc_Shield_Death-Sheet_8: 1617089581
+      Monster_Orc_Shield_Death-Sheet_9: -1335994036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

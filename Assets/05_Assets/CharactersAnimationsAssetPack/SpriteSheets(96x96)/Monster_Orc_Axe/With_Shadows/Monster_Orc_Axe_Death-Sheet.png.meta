@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Death-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89eaad6c05d106e45805b32552af9d20
+      internalID: -1666309044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Death-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 36
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd74123438aeb8a43999cad48c4fea77
+      internalID: -1898481416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Death-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 36
+        width: 34
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f19ec95bbc0f24c86f561c1c596dd5
+      internalID: -548679587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Death-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 36
+        width: 40
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13be9289954ded40bc74c6c16d7d564
+      internalID: -714309775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Death-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 36
+        width: 42
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030b0f6f428b1be41bd1930f815edc8c
+      internalID: -811078167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Death-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 36
+        width: 42
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4301ed61a0a355046942ac5713f958e9
+      internalID: 1906949489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Death-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 36
+        width: 42
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2303420ab8e489645a2e61582a42d6c2
+      internalID: 168236202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Death-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 36
+        width: 42
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51f6d9770a03ed49804059b7181c0a1
+      internalID: 993891956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Death-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 36
+        width: 42
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e79cf8e03a1c3248996bd730b581b64
+      internalID: -84563732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Death-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 36
+        width: 42
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febe21624d6a6a34f979450d830ae4bc
+      internalID: -267242692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +342,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Orc_Axe_Death-Sheet_0: -1666309044
+      Monster_Orc_Axe_Death-Sheet_1: -1898481416
+      Monster_Orc_Axe_Death-Sheet_2: -548679587
+      Monster_Orc_Axe_Death-Sheet_3: -714309775
+      Monster_Orc_Axe_Death-Sheet_4: -811078167
+      Monster_Orc_Axe_Death-Sheet_5: 1906949489
+      Monster_Orc_Axe_Death-Sheet_6: 168236202
+      Monster_Orc_Axe_Death-Sheet_7: 993891956
+      Monster_Orc_Axe_Death-Sheet_8: -84563732
+      Monster_Orc_Axe_Death-Sheet_9: -267242692
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

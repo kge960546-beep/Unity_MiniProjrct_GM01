@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Idle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc96cb60b9748f44f88ac546bed65946
+      internalID: -1216964448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Idle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 36
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf0a3a8c9d156a4593ea5e6836175d6
+      internalID: -569225854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 36
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac9f968f29bd1d45a3e19d3a0d5b1c4
+      internalID: 877856972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 36
+        width: 15
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a124c284c01c64f973ebc6d89d2a99
+      internalID: 1265103353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 36
+        width: 15
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9771182b02134be498b1495a73d8c711
+      internalID: -1277887201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 36
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffe345831cfb4f4ba86b173b8a1e945
+      internalID: -910979437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Orc_Fist_Idle-Sheet_0: -1216964448
+      Monster_Orc_Fist_Idle-Sheet_1: -569225854
+      Monster_Orc_Fist_Idle-Sheet_2: 877856972
+      Monster_Orc_Fist_Idle-Sheet_3: 1265103353
+      Monster_Orc_Fist_Idle-Sheet_4: -1277887201
+      Monster_Orc_Fist_Idle-Sheet_5: -910979437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Walk-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 36
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9408d9ac697e9de4d8294fcbe31e3b1a
+      internalID: 1535622140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Walk-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 36
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0a113479456694fa9477a3ba63e5c7
+      internalID: -1372170052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Walk-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 36
+        width: 20
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee74d444c63485448934a9923042a05
+      internalID: 1529733843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Walk-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 36
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a96506c0c630f40b599d6e17bc6eb3
+      internalID: -1986071362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Walk-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 36
+        width: 20
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36ead37b6e969343bb1093290813a96
+      internalID: 574267586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Walk-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 36
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5f372cb04a8f94aadbca5357e99c5c
+      internalID: 518440127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Walk-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 36
+        width: 21
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4772e25b834d34cb22f7f31aa6d5ff
+      internalID: 1849794080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Axe_Walk-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 36
+        width: 21
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273d70565caa1f144a43a10d7ca80a27
+      internalID: 2107375868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Orc_Axe_Walk-Sheet_0: 1535622140
+      Monster_Orc_Axe_Walk-Sheet_1: -1372170052
+      Monster_Orc_Axe_Walk-Sheet_2: 1529733843
+      Monster_Orc_Axe_Walk-Sheet_3: -1986071362
+      Monster_Orc_Axe_Walk-Sheet_4: 574267586
+      Monster_Orc_Axe_Walk-Sheet_5: 518440127
+      Monster_Orc_Axe_Walk-Sheet_6: 1849794080
+      Monster_Orc_Axe_Walk-Sheet_7: 2107375868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Idle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 36
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac895cb6c31815458bd5ba1e958f36c
+      internalID: 662592427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Idle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 36
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a1727e568328047a8112dbf4196725
+      internalID: 2005167955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 36
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440458b18aeb81748a39b883ebe06ce1
+      internalID: -317666038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 36
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bed3daa5cac9e140a32feef166b7e5c
+      internalID: -371926251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 36
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376feb4743185c0479ce03fa14933a22
+      internalID: 2119234449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 36
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3b1e8e62f367e4a9168857a19e4a22
+      internalID: -103642514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Human_Soldier_Polearm_Idle-Sheet_0: 662592427
+      Human_Soldier_Polearm_Idle-Sheet_1: 2005167955
+      Human_Soldier_Polearm_Idle-Sheet_2: -317666038
+      Human_Soldier_Polearm_Idle-Sheet_3: -371926251
+      Human_Soldier_Polearm_Idle-Sheet_4: 2119234449
+      Human_Soldier_Polearm_Idle-Sheet_5: -103642514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Walk-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 38
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29dfadf01ea4ca46b1a3dd3b741ef34
+      internalID: 1466680428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Walk-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 39
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ee06ec789394f48bd57218ccda5b25
+      internalID: 1150791174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Walk-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 39
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec459d7b55b13c44baee7e0a02f8148
+      internalID: 868746477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Walk-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 39
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3448619464fce0046af6736ec2282691
+      internalID: -14927581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Walk-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 39
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc639e5c97468f34ba2712a55dbc2842
+      internalID: -323813180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Walk-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 39
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06308e77e72a3764bbf01a0df51af1aa
+      internalID: 463206214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Walk-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 39
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1a30fad5d171945a602f94b9053e19
+      internalID: 593125967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Walk-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 39
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7192a6ea22dc654ea033ca26116dd65
+      internalID: -1070391160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Human_Soldier_Sword_Shield_Walk-Sheet_0: 1466680428
+      Human_Soldier_Sword_Shield_Walk-Sheet_1: 1150791174
+      Human_Soldier_Sword_Shield_Walk-Sheet_2: 868746477
+      Human_Soldier_Sword_Shield_Walk-Sheet_3: -14927581
+      Human_Soldier_Sword_Shield_Walk-Sheet_4: -323813180
+      Human_Soldier_Sword_Shield_Walk-Sheet_5: 463206214
+      Human_Soldier_Sword_Shield_Walk-Sheet_6: 593125967
+      Human_Soldier_Sword_Shield_Walk-Sheet_7: -1070391160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

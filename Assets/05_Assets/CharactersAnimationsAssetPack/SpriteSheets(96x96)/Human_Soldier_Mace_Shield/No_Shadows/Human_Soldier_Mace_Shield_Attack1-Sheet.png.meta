@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Attack1-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 38
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d772a61a2bd414287386b14282d5c5
+      internalID: -486778154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Attack1-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 38
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a260485a6ca62a4e8caae18894785bc
+      internalID: 1720748353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Attack1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 38
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66cdda02d806fd49bad8446d8ee7b90
+      internalID: -238253468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Attack1-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 39
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8519d72c93731254cba6085fcca30275
+      internalID: 1141406193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Attack1-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 39
+        width: 28
+        height: 19
+      alignment: 9
+      pivot: {x: 0.29, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a654a1f56847c554db727a75a6688c70
+      internalID: 424919807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Attack1-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 39
+        width: 29
+        height: 19
+      alignment: 9
+      pivot: {x: 0.29, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb18beb57bd5d547b635ad1d10298f1
+      internalID: 1940032620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Attack1-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 38
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683ea077e251b7348b58ba918a7e96c0
+      internalID: -1054110128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Attack1-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 38
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac80bc8b44ebb3f4dae6867ca6cbcaca
+      internalID: 1375049325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Human_Soldier_Mace_Shield_Attack1-Sheet_0: -486778154
+      Human_Soldier_Mace_Shield_Attack1-Sheet_1: 1720748353
+      Human_Soldier_Mace_Shield_Attack1-Sheet_2: -238253468
+      Human_Soldier_Mace_Shield_Attack1-Sheet_3: 1141406193
+      Human_Soldier_Mace_Shield_Attack1-Sheet_4: 424919807
+      Human_Soldier_Mace_Shield_Attack1-Sheet_5: 1940032620
+      Human_Soldier_Mace_Shield_Attack1-Sheet_6: -1054110128
+      Human_Soldier_Mace_Shield_Attack1-Sheet_7: 1375049325
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Attack1-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 37
+        width: 19
+        height: 23
+      alignment: 9
+      pivot: {x: 0.62, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a86e4d469f66f42a5285dbcdab43f9
+      internalID: 1090887080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Attack1-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 38
+        width: 13
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625e7ef0b1e2f344bb9944a06dd5888c
+      internalID: 1203289620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Attack1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 37
+        width: 22
+        height: 20
+      alignment: 9
+      pivot: {x: 0.25, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1ae7c81ee1a5b44b6aa0b3b6b3683e
+      internalID: -958642573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Attack1-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 38
+        width: 25
+        height: 18
+      alignment: 9
+      pivot: {x: 0.25, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9309f2521679e8e4bbf4762feea5ea24
+      internalID: 1740505389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Attack1-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 37
+        width: 36
+        height: 20
+      alignment: 9
+      pivot: {x: 0.08, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d610e70efd268e146b58182abf706fd9
+      internalID: -849599309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Attack1-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 37
+        width: 38
+        height: 20
+      alignment: 9
+      pivot: {x: 0.08, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f020c4dcb9030bb4f8eaf33674417817
+      internalID: -1634779700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Attack1-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 37
+        width: 29
+        height: 20
+      alignment: 9
+      pivot: {x: 0.08, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88245e606f5a6c948b004ca16944f32d
+      internalID: -141794384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Polearm_Attack1-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 37
+        width: 24
+        height: 20
+      alignment: 9
+      pivot: {x: 0.17, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8b6b24f957a51449e3374fb52425ad
+      internalID: 513146751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Human_Soldier_Polearm_Attack1-Sheet_0: 1090887080
+      Human_Soldier_Polearm_Attack1-Sheet_1: 1203289620
+      Human_Soldier_Polearm_Attack1-Sheet_2: -958642573
+      Human_Soldier_Polearm_Attack1-Sheet_3: 1740505389
+      Human_Soldier_Polearm_Attack1-Sheet_4: -849599309
+      Human_Soldier_Polearm_Attack1-Sheet_5: -1634779700
+      Human_Soldier_Polearm_Attack1-Sheet_6: -141794384
+      Human_Soldier_Polearm_Attack1-Sheet_7: 513146751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

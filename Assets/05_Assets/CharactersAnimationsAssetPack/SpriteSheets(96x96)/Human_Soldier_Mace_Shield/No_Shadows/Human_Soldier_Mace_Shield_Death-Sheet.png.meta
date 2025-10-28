@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Death-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 39
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2207f35b23b3c9b4483154aac852f9c8
+      internalID: -1338064656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Death-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 39
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a781ae59fa8cc5e49ae85984c6f7d474
+      internalID: -130145284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Death-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 36
+        width: 29
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9720ebbcd5e4724096fa4b3209d7d52
+      internalID: -609942632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Death-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 35
+        width: 33
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a7d26d831140842b42e3c39a5a7d74
+      internalID: 1916669586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Death-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 38
+        width: 33
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3413942a4a00874dad5bfced2b57574
+      internalID: 102632641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Death-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 38
+        width: 34
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff191e98104f7dc4a8b3b01826b275e8
+      internalID: -211323614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Death-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 38
+        width: 33
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0389bc8fccee14b921dd61b58e35ae
+      internalID: 680193730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Death-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 38
+        width: 33
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89edc500780433442a0e9e2b7a647736
+      internalID: 201377530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Death-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 38
+        width: 33
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479ba9f3720adaa45a1a1a413376b8c4
+      internalID: -1418837783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Mace_Shield_Death-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 38
+        width: 33
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06adb4576b1968a40b34069327a5888f
+      internalID: -1503841692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +342,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Human_Soldier_Mace_Shield_Death-Sheet_0: -1338064656
+      Human_Soldier_Mace_Shield_Death-Sheet_1: -130145284
+      Human_Soldier_Mace_Shield_Death-Sheet_10: -1503841692
+      Human_Soldier_Mace_Shield_Death-Sheet_2: -609942632
+      Human_Soldier_Mace_Shield_Death-Sheet_3: 148203685
+      Human_Soldier_Mace_Shield_Death-Sheet_4: 1916669586
+      Human_Soldier_Mace_Shield_Death-Sheet_5: 102632641
+      Human_Soldier_Mace_Shield_Death-Sheet_6: -211323614
+      Human_Soldier_Mace_Shield_Death-Sheet_7: 680193730
+      Human_Soldier_Mace_Shield_Death-Sheet_8: 201377530
+      Human_Soldier_Mace_Shield_Death-Sheet_9: -1418837783
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

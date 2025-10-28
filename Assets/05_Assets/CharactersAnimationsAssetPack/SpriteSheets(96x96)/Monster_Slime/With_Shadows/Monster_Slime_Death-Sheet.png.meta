@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Slime_Death-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 36
+        width: 17
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d763435dd2678b42aea6ded4f871268
+      internalID: -561823665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Death-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 36
+        width: 17
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7055d1154f0adc340ba66f3860440557
+      internalID: 1035718065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Death-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 36
+        width: 19
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f923f20d6ca1454386ce2a4c444e424
+      internalID: 280227695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Death-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 36
+        width: 21
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c3fe24573b4eb46a66f45bcf05a7e4
+      internalID: -1642859507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Death-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 36
+        width: 21
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f9c392c22ee824ea988972de80d7ea
+      internalID: 14767965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Death-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 36
+        width: 21
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1caea58dd6603479a3c344c5f4de4e
+      internalID: -1769767106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Death-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 36
+        width: 21
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67813588c895241449949ca038822f7a
+      internalID: -565234875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Death-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 36
+        width: 21
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811f04fba2f0d4c42becec67e076e2f5
+      internalID: 2088209782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Death-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 36
+        width: 21
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec5f2d5a5bacf64fa43477a31a867c7
+      internalID: 609316242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Slime_Death-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 36
+        width: 21
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999fe295b0ba2bf4191392e7e387258b
+      internalID: -932093051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +342,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Slime_Death-Sheet_0: -561823665
+      Monster_Slime_Death-Sheet_1: 1035718065
+      Monster_Slime_Death-Sheet_2: 280227695
+      Monster_Slime_Death-Sheet_3: -1642859507
+      Monster_Slime_Death-Sheet_4: 14767965
+      Monster_Slime_Death-Sheet_5: -1769767106
+      Monster_Slime_Death-Sheet_6: -565234875
+      Monster_Slime_Death-Sheet_7: 2088209782
+      Monster_Slime_Death-Sheet_8: 609316242
+      Monster_Slime_Death-Sheet_9: -932093051
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Idle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 38
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509888795daaa8e4988338e6f90e62fc
+      internalID: 1225964342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Idle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 38
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0867c0d1d07726f4f8e668b029b23a8c
+      internalID: 1390569084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 38
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a5df8c11afafa4da063060e93cc5bf
+      internalID: -593143745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 38
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba853275709e9a742a33c24693498eb4
+      internalID: -1869402981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 38
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94180ad4464a9384b81166e0672ea625
+      internalID: -2139043224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Human_Soldier_Sword_Shield_Idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 38
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2953fb22c57ce6047aa4c3faf1ee4367
+      internalID: -1804750374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Human_Soldier_Sword_Shield_Idle-Sheet_0: 1225964342
+      Human_Soldier_Sword_Shield_Idle-Sheet_1: 1390569084
+      Human_Soldier_Sword_Shield_Idle-Sheet_2: -593143745
+      Human_Soldier_Sword_Shield_Idle-Sheet_3: -1869402981
+      Human_Soldier_Sword_Shield_Idle-Sheet_4: -2139043224
+      Human_Soldier_Sword_Shield_Idle-Sheet_5: -1804750374
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

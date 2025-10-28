@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Walk-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 36
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855c37b5c17299c469b7f197a5fd08ef
+      internalID: -977398592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Walk-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 36
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd2ae6a055a90547a30437c645bcad2
+      internalID: 1492508413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Walk-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 36
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02f1c0b1106baf4abea7d3554a41b59
+      internalID: 1659604786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Walk-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 36
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed90b2d71033bc4ebe77cb99dbcdc3d
+      internalID: 812457306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Walk-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 36
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d259d419507b9db4580be9ae5e5398ee
+      internalID: 467574880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Walk-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 36
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e46af690a027840b9cf970707deeea
+      internalID: -1551855273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Walk-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 36
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66cd604cd3c83e41993923a38886b95
+      internalID: 766630905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Bow_Walk-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 36
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7c956ff0f1c844eae712594d0e83ec
+      internalID: 1376744883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Goblin_Bow_Walk-Sheet_0: -977398592
+      Monster_Goblin_Bow_Walk-Sheet_1: 1492508413
+      Monster_Goblin_Bow_Walk-Sheet_2: 1659604786
+      Monster_Goblin_Bow_Walk-Sheet_3: 812457306
+      Monster_Goblin_Bow_Walk-Sheet_4: 467574880
+      Monster_Goblin_Bow_Walk-Sheet_5: -1551855273
+      Monster_Goblin_Bow_Walk-Sheet_6: 766630905
+      Monster_Goblin_Bow_Walk-Sheet_7: 1376744883
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
