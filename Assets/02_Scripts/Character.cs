@@ -11,14 +11,19 @@ public class Character : MonoBehaviour
     public CharacterData data;
     private SpriteRenderer spriteRenderer;
     private Animator anim;
-    public bool isEnemy;
 
+    public bool isEnemy;
     private int presentHP;
     private float lastAttackTime;
     private bool isHit = false;
     private bool isDead = false;
 
     private Transform presentTarget;
+    public DragController dragController;
+
+    private List<Vector2Int> path;
+    private int pathIndex = 0;
+    private float repathTimer = 0.0f;
 
     public enum State {Idle,Moving,Attacking}
     private State presentState = State.Idle;    
@@ -26,6 +31,7 @@ public class Character : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        dragController = GetComponent<DragController>();
     }
     void Start()
     {
@@ -33,8 +39,33 @@ public class Character : MonoBehaviour
         ChangeState(State.Idle);
     }
     void Update()
-    {        
-        switch(presentState)
+    {
+        Debug.Log($"{name} state = {presentState}, isSpawnZone={dragController?.isSpawnZone}");
+        if (dragController == null)
+            Debug.LogWarning($"{name}: dragController is NULL");
+        if (data == null)
+            Debug.LogWarning($"{name}: data is NULL");
+        if (anim == null)
+            Debug.LogWarning($"{name}: anim is NULL");
+        if (spriteRenderer == null)
+            Debug.LogWarning($"{name}: spriteRenderer is NULL");
+
+        if (dragController != null)
+        {
+            if(dragController.isSpawnZone)
+            {
+                presentTarget = null;
+                ChangeState(State.Idle);
+                if (anim != null)
+                {
+                    anim.ResetTrigger("Attack");
+                    anim.SetInteger("State", (int)State.Idle);
+                }
+                return;
+            }            
+        }
+        
+        switch (presentState)
         {
             case State.Idle:
                 SearchTarget(); break;
@@ -45,8 +76,7 @@ public class Character : MonoBehaviour
         }
     }
     void ChangeState(State newState)
-    {
-        Debug.Log("ChangeState ¡æ " + newState);
+    {        
         if (presentState == newState) return;
         presentState = newState;
         if (anim != null)
@@ -61,13 +91,19 @@ public class Character : MonoBehaviour
     }   
     public void SearchTarget()
     {
+        if (dragController != null && dragController.isSpawnZone)
+            return;
+
         Character nearestTarget = null;
         float nearestDistance = Mathf.Infinity;
+
         foreach (Character other in FindObjectsOfType<Character>())
         {
             if (other == this) continue;
             if(other.isEnemy == isEnemy) continue;
             if (!other.gameObject.activeSelf) continue;
+            if (other.dragController != null && other.dragController.isSpawnZone) continue;
+
             float dist = Vector2.Distance(transform.position, other.transform.position);
             if (dist<nearestDistance)
             {
@@ -80,7 +116,7 @@ public class Character : MonoBehaviour
         {
             presentTarget = nearestTarget.transform;
             ChangeState(State.Moving);           
-        }
+        }       
     }
     public void MoveTarget()
     {
@@ -90,20 +126,41 @@ public class Character : MonoBehaviour
            
             return;
         }
-        float distance = Vector2.Distance(transform.position, presentTarget.position);
-        if(distance <= data.attackRange)
+        repathTimer += Time.deltaTime;
+        if(path == null || repathTimer > 0.5f)
         {
+            repathTimer = 0.0f;
+            Vector2Int start = new Vector2Int(Mathf.RoundToInt(transform.position.x),Mathf.RoundToInt(transform.position.y));
+            Vector2Int end = new Vector2Int(Mathf.RoundToInt(presentTarget.position.x),Mathf.RoundToInt(presentTarget.position.y));
 
-            ChangeState(State.Attacking);
-            
+            if (GameManager.Instance.map != null)
+                path = Node.FindPath(GameManager.Instance.map, start, end);
+
+            pathIndex = 0;
+        }
+        if(path == null || path.Count == 0)
+        {
+            ChangeState(State.Idle);
             return;
         }
-        if(presentTarget.position.x<transform.position.x)
+
+        Vector2 targetPos = new Vector2(path[pathIndex].x + 0.5f, path[pathIndex].y + 0.5f);
+
+        transform.position = Vector2.MoveTowards(transform.position, targetPos, data.moveSpeed * Time.deltaTime);
+
+        if(Vector2.Distance(transform.position,targetPos)<0.1f)
         {
-            spriteRenderer.flipX = true;
+            pathIndex++;
         }
-        else { spriteRenderer.flipX = false;}
-            transform.position = Vector2.MoveTowards(transform.position, presentTarget.position, data.moveSpeed * Time.deltaTime);        
+
+        if(pathIndex >= path.Count -1)
+        {
+            float dist = Vector2.Distance(transform.position, presentTarget.position);
+            if (dist <= data.attackRange)
+                ChangeState(State.Attacking);
+        }
+
+        spriteRenderer.flipX = (presentTarget.position.x < transform.position.x);      
     }
     public void AttackTarget()
     {
@@ -111,7 +168,20 @@ public class Character : MonoBehaviour
         int atkPower = data.AttackPower;
         float distance = Vector2.Distance(transform.position, presentTarget.position);
 
+        if (dragController != null && dragController.isSpawnZone)
+        {
+            ChangeState(State.Idle);
+            return;
+        }
+
         if (presentTarget == null) { SearchTarget(); return; }
+        Character enemy = presentTarget.GetComponent<Character>();
+        if(enemy != null && enemy.dragController != null && enemy.dragController.isSpawnZone)
+        {
+            presentTarget = null;
+            SearchTarget();
+            return;
+        }
 
         if(distance > data.attackRange)
         {
@@ -132,14 +202,14 @@ public class Character : MonoBehaviour
             }
             else
             {                
-                Character enemy = presentTarget.GetComponent<Character>();
                 if (enemy == null) { ChangeState(State.Idle); return; }
                 anim.SetTrigger("Attack");                
                 lastAttackTime = Time.time;
             }
                      
         }
-        if(!presentTarget.gameObject.activeSelf)
+       
+        if (!presentTarget.gameObject.activeSelf)
         {
             presentTarget = null;
             ChangeState(State.Idle);           
@@ -148,6 +218,12 @@ public class Character : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
+        if (dragController != null && dragController.isSpawnZone)
+        {
+            ChangeState(State.Idle);
+            return;
+        }
+
         if (isHit) return;
 
         presentHP -= damage;        
@@ -184,9 +260,33 @@ public class Character : MonoBehaviour
         gameObject.SetActive(false);
     }   
 
+    public void ReSetState()
+    {
+        presentTarget = null;
+        ChangeState(State.Idle);
+        isHit = false;
+        isDead = false;
+
+        if(anim != null)
+        {
+            anim.ResetTrigger("Attack");
+            anim.SetInteger("State", (int)State.Idle);
+        }
+    }
+    private void OnDrawGizmos()
+    {
+        if (path == null) return;
+        Gizmos.color = Color.green;
+        for(int i = 0; i < path.Count; i++)
+        {
+            Gizmos.DrawSphere(new Vector3(path[i].x + 0.5f, path[i].y + 0.5f, 0), 0.1f);
+        }
+    }
     private projectile projectilleCs;
     void FirePeojectile()
-    {        
+    {
+        if (dragController != null && dragController.isSpawnZone)
+            return;
         if (data.projectilePrefab == null || presentTarget == null) return;
         //º¹Á¦
         GameObject projectileObj = Instantiate(data.projectilePrefab, transform.position, Quaternion.identity);
@@ -197,6 +297,8 @@ public class Character : MonoBehaviour
     }
     void BlowHit()
     {
+        if (dragController != null && dragController.isSpawnZone)
+            return;
         if (presentTarget == null) return;
 
         float atkSpeed = data.AttackSpeed;
