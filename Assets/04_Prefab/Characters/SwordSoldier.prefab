@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 122191758038204123}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.8172853, y: 1.4288684, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -125,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: f9b2a8d07efc48c47a1fb9d5f5b6e27e, type: 2}
   isEnemy: 0
+  dragController: {fileID: 0}
 --- !u!70 &2003945562998498467
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -199,6 +200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1532bb82c8eba224995abba7c063a9ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSpawnZone: 0
+  spawnPoints: {fileID: 0}
 --- !u!1 &1197902753553656801
 GameObject:
   m_ObjectHideFlags: 0

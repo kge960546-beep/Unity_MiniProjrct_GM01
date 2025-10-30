@@ -64,9 +64,6 @@ public class DragController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
             isSpawnZone = true;
         }
 
-        Debug.Log($"Hit: {(hit.collider ? hit.collider.name : "Nothing")} | isSpawnZone={isSpawnZone} | spawnPoints={(spawnPoints ? spawnPoints.name : "null")}");
-
-
         sr.color = Color.white;
         col.isTrigger = false;
         col.enabled = true;

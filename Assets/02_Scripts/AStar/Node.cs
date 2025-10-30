@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Node
@@ -31,19 +32,52 @@ public class Node
     }
     private static bool IsValid(bool[,] map,Vector2Int pos)
     {
+        if (map == null) return false;       
+
         int w = map.GetLength(0);
         int h = map.GetLength(1);
-        return (pos.x >= 0 && pos.x < w ) && (pos.y >= 0 && pos.y < h) && map[pos.x, pos.y];
+
+        if (pos.x < 0 || pos.x >= w || pos.y < 0 || pos.y >= h)
+            return false;
+        if (!map[pos.x, pos.y])        { 
+           
+            return false;
+        }
+
+        Vector2Int worldPos = new Vector2Int(pos.x - (GameManager.Instance.mapOffset.x-1), pos.y - (GameManager.Instance.mapOffset.y-1));
+
+        if (!GameManager.Instance.IsInsideBattle(worldPos)) 
+        {           
+            return false; 
+        }        
+        return true;
     }
     public static bool[,] ConvertToMap(List<Vector3Int> wallPositions, int width , int height)
-    {
+    {       
         bool[,] map = new bool[width, height];
+        Vector2Int offSet = new Vector2Int(width / 2, height / 2);
+
         for(int x = 0; x < width;x++)
         {
             for(int y = 0; y < height; y++)
             {
-                Vector2Int pos = new Vector2Int(x,y);
-                map[x, y] = !wallPositions.Contains(new Vector3Int(x,y,0));
+                map[x, y] = true;          
+            }
+        }
+
+        foreach(Vector3Int wall in wallPositions)
+        {
+            int gridX = wall.x + offSet.x;
+            int gridY = wall.y + offSet.y;
+
+            if(gridX >= 0 && gridX < width && gridY >= 0 && gridY < height)
+            {
+                map[gridX, gridY] = false;
+                Debug.Log($"[ConvertToMap] Wall mapped: world={wall} → grid=({gridX},{gridY})");
+            }
+            else
+            {
+                Debug.LogWarning($"[ConvertToMap]  Wall out of bounds: {wall}");
             }
         }
         return map;
@@ -63,7 +97,10 @@ public class Node
     }
     public static List<Vector2Int> FindPath(bool[,] map, Vector2Int start, Vector2Int end)
     {
-        Debug.Log($"[A*] FindPath 실행됨 → start={start}, end={end}");
+        int w = map.GetLength(0);
+        int h = map.GetLength(1);
+        
+        if (!IsValid(map, start) || !IsValid(map, end)) return null;
 
         List<Node> openList = new List<Node>();
         List<Vector2Int> closedList = new List<Vector2Int>();
@@ -75,8 +112,6 @@ public class Node
 
         while (openList.Count > 0)
         {
-            // 3-1) openList 순서 정렬
-            // PriorityQueue를 구현한 경우 해당 과정 필요x
             openList.Sort((a, b) => {
                 // F값 기준 오름차순으로 정렬
                 int fComparison = a.F.CompareTo(b.F);
@@ -90,8 +125,8 @@ public class Node
                 }
                 return fComparison;
             });
-            Node curNode = openList[0];
 
+            Node curNode = openList[0];
             openList.RemoveAt(0);
             closedList.Add(curNode.Position);
 
@@ -113,13 +148,17 @@ public class Node
                     Vector2Int horizontal = new Vector2Int(curNode.Position.x + dir.x, curNode.Position.y);
                     Vector2Int vertical = new Vector2Int(curNode.Position.x, curNode.Position.y + dir.y);
 
-                    if(!IsValid(map, horizontal) || !IsValid(map,vertical))
+                    if (horizontal.x < 0 || horizontal.x >= w || horizontal.y < 0 || horizontal.y >= h ||
+                        vertical.x < 0 || vertical.x >= w || vertical.y < 0 || vertical.y >= h)
+                        continue;
+
+                    if (!map[horizontal.x, horizontal.y] && !map[vertical.x, vertical.y])
                     {
                         continue;
                     }
                 }
-                float deltaG = (dir.x == 0 || dir.y == 0) ? 1f : 1.4f;
 
+                float deltaG = (dir.x == 0 || dir.y == 0) ? 1f : 1.4f;
                 float newG = curNode.G + deltaG;
                 float newH = Heuristic(nextPos, end);
 
