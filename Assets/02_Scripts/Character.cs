@@ -24,11 +24,11 @@ public class Character : MonoBehaviour
     private List<Vector2Int> path;
     private int pathIndex = 0;
     private float repathTimer = 0.0f;
-    private Vector3 lastTargetPos;
-    private float smootDistEnemy = 0.0f;
-
+    private Vector3 lastTargetPos;   
     public enum State {Idle,Moving,Attacking}
-    private State presentState = State.Idle;    
+    private State presentState = State.Idle;
+
+    public int star = 1;
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -231,7 +231,7 @@ public class Character : MonoBehaviour
 
         if(Time.time - lastAttackTime >= 1.0f / atkSpeed)
         {
-            if(data.isRenged)
+            if(data.isRanged)
             {
                 anim.SetTrigger("Attack");
                 lastAttackTime = Time.time;
@@ -317,6 +317,15 @@ public class Character : MonoBehaviour
             Gizmos.DrawSphere(new Vector3(path[i].x - GameManager.Instance.mapOffset.x + 0.5f,
                                           path[i].y - GameManager.Instance.mapOffset.y + 0.5f, 0), 0.1f);
         }
+    }
+    public void Upgrade() 
+    {
+        float hpUp = Mathf.Pow(1.35f, star - 1); 
+        float atkUp = Mathf.Pow(1.35f, star - 1); 
+        float atsUp = Mathf.Pow(1.35f, star - 1); 
+        presentHP = Mathf.RoundToInt(data.HPMax * hpUp); 
+        data.AttackPower = Mathf.RoundToInt(data.AttackPower * atkUp); 
+        data.AttackSpeed = data.AttackSpeed * atsUp; 
     }
     private projectile projectilleCs;
     void FirePeojectile()
