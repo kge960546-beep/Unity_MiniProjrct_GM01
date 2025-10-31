@@ -12,12 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5064f3215a0e212439de5d5790b9ddff, type: 3}
   m_Name: ShieldOrc_Data
   m_EditorClassIdentifier: 
+  id: 9
+  portrait: {fileID: 0}
   CharacterName: ShieldOrc
-  CharacterPrefab: {fileID: 0}
+  Prefabs:
+  - {fileID: 755556432461423304, guid: 4a5d804f423497047ba42bfe721d7c19, type: 3}
+  - {fileID: 755556432461423304, guid: 89a384ea532c4854dbaebcbaeb93fde5, type: 3}
+  - {fileID: 755556432461423304, guid: d486d08e863f85642882dd998657b78b, type: 3}
   HPMax: 400
   AttackPower: 20
   AttackSpeed: 0.5
   moveSpeed: 1
   attackRange: 2
-  isRenged: 0
+  isRanged: 0
   projectilePrefab: {fileID: 0}

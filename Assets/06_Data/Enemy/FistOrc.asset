@@ -12,12 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5064f3215a0e212439de5d5790b9ddff, type: 3}
   m_Name: FistOrc
   m_EditorClassIdentifier: 
+  id: 7
+  portrait: {fileID: 0}
   CharacterName: FisrOrc
-  CharacterPrefab: {fileID: 0}
+  Prefabs:
+  - {fileID: 4693060097476735782, guid: b4d37a5ba9b8a5741b6f3135620e544b, type: 3}
+  - {fileID: 4693060097476735782, guid: 16ee30abf64778e44a5f3b62260950bf, type: 3}
+  - {fileID: 4693060097476735782, guid: e6946c2bf151beb40a25741187eeb5af, type: 3}
   HPMax: 150
   AttackPower: 10
   AttackSpeed: 2
   moveSpeed: 4
   attackRange: 1
-  isRenged: 0
+  isRanged: 0
   projectilePrefab: {fileID: 0}

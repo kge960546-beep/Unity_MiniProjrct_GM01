@@ -12,12 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5064f3215a0e212439de5d5790b9ddff, type: 3}
   m_Name: SwordSoldier_Data
   m_EditorClassIdentifier: 
+  id: 5
+  portrait: {fileID: 0}
   CharacterName: SwordSoldier
-  CharacterPrefab: {fileID: 0}
+  Prefabs:
+  - {fileID: 122191758038204123, guid: 417bbda0d7c3cd347946e887b9aeb0f9, type: 3}
+  - {fileID: 122191758038204123, guid: 13f2ce602d38a134c845ff0702335c55, type: 3}
+  - {fileID: 122191758038204123, guid: 078eaff2eaf86cb45abc676bacd8dab2, type: 3}
   HPMax: 150
   AttackPower: 20
   AttackSpeed: 2
   moveSpeed: 2
   attackRange: 2
-  isRenged: 0
+  isRanged: 0
   projectilePrefab: {fileID: 0}

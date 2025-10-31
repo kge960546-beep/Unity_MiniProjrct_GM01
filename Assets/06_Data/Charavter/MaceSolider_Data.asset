@@ -12,12 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5064f3215a0e212439de5d5790b9ddff, type: 3}
   m_Name: MaceSolider_Data
   m_EditorClassIdentifier: 
+  id: 2
+  portrait: {fileID: 0}
   CharacterName: MaceSoldier
-  CharacterPrefab: {fileID: 2429598562268964559, guid: 5a93d50404d1ee748950f44e69a96b7e, type: 3}
-  HPMax: 200
+  Prefabs:
+  - {fileID: 2429598562268964559, guid: 5a93d50404d1ee748950f44e69a96b7e, type: 3}
+  - {fileID: 2429598562268964559, guid: 33e89f968b74dca4fa087d1eea14c08f, type: 3}
+  - {fileID: 2429598562268964559, guid: f284dab9e8f354d41b7af81592d93a07, type: 3}
+  HPMax: 300
   AttackPower: 20
   AttackSpeed: 0.8
-  moveSpeed: 2
-  attackRange: 2
-  isRenged: 0
+  moveSpeed: 1
+  attackRange: 1
+  isRanged: 0
   projectilePrefab: {fileID: 0}

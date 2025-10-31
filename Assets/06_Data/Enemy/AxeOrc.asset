@@ -12,12 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5064f3215a0e212439de5d5790b9ddff, type: 3}
   m_Name: AxeOrc
   m_EditorClassIdentifier: 
+  id: 6
+  portrait: {fileID: 0}
   CharacterName: AxeOrc
-  CharacterPrefab: {fileID: 0}
+  Prefabs:
+  - {fileID: 6485415352901622634, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
+  - {fileID: 6485415352901622634, guid: f87de7a291f45d842af4dc331672183f, type: 3}
+  - {fileID: 6485415352901622634, guid: d435c0a89127d664caa8f40b454c1720, type: 3}
   HPMax: 300
   AttackPower: 25
   AttackSpeed: 0.6
   moveSpeed: 1
   attackRange: 2
-  isRenged: 0
+  isRanged: 0
   projectilePrefab: {fileID: 0}

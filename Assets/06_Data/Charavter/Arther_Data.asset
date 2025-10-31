@@ -12,12 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5064f3215a0e212439de5d5790b9ddff, type: 3}
   m_Name: Arther_Data
   m_EditorClassIdentifier: 
+  id: 1
+  portrait: {fileID: 0}
   CharacterName: Archer
-  CharacterPrefab: {fileID: 5251797839194311277, guid: 2d7edde0c9bfa5545af649bfc322f6bf, type: 3}
+  Prefabs:
+  - {fileID: 5251797839194311277, guid: 2d7edde0c9bfa5545af649bfc322f6bf, type: 3}
+  - {fileID: 5251797839194311277, guid: a41fb25727c52704e9ec4e1bfbe9cede, type: 3}
+  - {fileID: 5251797839194311277, guid: 55cbbb9f17228174fabc42c3e574ecef, type: 3}
   HPMax: 150
   AttackPower: 15
   AttackSpeed: 0.5
   moveSpeed: 3
   attackRange: 10
-  isRenged: 1
+  isRanged: 0
   projectilePrefab: {fileID: 1618706507104784629, guid: 610a5f7e6b74a2442b643734b569f1d0, type: 3}

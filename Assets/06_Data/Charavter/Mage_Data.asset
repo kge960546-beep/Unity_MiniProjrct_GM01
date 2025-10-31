@@ -12,12 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5064f3215a0e212439de5d5790b9ddff, type: 3}
   m_Name: Mage_Data
   m_EditorClassIdentifier: 
+  id: 3
+  portrait: {fileID: 0}
   CharacterName: Mage
-  CharacterPrefab: {fileID: 6836483330934461809, guid: 351a4c8d0c81c024198873c12a97a129, type: 3}
+  Prefabs:
+  - {fileID: 6836483330934461809, guid: 351a4c8d0c81c024198873c12a97a129, type: 3}
+  - {fileID: 6836483330934461809, guid: 53e109aa50e7b3241b4ea3e298e3ca93, type: 3}
+  - {fileID: 6836483330934461809, guid: 49ba014062c86d347b90b46652b4e1e8, type: 3}
   HPMax: 100
   AttackPower: 30
   AttackSpeed: 0.3
   moveSpeed: 2
-  attackRange: 15
-  isRenged: 1
+  attackRange: 13
+  isRanged: 0
   projectilePrefab: {fileID: 56226461665655948, guid: 3a5fd6a863d2b1b44b098f1d337377ef, type: 3}

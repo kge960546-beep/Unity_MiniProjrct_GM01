@@ -12,12 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5064f3215a0e212439de5d5790b9ddff, type: 3}
   m_Name: Slime
   m_EditorClassIdentifier: 
+  id: 10
+  portrait: {fileID: 0}
   CharacterName: Slime
-  CharacterPrefab: {fileID: 0}
+  Prefabs:
+  - {fileID: 3185869113859795310, guid: 8a2f765158c36214ab372e4028b25882, type: 3}
+  - {fileID: 3185869113859795310, guid: cb8c17ae31ced384388c93aa516378a1, type: 3}
+  - {fileID: 3185869113859795310, guid: f914e5cf942f1104f8e58d8c1ee7be95, type: 3}
   HPMax: 90
   AttackPower: 5
   AttackSpeed: 5
   moveSpeed: 5
   attackRange: 1
-  isRenged: 0
+  isRanged: 0
   projectilePrefab: {fileID: 0}
