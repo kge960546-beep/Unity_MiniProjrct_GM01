@@ -28,18 +28,21 @@ public class Character : MonoBehaviour
     [Header("A*알고리즘")]
     public LayerMask obstacleLayer;
     private List<Vector2Int> path;
-    private int pathIndex = 0;
-    private float repathTimer = 0.0f;
-    private Vector3 lastTargetPos;   
+    private int pathIndex = 0;    
     public enum State {Idle,Moving,Attacking}
     private State presentState = State.Idle;
 
     public int star = 1;
+
+    [Header("AI 전투 오프셋")]
+    [SerializeField] private Vector2 attackOffset;
+    private Vector2 finalAttackPos;
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         dragController = GetComponent<DragController>();
+        attackOffset = new Vector2(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f));
     }
     void Start()
     {
@@ -116,19 +119,21 @@ public class Character : MonoBehaviour
         if(nearestTarget != null)
         {
             presentTarget = nearestTarget.transform;
+            finalAttackPos = (Vector2)presentTarget.position + attackOffset;
             ChangeState(State.Moving);           
         }       
     }
     public void MoveTarget()
     {
-        if(presentTarget == null)
+        if(presentTarget == null || !presentTarget.gameObject.activeSelf)
         {
+            presentTarget = null;
+            path = null;
             ChangeState(State.Idle);           
             return;
         }
         
-        float DistTarget = Vector2.Distance(transform.position, presentTarget.position);
-        
+        float DistTarget = Vector2.Distance(transform.position, presentTarget.position);     
 
         if(DistTarget <= data.attackRange)
         {
@@ -136,48 +141,11 @@ public class Character : MonoBehaviour
             ChangeState(State.Attacking);
             return;                
         }
-        RaycastHit2D hit = Physics2D.Linecast(transform.position, presentTarget.position, obstacleLayer);
-        if(hit.collider == null)
+
+        if (path != null && path.Count > 0)
         {
-            path = null;
-            transform.position = Vector2.MoveTowards(transform.position, presentTarget.position, data.moveSpeed * Time.deltaTime);
-        }
-        else
-        {
-            repathTimer += Time.deltaTime;
-
-            if (path == null || repathTimer > 1.5f)
-            {
-                float moveDist = Vector2.Distance(presentTarget.position, lastTargetPos);
-                if (moveDist > 1.0f || path == null)
-                {
-                    repathTimer = 0.0f;
-                    lastTargetPos = presentTarget.position;
-                    pathIndex = 0;
-
-                    Vector2Int start = new Vector2Int(Mathf.FloorToInt(transform.position.x) + GameManager.Instance.mapOffset.x,
-                                                      Mathf.FloorToInt(transform.position.y) + GameManager.Instance.mapOffset.y);
-
-                    Vector2Int end = new Vector2Int(Mathf.FloorToInt(presentTarget.position.x) + GameManager.Instance.mapOffset.x,
-                                                    Mathf.FloorToInt(presentTarget.position.y) + GameManager.Instance.mapOffset.y);
-
-                    start.x = Mathf.Clamp(start.x, 0, GameManager.Instance.width - 1);
-                    start.y = Mathf.Clamp(start.y, 0, GameManager.Instance.height - 1);
-                    end.x = Mathf.Clamp(end.x, 0, GameManager.Instance.width - 1);
-                    end.y = Mathf.Clamp(end.y, 0, GameManager.Instance.height - 1);
-
-                    Debug.Log($"{name} : start={start}, end={end} map size={GameManager.Instance.width}x{GameManager.Instance.height}");
-
-                    path = Node.FindPath(GameManager.Instance.map, start, end);
-                    Debug.Log($"{name}: path 재계산됨, pathIndex={pathIndex}, pathCount={(path == null ? 0 : path.Count)}");
-                }
-            }
-        }            
-        
-        if(path != null && path.Count > 0)
-        {
-            Vector2 targetPos = new Vector2(path[pathIndex].x - GameManager.Instance.mapOffset.x+0.5f,
-                                        path[pathIndex].y - GameManager.Instance.mapOffset.y+0.5f);
+            Vector2 targetPos = new Vector2(path[pathIndex].x - GameManager.Instance.mapOffset.x + 0.5f,
+                                        path[pathIndex].y - GameManager.Instance.mapOffset.y + 0.5f);
             transform.position = Vector2.MoveTowards(transform.position, targetPos, data.moveSpeed * Time.deltaTime);
 
             if (Vector2.Distance(transform.position, targetPos) < 0.1f)
@@ -185,9 +153,38 @@ public class Character : MonoBehaviour
                 if (pathIndex < path.Count - 1)
                 {
                     pathIndex++;
-                }               
-            }            
-        }       
+                }
+                else
+                {
+                    path = null;
+                }
+            }
+        }
+        else
+        {
+            RaycastHit2D hit = Physics2D.Linecast(transform.position, presentTarget.position, obstacleLayer);
+
+            if (hit.collider == null)
+            {                
+                transform.position = Vector2.MoveTowards(transform.position, finalAttackPos, data.moveSpeed * Time.deltaTime);
+            }
+            else
+            {
+                Vector2Int start = new Vector2Int(Mathf.FloorToInt(transform.position.x) + GameManager.Instance.mapOffset.x,
+                                                     Mathf.FloorToInt(transform.position.y) + GameManager.Instance.mapOffset.y);
+
+                Vector2Int end = new Vector2Int(Mathf.FloorToInt(finalAttackPos.x) + GameManager.Instance.mapOffset.x,
+                                                Mathf.FloorToInt(finalAttackPos.y) + GameManager.Instance.mapOffset.y);
+
+                start.x = Mathf.Clamp(start.x, 0, GameManager.Instance.width - 1);
+                start.y = Mathf.Clamp(start.y, 0, GameManager.Instance.height - 1);
+                end.x = Mathf.Clamp(end.x, 0, GameManager.Instance.width - 1);
+                end.y = Mathf.Clamp(end.y, 0, GameManager.Instance.height - 1);
+
+                pathIndex = 0;
+                path = Node.FindPath(GameManager.Instance.map, start, end);
+            }
+        }             
 
         if (spriteRenderer != null)
             spriteRenderer.flipX = (presentTarget.position.x < transform.position.x);
@@ -198,6 +195,14 @@ public class Character : MonoBehaviour
     }
     public void AttackTarget()
     {
+        if (presentTarget == null || !presentTarget.gameObject.activeSelf)
+        {
+            presentTarget = null;
+            path = null;
+            ChangeState(State.Idle);
+            return;
+        }
+
         float atkSpeed = currentAttackSpeed;
         int atkPower = currentAttackPower;
         float distance = Vector2.Distance(transform.position, presentTarget.position);
