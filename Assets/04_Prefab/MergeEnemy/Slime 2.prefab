@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5192560668428434950}
   - component: {fileID: 6830121433110747751}
   - component: {fileID: 3751648953773881106}
-  - component: {fileID: 8992803141667344395}
+  - component: {fileID: 3800256097203964917}
   m_Layer: 0
   m_Name: Slime 2
   m_TagString: Untagged
@@ -122,9 +122,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f8d8ba6521d3b489306d8cfe21d33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  presentHP: 0
+  currentAttackPower: 0
+  currentAttackSpeed: 0
   data: {fileID: 11400000, guid: 67e62e65269f5cf43830a5a628b4daef, type: 2}
-  dragController: {fileID: 0}
   isEnemy: 1
+  dragController: {fileID: 0}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 64
   star: 3
 --- !u!70 &3751648953773881106
 CapsuleCollider2D:
@@ -161,7 +167,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.008915186, y: 0.51328087}
   m_Size: {x: 0.9109378, y: 0.91093826}
   m_Direction: 0
---- !u!114 &8992803141667344395
+--- !u!114 &3800256097203964917
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,9 +176,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3185869113859795310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d7a431ddc1f8ad4c9bf435dc31b72ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 2feb1c897df090d479697fef5001ae8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  star: 3
+  id: 10
+  nextStarPrefab: {fileID: 0}
 --- !u!1 &5866359493544849856
 GameObject:
   m_ObjectHideFlags: 0

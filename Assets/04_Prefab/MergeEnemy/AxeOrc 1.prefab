@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 1155757157481883404}
   - component: {fileID: 1686639022098235393}
   - component: {fileID: 8606677074386997910}
-  - component: {fileID: 7760209868207879068}
+  - component: {fileID: 7218057524938461261}
   m_Layer: 0
   m_Name: AxeOrc 1
   m_TagString: Untagged
@@ -207,9 +207,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f8d8ba6521d3b489306d8cfe21d33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  presentHP: 0
+  currentAttackPower: 0
+  currentAttackSpeed: 0
   data: {fileID: 11400000, guid: 36a952b46182a854e84b7b5cacc1dd7c, type: 2}
-  dragController: {fileID: 0}
   isEnemy: 1
+  dragController: {fileID: 0}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 64
   star: 2
 --- !u!70 &8606677074386997910
 CapsuleCollider2D:
@@ -246,7 +252,7 @@ CapsuleCollider2D:
   m_Offset: {x: -0.12804747, y: 0.65625}
   m_Size: {x: 0.9673281, y: 1.3125}
   m_Direction: 0
---- !u!114 &7760209868207879068
+--- !u!114 &7218057524938461261
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -255,9 +261,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6485415352901622634}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d7a431ddc1f8ad4c9bf435dc31b72ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 2feb1c897df090d479697fef5001ae8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  star: 2
+  id: 6
+  nextStarPrefab: {fileID: 0}
 --- !u!1 &9044487911267328029
 GameObject:
   m_ObjectHideFlags: 0

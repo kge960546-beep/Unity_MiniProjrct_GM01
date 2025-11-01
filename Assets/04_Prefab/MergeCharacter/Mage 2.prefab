@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 2374122057584014890}
   - component: {fileID: 2128197869325833126}
   - component: {fileID: 3650112380901911501}
-  - component: {fileID: 1477665183890663493}
+  - component: {fileID: 8869548625761376911}
   m_Layer: 0
   m_Name: Mage 2
   m_TagString: Untagged
@@ -209,9 +209,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f8d8ba6521d3b489306d8cfe21d33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  presentHP: 0
+  currentAttackPower: 0
+  currentAttackSpeed: 0
   data: {fileID: 11400000, guid: 323d170f412e33942874bd2bd8638ee5, type: 2}
-  dragController: {fileID: 0}
   isEnemy: 0
+  dragController: {fileID: 0}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 64
   star: 3
 --- !u!70 &2374122057584014890
 CapsuleCollider2D:
@@ -261,7 +267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSpawnZone: 0
-  spawnPoints: {fileID: 0}
+  myOriginalSpPaernt: {fileID: 0}
 --- !u!50 &3650112380901911501
 Rigidbody2D:
   serializedVersion: 4
@@ -289,7 +295,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1477665183890663493
+--- !u!114 &8869548625761376911
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -298,9 +304,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6836483330934461809}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d7a431ddc1f8ad4c9bf435dc31b72ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 2feb1c897df090d479697fef5001ae8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  star: 3
+  id: 3
+  nextStarPrefab: {fileID: 0}
 --- !u!1 &8342750040914942854
 GameObject:
   m_ObjectHideFlags: 0

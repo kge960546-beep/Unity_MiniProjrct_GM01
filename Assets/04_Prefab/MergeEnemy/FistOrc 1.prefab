@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 8605585995565900483}
   - component: {fileID: 3128506385718839477}
   - component: {fileID: 3203400885536902429}
-  - component: {fileID: 1519879852012285853}
+  - component: {fileID: 947299869135369863}
   m_Layer: 0
   m_Name: FistOrc 1
   m_TagString: Untagged
@@ -291,9 +291,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f8d8ba6521d3b489306d8cfe21d33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  presentHP: 0
+  currentAttackPower: 0
+  currentAttackSpeed: 0
   data: {fileID: 11400000, guid: 8a27ebc216130104e8f18428609faa92, type: 2}
-  dragController: {fileID: 0}
   isEnemy: 1
+  dragController: {fileID: 0}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 64
   star: 2
 --- !u!70 &3203400885536902429
 CapsuleCollider2D:
@@ -330,7 +336,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.009693623, y: 0.65625}
   m_Size: {x: 0.7888651, y: 1.3125}
   m_Direction: 0
---- !u!114 &1519879852012285853
+--- !u!114 &947299869135369863
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -339,6 +345,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4693060097476735782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d7a431ddc1f8ad4c9bf435dc31b72ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 2feb1c897df090d479697fef5001ae8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  star: 2
+  id: 7
+  nextStarPrefab: {fileID: 0}

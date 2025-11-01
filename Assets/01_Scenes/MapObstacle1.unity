@@ -6579,7 +6579,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 527458905}
-  - component: {fileID: 527458904}
+  - component: {fileID: 527458906}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6587,25 +6587,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &527458904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527458903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87594d4ba374fd44a9643f093876c4b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  width: 20
-  height: 20
-  wallPositions: []
-  battleMapMin: {x: -14, y: -3}
-  battleMapMax: {x: 14, y: 5}
-  mapOffset: {x: 20, y: 20}
-  mapData: {fileID: 11400000, guid: e65fcf4a1fe1c08469889f16ff29abe6, type: 2}
 --- !u!4 &527458905
 Transform:
   m_ObjectHideFlags: 0
@@ -6621,6 +6602,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &527458906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527458903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87594d4ba374fd44a9643f093876c4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 40
+  height: 40
+  wallPositions: []
+  battleMapMin: {x: -14, y: -3}
+  battleMapMax: {x: 14, y: 5}
+  mapOffset: {x: 0, y: 0}
+  mapData: {fileID: 11400000, guid: e65fcf4a1fe1c08469889f16ff29abe6, type: 2}
 --- !u!1 &553343029
 GameObject:
   m_ObjectHideFlags: 0
@@ -9886,7 +9886,7 @@ GameObject:
   - component: {fileID: 1221458033}
   - component: {fileID: 1221458032}
   - component: {fileID: 1221458031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ornament
   m_TagString: Untagged
   m_Icon: {fileID: 0}

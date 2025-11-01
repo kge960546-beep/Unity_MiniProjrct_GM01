@@ -33,7 +33,10 @@ public class Spwan : MonoBehaviour
         GameObject newUnit = Instantiate(unitSpwan, spawnPoint.position, spawnPoint.rotation);
         newUnit.transform.SetParent(spawnPoint);
         DragController drgCon = newUnit.GetComponent<DragController>();
-        drgCon.isSpawnZone = true;
-        drgCon.spawnPoints = spawnPoint;
+        if(drgCon != null)
+        {
+            drgCon.isSpawnZone = true;
+            drgCon.myOriginalSpPaernt = spawnPoint;
+        }        
     }   
 }

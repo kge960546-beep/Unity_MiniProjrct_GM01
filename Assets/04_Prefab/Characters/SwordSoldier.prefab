@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2003945562998498467}
   - component: {fileID: 2736862009114279560}
   - component: {fileID: 7053376464937925999}
-  - component: {fileID: 3631428631750476435}
+  - component: {fileID: 5103057053214683988}
   m_Layer: 0
   m_Name: SwordSoldier
   m_TagString: Untagged
@@ -125,9 +125,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f8d8ba6521d3b489306d8cfe21d33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  presentHP: 0
+  currentAttackPower: 0
+  currentAttackSpeed: 0
   data: {fileID: 11400000, guid: f9b2a8d07efc48c47a1fb9d5f5b6e27e, type: 2}
-  dragController: {fileID: 0}
   isEnemy: 0
+  dragController: {fileID: 0}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 64
   star: 1
 --- !u!70 &2003945562998498467
 CapsuleCollider2D:
@@ -204,8 +210,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSpawnZone: 0
-  spawnPoints: {fileID: 0}
---- !u!114 &3631428631750476435
+  myOriginalSpPaernt: {fileID: 0}
+--- !u!114 &5103057053214683988
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -214,9 +220,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 122191758038204123}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d7a431ddc1f8ad4c9bf435dc31b72ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 2feb1c897df090d479697fef5001ae8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  star: 1
+  id: 5
+  nextStarPrefab: {fileID: 0}
 --- !u!1 &1197902753553656801
 GameObject:
   m_ObjectHideFlags: 0

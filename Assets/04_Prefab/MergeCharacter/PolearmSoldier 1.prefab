@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: -4278581512266485012}
   - component: {fileID: 5860113769345336996}
   - component: {fileID: 2088660124494442650}
-  - component: {fileID: 1799742573032559593}
+  - component: {fileID: 319510558269450654}
   m_Layer: 0
   m_Name: PolearmSoldier 1
   m_TagString: Untagged
@@ -210,9 +210,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f8d8ba6521d3b489306d8cfe21d33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  presentHP: 0
+  currentAttackPower: 0
+  currentAttackSpeed: 0
   data: {fileID: 11400000, guid: 0b26e2aa7582feb4eb7c4774d91e2432, type: 2}
-  dragController: {fileID: 0}
   isEnemy: 0
+  dragController: {fileID: 0}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 64
   star: 2
 --- !u!70 &-4278581512266485012
 CapsuleCollider2D:
@@ -289,8 +295,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSpawnZone: 0
-  spawnPoints: {fileID: 0}
---- !u!114 &1799742573032559593
+  myOriginalSpPaernt: {fileID: 0}
+--- !u!114 &319510558269450654
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -299,9 +305,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1185544753483233750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d7a431ddc1f8ad4c9bf435dc31b72ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 2feb1c897df090d479697fef5001ae8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  star: 2
+  id: 4
+  nextStarPrefab: {fileID: 0}
 --- !u!1 &5045016667575850446
 GameObject:
   m_ObjectHideFlags: 0

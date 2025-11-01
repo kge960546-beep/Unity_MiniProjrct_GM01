@@ -24,12 +24,12 @@ public class GameManager : MonoBehaviour
     public MapData mapData;
 
     private void Awake()
-    {        
+    {
         Instance = this;
         InitializeMap();
-    }  
+    }
     void InitializeMap()
-    {                
+    {
         if (mapData == null)
         {
             Debug.LogError("[GameManager] mapData == null X");
@@ -40,16 +40,16 @@ public class GameManager : MonoBehaviour
         height = mapData.height;
         wallPositions = new List<Vector3Int>(mapData.wallPos);
 
-        mapOffset = new Vector2Int(width / 2, height / 2);        
+        mapOffset = new Vector2Int(width / 2, height / 2);
 
         Debug.Log($"[GameManager] wallPositions.Count = {wallPositions.Count}");
         foreach (var wall in wallPositions)
         {
             Debug.Log($"[GameManager] wall pos = {wall}");
         }
-        map = Node.ConvertToMap(wallPositions, width,height);
+        map = Node.ConvertToMap(wallPositions, width, height);
 
-        map = InflateWalls(map,1);
+        map = InflateWalls(map, 1);
         ValidateMap();
     }
     bool[,] InflateWalls(bool[,] src, int padding)
@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
                                 dst[nx, ny] = false; // 주변도 벽으로 간주
                         }
                     }
-                        
+
                 }
             }
         return dst;
@@ -92,11 +92,11 @@ public class GameManager : MonoBehaviour
                     blockedCount++;
             }
         }
-    }        
+    }
     public bool IsInsideBattle(Vector2Int worldPos)
     {
         return worldPos.x >= battleMapMin.x && worldPos.x <= battleMapMax.x &&
-               worldPos.y>= battleMapMin.y && worldPos.y <= battleMapMax.y;
+               worldPos.y >= battleMapMin.y && worldPos.y <= battleMapMax.y;
     }
     private void OnDrawGizmosSelected()
     {
@@ -138,4 +138,5 @@ public class GameManager : MonoBehaviour
         Vector3 mapSize = new Vector3(width, height, 0);
         Gizmos.DrawWireCube(mapCenter, mapSize);
     }
+
 }

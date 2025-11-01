@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2226636771246009921}
   - component: {fileID: 8227795205079464551}
   - component: {fileID: 6445242640527422849}
-  - component: {fileID: 398687039821123251}
+  - component: {fileID: 1674458024486498003}
   m_Layer: 0
   m_Name: ShieldOrc 1
   m_TagString: Untagged
@@ -123,9 +123,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f8d8ba6521d3b489306d8cfe21d33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  presentHP: 0
+  currentAttackPower: 0
+  currentAttackSpeed: 0
   data: {fileID: 11400000, guid: b675767b455e6624ea51602fa599dc4a, type: 2}
-  dragController: {fileID: 0}
   isEnemy: 1
+  dragController: {fileID: 0}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 64
   star: 2
 --- !u!70 &6445242640527422849
 CapsuleCollider2D:
@@ -162,7 +168,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.13602018, y: 0.6875}
   m_Size: {x: 1.2279596, y: 1.5}
   m_Direction: 0
---- !u!114 &398687039821123251
+--- !u!114 &1674458024486498003
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,9 +177,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 755556432461423304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d7a431ddc1f8ad4c9bf435dc31b72ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 2feb1c897df090d479697fef5001ae8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  star: 2
+  id: 9
+  nextStarPrefab: {fileID: 0}
 --- !u!1 &1448723019116452964
 GameObject:
   m_ObjectHideFlags: 0
