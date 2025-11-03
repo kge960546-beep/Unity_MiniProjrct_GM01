@@ -7,16 +7,18 @@ public class projectile : MonoBehaviour
 {
     [SerializeField] private float speed = 10.0f;
     private int damage;
+    private bool isSkill;
 
     private Rigidbody2D rb;
     private Character character;
-    private Character owner;
-
-    public void Initialize(Character target,Character owner,int dmg)
+    private Character owner;    
+    public void Initialize(Character target,Character owner,int dmg,bool isSkill)
     {
         character = target;
         this.owner = owner;
         damage = dmg;
+        this.isSkill = isSkill;
+        
     }
     private void Awake()
     {
@@ -38,8 +40,7 @@ public class projectile : MonoBehaviour
         {
             Destroy(gameObject);
             return;
-        }
-        
+        }        
 
         Vector2 dir = ((Vector2)character.transform.position-rb.position).normalized;
         float angle = Mathf.Atan2(dir.y,dir.x)*Mathf.Rad2Deg;
@@ -49,9 +50,15 @@ public class projectile : MonoBehaviour
 
         if(Vector2.Distance(rb.position,character.transform.position)<0.3f)
         {
-            character.TakeDamage(damage);
+            if (isSkill)
+            {
+                character.TakeSkillDamage(damage);
+            }
+            else
+            {
+                character.TakeDamage(damage);
+            }                           
             Destroy(gameObject);
         }
-    }
-    
+    }    
 }

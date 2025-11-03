@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Arther_Data
   m_EditorClassIdentifier: 
   id: 1
-  portrait: {fileID: 0}
   CharacterName: Archer
   Prefabs:
   - {fileID: 5251797839194311277, guid: 2d7edde0c9bfa5545af649bfc322f6bf, type: 3}
@@ -24,5 +23,11 @@ MonoBehaviour:
   AttackSpeed: 0.5
   moveSpeed: 3
   attackRange: 10
-  isRanged: 0
+  MPMax: 70
+  MPRefill: 8
+  skillDamage: 25
+  isRanged: 1
+  SkillClassification: 0
   projectilePrefab: {fileID: 1618706507104784629, guid: 610a5f7e6b74a2442b643734b569f1d0, type: 3}
+  skillEffectPrefab: {fileID: 5786123728374381366, guid: 422d101598fe33b4998c6e55b922fed2, type: 3}
+  skillprojectilePrefab: {fileID: 0}

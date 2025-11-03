@@ -46,7 +46,6 @@ public class MergeObject : MonoBehaviour
                 Debug.LogError(nextPrefab + " 프리팹을 Resources 폴더에서 찾을 수 없습니다!");
             }
             mouseButtonReleased = false;
-
         }       
     }
 }

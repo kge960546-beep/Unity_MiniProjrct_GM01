@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: FistOrc
   m_EditorClassIdentifier: 
   id: 7
-  portrait: {fileID: 0}
   CharacterName: FisrOrc
   Prefabs:
   - {fileID: 4693060097476735782, guid: b4d37a5ba9b8a5741b6f3135620e544b, type: 3}
@@ -24,5 +23,11 @@ MonoBehaviour:
   AttackSpeed: 2
   moveSpeed: 4
   attackRange: 1
+  MPMax: 70
+  MPRefill: 6
+  skillDamage: 0
   isRanged: 0
+  SkillClassification: 0
   projectilePrefab: {fileID: 0}
+  skillEffectPrefab: {fileID: 0}
+  skillprojectilePrefab: {fileID: 0}

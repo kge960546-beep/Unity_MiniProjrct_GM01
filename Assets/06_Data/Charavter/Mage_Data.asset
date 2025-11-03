@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Mage_Data
   m_EditorClassIdentifier: 
   id: 3
-  portrait: {fileID: 0}
   CharacterName: Mage
   Prefabs:
   - {fileID: 6836483330934461809, guid: 351a4c8d0c81c024198873c12a97a129, type: 3}
@@ -24,5 +23,11 @@ MonoBehaviour:
   AttackSpeed: 0.3
   moveSpeed: 2
   attackRange: 13
-  isRanged: 0
+  MPMax: 150
+  MPRefill: 20
+  skillDamage: 40
+  isRanged: 1
+  SkillClassification: 0
   projectilePrefab: {fileID: 56226461665655948, guid: 3a5fd6a863d2b1b44b098f1d337377ef, type: 3}
+  skillEffectPrefab: {fileID: 3250038129724599863, guid: 0da36e8aeb82d8a439360454cf4f9cee, type: 3}
+  skillprojectilePrefab: {fileID: 0}

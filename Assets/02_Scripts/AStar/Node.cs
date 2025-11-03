@@ -72,13 +72,8 @@ public class Node
 
             if(gridX >= 0 && gridX < width && gridY >= 0 && gridY < height)
             {
-                map[gridX, gridY] = false;
-                Debug.Log($"[ConvertToMap] Wall mapped: world={wall} → grid=({gridX},{gridY})");
-            }
-            else
-            {
-                Debug.LogWarning($"[ConvertToMap]  Wall out of bounds: {wall}");
-            }
+                map[gridX, gridY] = false;                
+            }            
         }
         return map;
     }
@@ -112,15 +107,12 @@ public class Node
 
         while (openList.Count > 0)
         {
-            openList.Sort((a, b) => {
-                // F값 기준 오름차순으로 정렬
+            openList.Sort((a, b) => 
+            {                
                 int fComparison = a.F.CompareTo(b.F);
-
-                // 만약 F값이 같으면
+                
                 if (fComparison == 0)
-                {
-                    // H값 기준 오름차순으로 정렬 
-                    // => 남은 경로(H)가 작아야 최단 경로일 가능성 ↑            	
+                {                                	
                     return a.H.CompareTo(b.H);
                 }
                 return fComparison;

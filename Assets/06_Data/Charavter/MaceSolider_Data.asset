@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: MaceSolider_Data
   m_EditorClassIdentifier: 
   id: 2
-  portrait: {fileID: 0}
   CharacterName: MaceSoldier
   Prefabs:
   - {fileID: 2429598562268964559, guid: 5a93d50404d1ee748950f44e69a96b7e, type: 3}
@@ -24,5 +23,11 @@ MonoBehaviour:
   AttackSpeed: 0.8
   moveSpeed: 1
   attackRange: 1
+  MPMax: 60
+  MPRefill: 15
+  skillDamage: 30
   isRanged: 0
+  SkillClassification: 0
   projectilePrefab: {fileID: 0}
+  skillEffectPrefab: {fileID: 0}
+  skillprojectilePrefab: {fileID: 0}

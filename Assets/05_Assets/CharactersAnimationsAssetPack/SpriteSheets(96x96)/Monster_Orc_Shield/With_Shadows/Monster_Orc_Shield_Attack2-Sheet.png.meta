@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Attack2-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 36
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff526b3d755a584f90c54758cfc29f5
+      internalID: 140722843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Attack2-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 36
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2c6782811c4d748884aaa598f3bc6e
+      internalID: -1908367349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Attack2-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 36
+        width: 17
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78419f553a801c8478988cd2ebac7e72
+      internalID: -2109085011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Attack2-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 35
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f51c5f0fed6f44083c8a8230996ddb
+      internalID: -886803531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Attack2-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 30
+        width: 42
+        height: 38
+      alignment: 9
+      pivot: {x: 0.34, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b320c3f1ae4c34989befbda337bcb9
+      internalID: -1721327147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Attack2-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 36
+        width: 40
+        height: 32
+      alignment: 9
+      pivot: {x: 0.32, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d3e869c25af284a91eab8598dd13a3
+      internalID: 1920965820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Attack2-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 36
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e7e38d97158a446bbdddc4fb7650ab
+      internalID: -77326948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Shield_Attack2-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 36
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21090f3b5c9103144a35a942e5f04173
+      internalID: 442446917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Orc_Shield_Attack2-Sheet_0: 140722843
+      Monster_Orc_Shield_Attack2-Sheet_1: -1908367349
+      Monster_Orc_Shield_Attack2-Sheet_2: -2109085011
+      Monster_Orc_Shield_Attack2-Sheet_3: -886803531
+      Monster_Orc_Shield_Attack2-Sheet_4: -1721327147
+      Monster_Orc_Shield_Attack2-Sheet_5: 1920965820
+      Monster_Orc_Shield_Attack2-Sheet_6: -77326948
+      Monster_Orc_Shield_Attack2-Sheet_7: 442446917
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

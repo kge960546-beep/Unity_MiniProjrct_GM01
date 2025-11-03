@@ -22,7 +22,6 @@ public class GameManager : MonoBehaviour
 
     [Header("씬 맵 데이터")]
     public MapData mapData;
-
     private void Awake()
     {
         Instance = this;
@@ -70,7 +69,6 @@ public class GameManager : MonoBehaviour
                                 dst[nx, ny] = false; // 주변도 벽으로 간주
                         }
                     }
-
                 }
             }
         return dst;
@@ -101,16 +99,14 @@ public class GameManager : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         if (map == null) return;
-
-        //  1) 벽(장애물) 위치 시각화
+        
         Gizmos.color = Color.red;
         for (int x = 0; x < width; x++)
         {
             for (int y = 0; y < height; y++)
             {
-                if (!map[x, y]) // false == 벽
-                {
-                    // (월드좌표 변환)
+                if (!map[x, y]) 
+                {                    
                     Vector3 pos = new Vector3(
                         x - mapOffset.x + 0.5f,
                         y - mapOffset.y + 0.5f,
@@ -119,8 +115,7 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
-
-        //  2) 전장(battle zone) 영역 표시
+        
         Gizmos.color = Color.yellow;
         Vector3 center = new Vector3(
             (battleMapMin.x + battleMapMax.x) / 2f,
@@ -131,8 +126,7 @@ public class GameManager : MonoBehaviour
             battleMapMax.y - battleMapMin.y,
             0);
         Gizmos.DrawWireCube(center, size);
-
-        //  3) 맵 경계선 표시 (선택)
+        
         Gizmos.color = Color.cyan;
         Vector3 mapCenter = new Vector3(-mapOffset.x + width / 2f, -mapOffset.y + height / 2f, 0);
         Vector3 mapSize = new Vector3(width, height, 0);

@@ -6,8 +6,6 @@ public class Spwan : MonoBehaviour
 {
     public Transform[] spawnPoints;
     public GameObject[] unitPrefabs;
-    
-
     public void RandomUnitSpawn()
     {
         List<Transform> slots = new List<Transform>();
@@ -19,8 +17,7 @@ public class Spwan : MonoBehaviour
             }            
         }
         if(slots.Count == 0)
-        {
-            Debug.Log("비어있는 슬롯이 없습니다");
+        {           
             return;
         }
         //랜덤 유닛

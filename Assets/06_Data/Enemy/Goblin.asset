@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Goblin
   m_EditorClassIdentifier: 
   id: 8
-  portrait: {fileID: 0}
   CharacterName: Goblin
   Prefabs:
   - {fileID: 1150327097049629461, guid: 6e7ae23befd296148841dd935272c66c, type: 3}
@@ -24,5 +23,11 @@ MonoBehaviour:
   AttackSpeed: 2
   moveSpeed: 4
   attackRange: 10
-  isRanged: 0
+  MPMax: 100
+  MPRefill: 11
+  skillDamage: 0
+  isRanged: 1
+  SkillClassification: 0
   projectilePrefab: {fileID: 2567813042081770120, guid: 0beb07ab32259d44d9a62d8618604994, type: 3}
+  skillEffectPrefab: {fileID: 0}
+  skillprojectilePrefab: {fileID: 1637840839249479185, guid: bd4d0fd664defd4429bd106fa3a8c9bd, type: 3}

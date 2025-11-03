@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: AxeOrc
   m_EditorClassIdentifier: 
   id: 6
-  portrait: {fileID: 0}
   CharacterName: AxeOrc
   Prefabs:
   - {fileID: 6485415352901622634, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
@@ -24,5 +23,11 @@ MonoBehaviour:
   AttackSpeed: 0.6
   moveSpeed: 1
   attackRange: 2
+  MPMax: 100
+  MPRefill: 10
+  skillDamage: 0
   isRanged: 0
+  SkillClassification: 0
   projectilePrefab: {fileID: 0}
+  skillEffectPrefab: {fileID: 0}
+  skillprojectilePrefab: {fileID: 0}

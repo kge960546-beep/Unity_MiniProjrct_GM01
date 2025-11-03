@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: PolearmSoldier_Data
   m_EditorClassIdentifier: 
   id: 4
-  portrait: {fileID: 0}
   CharacterName: PolearmSoldier
   Prefabs:
   - {fileID: 1185544753483233750, guid: 51f7b939763ad6b43b43e3a2b9dd8826, type: 3}
@@ -24,5 +23,11 @@ MonoBehaviour:
   AttackSpeed: 1.5
   moveSpeed: 3
   attackRange: 3
+  MPMax: 50
+  MPRefill: 5
+  skillDamage: 30
   isRanged: 0
+  SkillClassification: 0
   projectilePrefab: {fileID: 0}
+  skillEffectPrefab: {fileID: 0}
+  skillprojectilePrefab: {fileID: 0}

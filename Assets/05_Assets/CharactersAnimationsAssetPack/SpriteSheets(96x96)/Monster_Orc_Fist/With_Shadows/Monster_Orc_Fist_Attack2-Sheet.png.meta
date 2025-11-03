@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Attack2-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8cee3137c83374b8f3168baf8df71f
+      internalID: 990181273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Attack2-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 36
+        width: 15
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562639a0703921d449cce60daf4e2db6
+      internalID: 1466490184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Attack2-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 35
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deb215cf361b7d439944c530ec9cbbb
+      internalID: -1462268659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Attack2-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 35
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9031d72f5d5bd4692a3b4648c7c61f
+      internalID: 1070668362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Attack2-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 36
+        width: 21
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae94502fcf5dd44aba41ad236583d63
+      internalID: -2130021722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Attack2-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 36
+        width: 30
+        height: 22
+      alignment: 9
+      pivot: {x: 0.17, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a8ac40b553ddb44b762a034f6c11d5
+      internalID: 1929228906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Attack2-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 35
+        width: 33
+        height: 24
+      alignment: 9
+      pivot: {x: 0.16, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c314516389f1a46a6ec6b75a6c6d4a
+      internalID: 578593316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Fist_Attack2-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 36
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49636ef4129d31a40a686893df177668
+      internalID: -151888336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster_Orc_Fist_Attack2-Sheet_0: 990181273
+      Monster_Orc_Fist_Attack2-Sheet_1: 1466490184
+      Monster_Orc_Fist_Attack2-Sheet_10: -744569902
+      Monster_Orc_Fist_Attack2-Sheet_11: -1325127528
+      Monster_Orc_Fist_Attack2-Sheet_12: -588380339
+      Monster_Orc_Fist_Attack2-Sheet_13: 1833143946
+      Monster_Orc_Fist_Attack2-Sheet_2: -1462268659
+      Monster_Orc_Fist_Attack2-Sheet_3: 1070668362
+      Monster_Orc_Fist_Attack2-Sheet_4: -2130021722
+      Monster_Orc_Fist_Attack2-Sheet_5: 1929228906
+      Monster_Orc_Fist_Attack2-Sheet_6: 578593316
+      Monster_Orc_Fist_Attack2-Sheet_7: 1774407351
+      Monster_Orc_Fist_Attack2-Sheet_8: -1778076272
+      Monster_Orc_Fist_Attack2-Sheet_9: -151888336
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

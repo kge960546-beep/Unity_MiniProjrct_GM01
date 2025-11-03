@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: ShieldOrc_Data
   m_EditorClassIdentifier: 
   id: 9
-  portrait: {fileID: 0}
   CharacterName: ShieldOrc
   Prefabs:
   - {fileID: 755556432461423304, guid: 4a5d804f423497047ba42bfe721d7c19, type: 3}
@@ -24,5 +23,11 @@ MonoBehaviour:
   AttackSpeed: 0.5
   moveSpeed: 1
   attackRange: 2
+  MPMax: 100
+  MPRefill: 15
+  skillDamage: 0
   isRanged: 0
+  SkillClassification: 0
   projectilePrefab: {fileID: 0}
+  skillEffectPrefab: {fileID: 0}
+  skillprojectilePrefab: {fileID: 0}

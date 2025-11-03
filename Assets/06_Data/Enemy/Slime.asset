@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Slime
   m_EditorClassIdentifier: 
   id: 10
-  portrait: {fileID: 0}
   CharacterName: Slime
   Prefabs:
   - {fileID: 3185869113859795310, guid: 8a2f765158c36214ab372e4028b25882, type: 3}
@@ -24,5 +23,11 @@ MonoBehaviour:
   AttackSpeed: 5
   moveSpeed: 5
   attackRange: 1
+  MPMax: 80
+  MPRefill: 6
+  skillDamage: 0
   isRanged: 0
+  SkillClassification: 0
   projectilePrefab: {fileID: 0}
+  skillEffectPrefab: {fileID: 0}
+  skillprojectilePrefab: {fileID: 0}

@@ -22,13 +22,12 @@ public class DragController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
         sr = GetComponent<SpriteRenderer>();
         col = GetComponent<Collider2D>();
         thisChar = GetComponent<Character>();
-    }
-   
+    }   
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {
         DefaultPos = transform.position;
-        originalSpParent = myOriginalSpPaernt; // 원래 부모(SpawnPoint 등)를 기억
-        transform.SetParent(null); //// 드래그 동안 최상위로 이동하여 자유롭게 움직임
+        originalSpParent = myOriginalSpPaernt; 
+        transform.SetParent(null);
 
         sr.color = new Color(1.0f, 1.0f, 1.0f, 0.6f);
         col.isTrigger = true;       
@@ -66,26 +65,24 @@ public class DragController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
 
         foreach(var hitCollider in hitCol)
         {
-            if (hitCollider.gameObject == this.gameObject) continue; // 자기 자신은 제외
+            if (hitCollider.gameObject == this.gameObject) continue;
 
             Character targetChar = hitCollider.GetComponent<Character>();
-            // 상대방이 Character 컴포넌트를 가지고 있고, ID와 Star가 모두 같다면
+            
             if (targetChar != null &&
                 targetChar.data.id == this.thisChar.data.id &&
                 targetChar.star == this.thisChar.star)
             {
-                return targetChar; // 병합할 대상 캐릭터를 반환
+                return targetChar; 
             }
         }
-        return null; // 병합 대상을 찾지 못함
-    }
-    
+        return null; 
+    }    
     private bool TryMerge(Character otherChar)
     {
         int currentStar = thisChar.star;
         int nextPrefabIndex = currentStar;
-
-        // 다음 등급의 프리팹이 CharacterData에 설정되어 있는지 확인
+        
         if (thisChar.data.Prefabs.Length > nextPrefabIndex && thisChar.data.Prefabs[nextPrefabIndex] != null)
         {
             Transform mergeTile = otherChar.transform.parent;
@@ -105,8 +102,6 @@ public class DragController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
                 newUnitCharacter.ReSetState();
             }
             
-
-            // 병합에 사용된 두 유닛 파괴
             Destroy(otherChar.gameObject);
             Destroy(this.gameObject);
             return true;
@@ -147,7 +142,7 @@ public class DragController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
     }
     private void ResetToDefaultState()
     {
-        sr.sortingOrder = 5; // 원래 sortingOrder로 복구
+        sr.sortingOrder = 5;
         sr.color = Color.white;
         col.isTrigger = false;
         col.enabled = true;

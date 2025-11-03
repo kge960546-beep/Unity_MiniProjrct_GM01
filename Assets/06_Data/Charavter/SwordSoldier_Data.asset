@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: SwordSoldier_Data
   m_EditorClassIdentifier: 
   id: 5
-  portrait: {fileID: 0}
   CharacterName: SwordSoldier
   Prefabs:
   - {fileID: 122191758038204123, guid: 417bbda0d7c3cd347946e887b9aeb0f9, type: 3}
@@ -24,5 +23,11 @@ MonoBehaviour:
   AttackSpeed: 2
   moveSpeed: 2
   attackRange: 2
+  MPMax: 60
+  MPRefill: 9
+  skillDamage: 30
   isRanged: 0
+  SkillClassification: 0
   projectilePrefab: {fileID: 0}
+  skillEffectPrefab: {fileID: 0}
+  skillprojectilePrefab: {fileID: 0}
