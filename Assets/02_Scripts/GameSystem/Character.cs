@@ -18,10 +18,11 @@ public class Character : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Animator anim;
 
-    public bool isEnemy;
-    private bool isUsingSkill = false;
+    public bool isEnemy;   
     private float lastAttackTime;   
     private bool isDead = false;
+    private bool skillReady;
+    private bool isAttacking = false;
 
     private Transform presentTarget;
     public DragController dragController;
@@ -53,6 +54,7 @@ public class Character : MonoBehaviour
     }
     void Start()
     {
+        Time.timeScale = 0;
         Upgrade();
         ChangeState(State.Idle);
     }    
@@ -251,10 +253,10 @@ public class Character : MonoBehaviour
         pathIndex = 0;
     }
     public void AttackTarget()
-    {
+    {       
         if (presentTarget == null || !presentTarget.gameObject.activeSelf)
-        {            
-            path = null;
+        {
+            presentTarget = null;          
             ChangeState(State.Idle);
             return;
         }
@@ -266,8 +268,7 @@ public class Character : MonoBehaviour
             ChangeState(State.Idle);
             return;
         }
-
-        if (presentTarget == null) { SearchTarget(); return; }
+        
         Character enemy = presentTarget.GetComponent<Character>();
         if(enemy != null && enemy.dragController != null && enemy.dragController.isSpawnZone)
         {
@@ -284,20 +285,23 @@ public class Character : MonoBehaviour
         else
         {
             transform.position = transform.position;            
-        }
-        if (isUsingSkill) return;
-        if(Time.time - lastAttackTime >= 1.0f / currentAttackSpeed)
+        }        
+     
+        if(!isAttacking && (Time.time - lastAttackTime) >= 1.0f / currentAttackSpeed || skillReady)
         {
-            bool isSkill = (presentMP >= data.MPMax);
-            if (isSkill)
+            Debug.Log($"[{gameObject.name}] AttackTarget() 진입됨. skillReady = {skillReady}");
+            isAttacking = true;
+
+            if (skillReady)
             {
-                isUsingSkill = true;
-                anim.SetTrigger("useSkill");                
+                Debug.Log($"[{gameObject.name}] useSkill Trigger 발동됨!");
+                anim.SetTrigger("useSkill");
+                skillReady = false;
             }
             else
-            {                
-                if (enemy == null) { ChangeState(State.Idle); return; }
-                anim.SetTrigger("Attack");                
+            {
+                Debug.Log($"[{gameObject.name}] 일반 Attack Trigger 발동됨!");
+                anim.SetTrigger("Attack");
             }
             lastAttackTime = Time.time;
         }
@@ -305,7 +309,7 @@ public class Character : MonoBehaviour
         if (!presentTarget.gameObject.activeSelf)
         {
             presentTarget = null;
-            ChangeState(State.Idle);           
+            ChangeState(State.Idle);
             return;
         }
 
@@ -322,10 +326,16 @@ public class Character : MonoBehaviour
 
         presentHP -= damage;
         StartCoroutine(hitColor());
+        HpSidle hpBar = GetComponentInChildren<HpSidle>();
+        if(hpBar != null)
+        {
+            hpBar.onHpChange?.Invoke(presentHP, data.HPMax);
+        }
         if (presentHP <= 0) Die();
     }    
     public void TakeSkillDamage(int skillDamage)
     {
+        Debug.Log(gameObject.name + "이(가) 스킬 데미지 " + skillDamage + "를 받았습니다!");
         if (dragController != null && dragController.isSpawnZone)
         {
             ChangeState(State.Idle);
@@ -333,13 +343,26 @@ public class Character : MonoBehaviour
         }        
         presentHP -= skillDamage;
         StartCoroutine(hitColor());
+        HpSidle hpBar = GetComponentInChildren<HpSidle>();
+        if (hpBar != null)
+        {
+            hpBar.onHpChange?.Invoke(presentHP, data.HPMax);
+        }
         if (presentHP <= 0) Die();
     }
     public void ManaGain()
     {
         gainMP = data.MPRefill;
-        presentMP += gainMP;
-        presentMP = Mathf.Clamp(presentMP, 0, data.MPMax);       
+        presentMP = Mathf.Min(presentMP + gainMP, data.MPMax);
+        if(presentMP >= data.MPMax)
+        {
+            if (!skillReady) // 스킬 준비 메시지는 한 번만 출력하도록 함
+            {
+                Debug.Log("<color=cyan><b>" + gameObject.name + ": 스킬 준비 완료! (skillReady = true)</b></color>");
+            }
+            skillReady = true;
+            presentMP = data.MPMax;
+        }
     }
    
     IEnumerator hitColor()
@@ -439,10 +462,12 @@ public class Character : MonoBehaviour
                 projectilleCs.Initialize(presentTarget.GetComponent<Character>(), this, currentSkillPower, true);                           
                 break;
         }
+        skillReady = false;
         presentMP = 0;
     }
     void BlowHit()
     {
+        Debug.Log($"[BlowSkill] target: {presentTarget}, active: {(presentTarget ? presentTarget.gameObject.activeSelf : false)}");
         if (dragController != null && dragController.isSpawnZone)
             return;
         if (presentTarget == null) return;
@@ -455,16 +480,17 @@ public class Character : MonoBehaviour
     }
     void BlowSkill()
     {
+        Debug.Log($"[{gameObject.name}] BlowSkill() 실행됨");
         if (presentTarget == null) return;
         Character enemy = presentTarget.GetComponent<Character>();
         if (enemy == null || !enemy.gameObject.activeSelf) return;
 
         enemy.TakeSkillDamage(currentSkillPower);
+        skillReady = false;
         presentMP = 0;
     }
-    void SkillEnd()
+    public void FinishAttack()
     {
-        //anim.SetInteger("State", 0);
-        isUsingSkill = false;
+        isAttacking = false;
     }
 }

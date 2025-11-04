@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spwan : MonoBehaviour
+public class Spawn : MonoBehaviour
 {
     public Transform[] spawnPoints;
-    public GameObject[] unitPrefabs;
+    public GameObject[] unitPrefabs;   
+
+    public int summonCost = 20;   
     public void RandomUnitSpawn()
     {
         List<Transform> slots = new List<Transform>();
@@ -26,14 +28,23 @@ public class Spwan : MonoBehaviour
         //비어있는 슬롯 지정
         int randomSpawnI = Random.Range(0, slots.Count);
         Transform spawnPoint = slots[randomSpawnI];
-        //슬롯 위치로 스폰
-        GameObject newUnit = Instantiate(unitSpwan, spawnPoint.position, spawnPoint.rotation);
-        newUnit.transform.SetParent(spawnPoint);
-        DragController drgCon = newUnit.GetComponent<DragController>();
-        if(drgCon != null)
+        if(GameManager.Instance.SpendGold(summonCost))
         {
-            drgCon.isSpawnZone = true;
-            drgCon.myOriginalSpPaernt = spawnPoint;
-        }        
+            //슬롯 위치로 스폰
+            GameObject newUnit = Instantiate(unitSpwan, spawnPoint.position, spawnPoint.rotation);
+            newUnit.transform.SetParent(spawnPoint);
+            DragController drgCon = newUnit.GetComponent<DragController>();
+            if (drgCon != null)
+            {
+                drgCon.isSpawnZone = true;
+                drgCon.myOriginalSpPaernt = spawnPoint;
+            }
+        }
+        else
+        {
+            return;
+        }
+        
+       
     }   
 }

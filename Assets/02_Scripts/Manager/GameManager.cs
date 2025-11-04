@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,10 +23,44 @@ public class GameManager : MonoBehaviour
 
     [Header("æ¿ ∏  µ•¿Ã≈Õ")]
     public MapData mapData;
+
+    [Header("∞ÒµÂΩ√Ω∫≈€")]
+    [SerializeField] private int playerGold = 100;
+    public int goldConsumption = 20;
+    public event Action<int> OnGoldChanged;
+
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);            
+        }
+        else { Destroy(gameObject); return; }
         InitializeMap();
+
+    }
+    public bool SpendGold(int amountSpend)
+    {       
+        if (playerGold >= amountSpend)
+        {
+            playerGold -= amountSpend;
+            OnGoldChanged?.Invoke(playerGold);
+            return true;
+        }
+        else
+        {
+            Debug.Log("∞ÒµÂ∞° ∫Œ¡∑«’¥œ¥Ÿ");
+            return false;
+        }
+    }
+    public void EarnGold(int amountEarn)
+    {
+        if(amountEarn > 0)
+        {
+            playerGold += amountEarn;
+            OnGoldChanged?.Invoke(playerGold);
+        }        
     }
     void InitializeMap()
     {

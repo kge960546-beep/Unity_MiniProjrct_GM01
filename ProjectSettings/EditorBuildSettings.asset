@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/01_Scenes/MapFlat.unity
+    path: Assets/01_Scenes/MapFlat1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/01_Scenes/MainMenu.unity
+    guid: 1c4ec5ae4573ac34aa2bd04e13387419
+  - enabled: 1
+    path: Assets/01_Scenes/MapObstacle1.unity
+    guid: 89757df22b074024eb606790b6119757
+  - enabled: 1
+    path: Assets/01_Scenes/MapObstacle2.unity
+    guid: a7677441d0a82494d8394dd1da17eef9
   m_configObjects: {}

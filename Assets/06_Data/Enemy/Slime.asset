@@ -25,7 +25,7 @@ MonoBehaviour:
   attackRange: 1
   MPMax: 80
   MPRefill: 6
-  skillDamage: 0
+  skillDamage: 10
   isRanged: 0
   SkillClassification: 0
   projectilePrefab: {fileID: 0}
