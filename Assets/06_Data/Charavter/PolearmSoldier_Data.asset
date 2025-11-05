@@ -16,8 +16,8 @@ MonoBehaviour:
   CharacterName: PolearmSoldier
   Prefabs:
   - {fileID: 1185544753483233750, guid: 51f7b939763ad6b43b43e3a2b9dd8826, type: 3}
-  - {fileID: 1185544753483233750, guid: 26742e14d0e407741a29f8d0df2e322b, type: 3}
-  - {fileID: 1185544753483233750, guid: 51ec88b721a8e524382c7092e41f8087, type: 3}
+  - {fileID: 1185544753483233750, guid: 08239036b154490498035469591ebe63, type: 3}
+  - {fileID: 1185544753483233750, guid: 0bdec28e780470646af41daf4cb270b3, type: 3}
   HPMax: 220
   AttackPower: 25
   AttackSpeed: 1.5

@@ -16,8 +16,8 @@ MonoBehaviour:
   CharacterName: AxeOrc
   Prefabs:
   - {fileID: 6485415352901622634, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
-  - {fileID: 6485415352901622634, guid: f87de7a291f45d842af4dc331672183f, type: 3}
-  - {fileID: 6485415352901622634, guid: d435c0a89127d664caa8f40b454c1720, type: 3}
+  - {fileID: 6485415352901622634, guid: 4f9f99c02df8a8348a89bb2af640065f, type: 3}
+  - {fileID: 6485415352901622634, guid: 4dce6b5ef27638047ab16cfca09911db, type: 3}
   HPMax: 300
   AttackPower: 25
   AttackSpeed: 0.6

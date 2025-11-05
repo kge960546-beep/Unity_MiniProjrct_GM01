@@ -16,8 +16,8 @@ MonoBehaviour:
   CharacterName: Goblin
   Prefabs:
   - {fileID: 1150327097049629461, guid: 6e7ae23befd296148841dd935272c66c, type: 3}
-  - {fileID: 1150327097049629461, guid: f2d1ef7ee73116341a3935a670654c00, type: 3}
-  - {fileID: 1150327097049629461, guid: 244d9070d6190bd40ba159fe05eb3069, type: 3}
+  - {fileID: 1150327097049629461, guid: 4321530bd11eb0541860a7c30abb4c4d, type: 3}
+  - {fileID: 1150327097049629461, guid: 1de15205a6555d74ca98545c3de06189, type: 3}
   HPMax: 120
   AttackPower: 15
   AttackSpeed: 2

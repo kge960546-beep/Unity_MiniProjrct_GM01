@@ -354,7 +354,12 @@ public class Character : MonoBehaviour
     {
         gainMP = data.MPRefill;
         presentMP = Mathf.Min(presentMP + gainMP, data.MPMax);
-        if(presentMP >= data.MPMax)
+        MpSidle mpBar = GetComponentInChildren<MpSidle>();
+        if (mpBar != null)
+        {
+            mpBar.RegenerateMana(gainMP);
+        }
+        if (presentMP >= data.MPMax)
         {
             if (!skillReady) // 스킬 준비 메시지는 한 번만 출력하도록 함
             {
@@ -464,6 +469,11 @@ public class Character : MonoBehaviour
         }
         skillReady = false;
         presentMP = 0;
+        MpSidle mpBar = GetComponentInChildren<MpSidle>();
+        if (mpBar != null)
+        {
+            mpBar.UseMana(data.MPMax); // 전부 소모
+        }
     }
     void BlowHit()
     {
@@ -488,6 +498,11 @@ public class Character : MonoBehaviour
         enemy.TakeSkillDamage(currentSkillPower);
         skillReady = false;
         presentMP = 0;
+        MpSidle mpBar = GetComponentInChildren<MpSidle>();
+        if (mpBar != null)
+        {
+            mpBar.UseMana(data.MPMax); // 전부 소모
+        }
     }
     public void FinishAttack()
     {

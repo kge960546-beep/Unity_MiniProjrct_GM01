@@ -16,8 +16,8 @@ MonoBehaviour:
   CharacterName: Slime
   Prefabs:
   - {fileID: 3185869113859795310, guid: 8a2f765158c36214ab372e4028b25882, type: 3}
-  - {fileID: 3185869113859795310, guid: cb8c17ae31ced384388c93aa516378a1, type: 3}
-  - {fileID: 3185869113859795310, guid: f914e5cf942f1104f8e58d8c1ee7be95, type: 3}
+  - {fileID: 3185869113859795310, guid: 9c004e7a57a431a4cb705ce6223d3cfe, type: 3}
+  - {fileID: 3185869113859795310, guid: a14c7ba394eafbc45bc5d8ba6968a3ca, type: 3}
   HPMax: 90
   AttackPower: 5
   AttackSpeed: 5

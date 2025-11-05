@@ -16,8 +16,8 @@ MonoBehaviour:
   CharacterName: Mage
   Prefabs:
   - {fileID: 6836483330934461809, guid: 351a4c8d0c81c024198873c12a97a129, type: 3}
-  - {fileID: 6836483330934461809, guid: 53e109aa50e7b3241b4ea3e298e3ca93, type: 3}
-  - {fileID: 6836483330934461809, guid: 49ba014062c86d347b90b46652b4e1e8, type: 3}
+  - {fileID: 6836483330934461809, guid: 30099be838675dc4a90f15bf2db5ce27, type: 3}
+  - {fileID: 6836483330934461809, guid: 5e004fa7b071cd6448c2c1d299a55080, type: 3}
   HPMax: 100
   AttackPower: 30
   AttackSpeed: 0.3

@@ -16,8 +16,8 @@ MonoBehaviour:
   CharacterName: FisrOrc
   Prefabs:
   - {fileID: 4693060097476735782, guid: b4d37a5ba9b8a5741b6f3135620e544b, type: 3}
-  - {fileID: 4693060097476735782, guid: 16ee30abf64778e44a5f3b62260950bf, type: 3}
-  - {fileID: 4693060097476735782, guid: e6946c2bf151beb40a25741187eeb5af, type: 3}
+  - {fileID: 4693060097476735782, guid: 0823a563cfdc4ec40b4aceb9e791f4f6, type: 3}
+  - {fileID: 4693060097476735782, guid: 879f7561ed7694e4a8b5f28de96f58bf, type: 3}
   HPMax: 150
   AttackPower: 10
   AttackSpeed: 2

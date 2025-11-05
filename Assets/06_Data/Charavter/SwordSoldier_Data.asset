@@ -16,8 +16,8 @@ MonoBehaviour:
   CharacterName: SwordSoldier
   Prefabs:
   - {fileID: 122191758038204123, guid: 417bbda0d7c3cd347946e887b9aeb0f9, type: 3}
-  - {fileID: 122191758038204123, guid: 13f2ce602d38a134c845ff0702335c55, type: 3}
-  - {fileID: 122191758038204123, guid: 078eaff2eaf86cb45abc676bacd8dab2, type: 3}
+  - {fileID: 122191758038204123, guid: 1d361243f55aedb47a5afd57055d2044, type: 3}
+  - {fileID: 122191758038204123, guid: eb8551cbf8e4dea43b7ec1826481dd7e, type: 3}
   HPMax: 150
   AttackPower: 20
   AttackSpeed: 2
