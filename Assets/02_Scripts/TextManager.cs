@@ -25,15 +25,14 @@ public class TextManager : MonoBehaviour
     private int stageStartGold;
 
     private bool _restarting = false;
-    private bool _loadingNext = false;
-    private void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);       
-    }
+    private bool _loadingNext = false;    
     void Start()
     {
-        friendlyUnit.Clear();
-        enemyUnit.Clear();
+        if (friendlyUnit == null) friendlyUnit = new List<GameObject>();
+        else friendlyUnit.Clear();
+
+        if (enemyUnit == null) enemyUnit = new List<GameObject>();
+        else enemyUnit.Clear();
 
         isGameOver = false;
         isStageClear = false;
@@ -46,6 +45,7 @@ public class TextManager : MonoBehaviour
         if (GameManager.Instance != null && coinText != null)
             coinText.text = GameManager.Instance.playerGold.ToString("N0");
 
+        UpdateLifeUI();
         StopTime();
     }
     void Update()
@@ -57,11 +57,11 @@ public class TextManager : MonoBehaviour
         {
             Restart();
         }
-        if(isStageClear)
+        if(isStageClear && !_loadingNext)
         {
             NextGame();            
         }
-        if(isYouDead)
+        if(isYouDead && !_restarting)
         {
             AgainGame();
         }
@@ -69,8 +69,8 @@ public class TextManager : MonoBehaviour
     public void StartTime()
     {        
         Time.timeScale = 1;
-
-        stageStartGold = GameManager.Instance.playerGold;
+        if (GameManager.Instance != null)
+            stageStartGold = GameManager.Instance.playerGold;        
 
         foreach (GameObject obj in objsHide)
         {
@@ -80,10 +80,17 @@ public class TextManager : MonoBehaviour
             }
         }
         Character[] allUnits = FindObjectsOfType<Character>();
+        friendlyUnit.Clear();
+        enemyUnit.Clear();
         foreach (Character unit in allUnits)
-        {           
-            unit.isBattle = true;
-           
+        {            
+            bool inBattle = true;
+            if (GameManager.Instance != null)
+            {
+                var p = Vector2Int.RoundToInt((Vector2)unit.transform.position);
+                inBattle = GameManager.Instance.IsInsideBattle(p);
+            }
+            unit.isBattle = inBattle;
             if (unit.dragController != null)
             {
                 unit.dragController.enabled = false;
@@ -102,15 +109,23 @@ public class TextManager : MonoBehaviour
                 obj.SetActive(true);
             }
         }
+
+        var units = FindObjectsOfType<Character>();
+        foreach (var u in units)
+        {
+            if (u.dragController != null) u.dragController.enabled = true;
+            u.isBattle = false;
+        }
     }
     void AddCoin(int plusGold = 100)
     {
-        GameManager.Instance.playerGold += plusGold;       
+        if (GameManager.Instance != null)
+            GameManager.Instance.playerGold += plusGold;
     }   
     void Restart()
     {
         isGameOver = true;
-        gameOver.gameObject.SetActive(true);
+        if (gameOver) gameOver.gameObject.SetActive(true);
         StopTime();
     }
     void NextGame()
@@ -150,23 +165,18 @@ public class TextManager : MonoBehaviour
     }
     public void UpdateLifeUI()
     {
-        int life = GameManager.Instance.lifeCount;
+        if (GameManager.Instance == null || lifeHeart == null) return;
 
+        int life = GameManager.Instance.lifeCount;
         for (int i = 0; i < lifeHeart.Length; i++)
         {
-            if (i < life)
-            {
-                lifeHeart[i].gameObject.SetActive(true);
-            }
-            else
-            {
-                lifeHeart[i].gameObject.SetActive(false);
-            }
+            if (lifeHeart[i] == null) continue;
+            lifeHeart[i].gameObject.SetActive(i < life);
         }
     }
     IEnumerator LoadNextScene()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSecondsRealtime(2f);
 
         int currentScene = SceneManager.GetActiveScene().buildIndex;
         int nextScene = currentScene + 1;
@@ -175,9 +185,7 @@ public class TextManager : MonoBehaviour
 
         if (nextScene < SceneManager.sceneCountInBuildSettings)
         {
-            SceneManager.LoadScene(nextScene);
-            yield return null;
-            StopTime();
+            SceneManager.LoadScene(nextScene);           
         }
         else
         {
@@ -189,20 +197,36 @@ public class TextManager : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(1f);
-            friendlyUnit.RemoveAll(u => u == null);
-            enemyUnit.RemoveAll(u => u == null);
+            yield return new WaitForSecondsRealtime(1f);
 
-            if (friendlyUnit.Count == 0 && enemyUnit.Count > 0)
+            int friendCount = 0;
+            int enemyCount = 0;
+
+            var chars = FindObjectsOfType<Character>();
+            foreach (var cs in chars)
+            {
+                if (!cs.gameObject.activeInHierarchy) continue;
+                
+                if (GameManager.Instance != null)
+                {
+                    var p = Vector2Int.RoundToInt((Vector2)cs.transform.position);
+                    if (!GameManager.Instance.IsInsideBattle(p)) continue; // ← 대기실 제외
+                }
+
+                if (cs.isEnemy) enemyCount++;
+                else friendCount++;
+            }
+            if (friendCount <= 0 && enemyCount > 0)
             {
                 isYouDead = true;
-                yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSecondsRealtime(0.5f);
                 yield break;
             }
-            if (enemyUnit.Count == 0 && friendlyUnit.Count > 0)
+
+            if (enemyCount <= 0 && friendCount > 0)
             {
                 isStageClear = true;
-                yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSecondsRealtime(0.5f);
                 yield break;
             }
         }       
@@ -212,24 +236,14 @@ public class TextManager : MonoBehaviour
         youDead.gameObject.SetActive(true);
         StopTime();
 
-        yield return new WaitForSeconds(2.5f);
-        
-        string currentScene = SceneManager.GetActiveScene().name;
-        SceneManager.LoadScene(currentScene);
-        yield return null;
-        
+        yield return new WaitForSecondsRealtime(2.5f);
         GameManager.Instance.playerGold = stageStartGold;
-        if (coinText != null)
-            coinText.text = GameManager.Instance.playerGold.ToString("N0");
 
         friendlyUnit.Clear();
         enemyUnit.Clear();
-        
-        youDead.gameObject.SetActive(false);
-        StopTime();
 
-        isYouDead = false;
-        _restarting = false;
+        string currentScene = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(currentScene);
     }
     public void RestartButton()
     {
@@ -237,7 +251,7 @@ public class TextManager : MonoBehaviour
         UpdateLifeUI();
         restartButton.gameObject.SetActive(false);
         Time.timeScale = 1f;
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu");
     }
     public void PauseButton()
     {
