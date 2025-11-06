@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawn : MonoBehaviour
 {
     public Transform[] spawnPoints;
-    public GameObject[] unitPrefabs;   
+    public GameObject[] unitPrefabs;
 
     public int summonCost = 20;   
     public void RandomUnitSpawn()
@@ -28,17 +28,18 @@ public class Spawn : MonoBehaviour
         //비어있는 슬롯 지정
         int randomSpawnI = Random.Range(0, slots.Count);
         Transform spawnPoint = slots[randomSpawnI];
-        if(GameManager.Instance.SpendGold(summonCost))
+        //유닛 스폰
+        if (GameManager.Instance.SpendGold(summonCost))
         {
-            //슬롯 위치로 스폰
             GameObject newUnit = Instantiate(unitSpwan, spawnPoint.position, spawnPoint.rotation);
             newUnit.transform.SetParent(spawnPoint);
             DragController drgCon = newUnit.GetComponent<DragController>();
             if (drgCon != null)
             {
                 drgCon.isSpawnZone = true;
-                drgCon.myOriginalSpPaernt = spawnPoint;
-            }
+                drgCon.UpdatePositionAndParent();
+                drgCon.ResetColliderState();
+            }           
         }
         else
         {

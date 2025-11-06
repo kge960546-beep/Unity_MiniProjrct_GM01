@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: db7128d0197bb024a8775d86c23b5310
+guid: 752d25f1b45fe9c4192bcb1732a19ed0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_0
+      name: "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_0"
       rect:
         serializedVersion: 2
-        x: 39
-        y: 39
-        width: 21
-        height: 18
+        x: 123
+        y: 571
+        width: 739
+        height: 308
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fab6f87559bfd545a9e6552359b9fa8
-      internalID: 794307266
+      spriteID: 49195382a5842884184c294a791f4cd3
+      internalID: -849097972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_1
+      name: "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_16"
       rect:
         serializedVersion: 2
-        x: 136
-        y: 39
-        width: 18
-        height: 18
+        x: 178
+        y: 330
+        width: 699
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,134 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 013ca55b7022b81429b3e5cf1e7692f4
-      internalID: 2095447236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 39
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cc5038ae98fcba46969f589eb57159f
-      internalID: -290587984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 39
-        width: 15
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d81b4ceabf0b8394fbb68fd846a94712
-      internalID: 54959733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 427
-        y: 37
-        width: 30
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71a649eb96a79634085a20262e9fc0c4
-      internalID: -797604752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 523
-        y: 37
-        width: 30
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56ca3bee866cc804791c158f64a557c6
-      internalID: 1458920188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 619
-        y: 37
-        width: 27
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b507ab4a08b2cb34bace1cdd8618fca1
-      internalID: 1396273072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 713
-        y: 38
-        width: 22
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 885d9f1a8d760384886897ed2e312a0d
-      internalID: -213234822
+      spriteID: 3a342b0be5adca143be2c889047bed16
+      internalID: 182877758
       vertices: []
       indices: 
       edges: []
@@ -301,14 +175,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Monster_Orc_Axe_Attack1-Sheet_0: 794307266
-      Monster_Orc_Axe_Attack1-Sheet_1: 2095447236
-      Monster_Orc_Axe_Attack1-Sheet_2: -290587984
-      Monster_Orc_Axe_Attack1-Sheet_3: 54959733
-      Monster_Orc_Axe_Attack1-Sheet_4: -797604752
-      Monster_Orc_Axe_Attack1-Sheet_5: 1458920188
-      Monster_Orc_Axe_Attack1-Sheet_6: 1396273072
-      Monster_Orc_Axe_Attack1-Sheet_7: -213234822
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_0": -849097972
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_1": 1267301653
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_10": 1843525521
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_11": -640553946
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_12": -1884606548
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_13": 1439648389
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_14": 284161914
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_15": 1312692624
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_16": 182877758
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_17": 645172971
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_18": 311596036
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_19": -1148868274
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_2": -2090739883
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_20": -1032969783
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_21": 492152014
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_22": -295138365
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_3": 1328224913
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_4": -385088568
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_5": 1474958120
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_6": -91873598
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_7": -679766311
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_8": -466280853
+      "ChatGPT Image 2025\uB144 11\uC6D4 5\uC77C \uC624\uD6C4 09_21_50_9": -1876260148
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

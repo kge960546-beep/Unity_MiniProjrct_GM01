@@ -4,48 +4,63 @@ using UnityEngine;
 
 public class MergeObject : MonoBehaviour
 {
-    public int star;
-    public int id;
-    public GameObject nextStarPrefab;
+    Character Character;     
+    DragController dragController;
 
-    private Vector2 mousePos;
-    private float offsetX, offsetY;
-    public static bool mouseButtonReleased;
-    private void OnMouseDown()
+    private MergeObject potentialMergeTarget;
+    //private bool mergeExecuted = false;
+    void Awake()
     {
-        mouseButtonReleased = false;
-        offsetX = Camera.main.ScreenToWorldPoint( Input.mousePosition ).x-transform.position.x;
-        offsetY = Camera.main.ScreenToWorldPoint( Input.mousePosition ).y-transform.position.y;
+        Character = GetComponent<Character>();
+        dragController = GetComponent<DragController>();
     }
-    private void OnMouseDrag()
+    public bool CanMergeWith(MergeObject other)
     {
-        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = new Vector2(mousePos.x - offsetX, mousePos.y - offsetY);
+        if (other == null || other.gameObject == gameObject) return false;
+        if (Character == null || other.Character == null) return false;
+        return other.Character.data.id == Character.data.id && other.Character.star == Character.star;
     }
-    private void OnMouseUp()
-    {
-        mouseButtonReleased = true;
-    }
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        MergeObject otherUnit = collision.GetComponent<MergeObject>();
-        if (otherUnit == null) return;
+    public bool ExecuteMerge(MergeObject target)
+    {       
+        if (this.GetInstanceID() < target.GetInstanceID()) 
+        {           
+            return false;
+        }
 
-        if (mouseButtonReleased && this.id == otherUnit.id && this.star == otherUnit.star)
+        int currentStar = Character.star;
+        int nextIndex = currentStar;
+        var data = Character.data;
+
+        if (data == null || data.Prefabs == null || data.Prefabs.Length <= nextIndex || data.Prefabs[nextIndex] == null)
+        {          
+            return false;
+        }
+        GameObject nextPrefab = data.Prefabs[nextIndex];
+        Transform mergeTile = (target.transform.parent != null) ? target.transform.parent : transform.parent;
+        Vector3 spawnPos = (target.transform.position + transform.position) * 0.5f;
+
+        GameObject newUnitObj = Instantiate(nextPrefab, spawnPos, Quaternion.identity);
+        if (mergeTile != null) newUnitObj.transform.SetParent(mergeTile, true);
+
+        var newCs = newUnitObj.GetComponent<Character>();       
+
+        if (newCs != null)
         {
-            string nextPrefab = id + "_" + (star + 1);
-            GameObject nextLevelUnitPrefab = Resources.Load<GameObject>(nextPrefab);
-            if(nextLevelUnitPrefab != null)
-            {
-                Instantiate(Resources.Load("All_1"), transform.position, Quaternion.identity);                
-                Destroy(collision.gameObject);
-                Destroy(gameObject);
-            }
-            else
-            {
-                Debug.LogError(nextPrefab + " 프리팹을 Resources 폴더에서 찾을 수 없습니다!");
-            }
-            mouseButtonReleased = false;
-        }       
-    }
+            newCs.star = currentStar + 1;
+            newCs.isEnemy = Character.isEnemy;
+            newCs.ReSetState();
+        }
+        var newDc = newUnitObj.GetComponent<DragController>();
+        if (newDc != null)
+        {
+            bool spawnFlag = (mergeTile != null && mergeTile.CompareTag("SpawnPoint"));
+            newDc.isSpawnZone = spawnFlag;
+            newDc.UpdatePositionAndParent();           
+            newDc.ResetColliderState();           
+        }
+        Destroy(target.gameObject);
+        Destroy(gameObject);
+
+        return true;
+    }  
 }

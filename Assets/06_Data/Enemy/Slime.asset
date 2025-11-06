@@ -20,9 +20,9 @@ MonoBehaviour:
   - {fileID: 3185869113859795310, guid: a14c7ba394eafbc45bc5d8ba6968a3ca, type: 3}
   HPMax: 90
   AttackPower: 5
-  AttackSpeed: 5
+  AttackSpeed: 3
   moveSpeed: 5
-  attackRange: 1
+  attackRange: 2
   MPMax: 80
   MPRefill: 6
   skillDamage: 10

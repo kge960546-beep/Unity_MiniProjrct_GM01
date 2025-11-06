@@ -39,6 +39,7 @@ public class Character : MonoBehaviour
     private State presentState = State.Idle;
 
     public int star = 1;
+    public bool isBattle = false;
 
     [Header("AI 전투 오프셋")]
     [SerializeField] private Vector2 attackOffset;
@@ -57,14 +58,23 @@ public class Character : MonoBehaviour
         Time.timeScale = 0;
         Upgrade();
         ChangeState(State.Idle);
+
+        TextManager tm = FindObjectOfType<TextManager>();
+        if (tm != null)
+        {
+            bool isFromBattleField = (dragController == null || !dragController.isSpawnZone);
+
+            if (isFromBattleField)
+            {
+                if (isEnemy)
+                    tm.enemyUnit.Add(gameObject);
+                else
+                    tm.friendlyUnit.Add(gameObject);
+            }
+        }
     }    
     void Update()
     {
-        if (!isEnemy && star > 1) // 내 유닛이고 1성보다 높을 때만 로그 출력
-        {
-            Debug.Log(gameObject.name + " Update - HP: " + presentHP + ", ATK: " + currentAttackPower);
-        }
-
         if (dragController != null && dragController.isSpawnZone)
         {            
             presentTarget = null;
@@ -76,18 +86,20 @@ public class Character : MonoBehaviour
             }
             return;                     
         }       
-        
-        switch (presentState)
+        if(isBattle)
         {
-            case State.Idle:
-                SearchTarget(); break;
-            case State.Moving:
-                MoveTarget(); break;
-            case State.Attacking:
-                AttackTarget(); break;
-        }
+            switch (presentState)
+            {
+                case State.Idle:
+                    SearchTarget(); break;
+                case State.Moving:
+                    MoveTarget(); break;
+                case State.Attacking:
+                    AttackTarget(); break;
+            }
+        }       
     }
-    void ChangeState(State newState)
+    public void ChangeState(State newState)
     {        
         if (presentState == newState) return;
         State oldState = presentState;
@@ -325,6 +337,7 @@ public class Character : MonoBehaviour
         }       
 
         presentHP -= damage;
+
         StartCoroutine(hitColor());
         HpSidle hpBar = GetComponentInChildren<HpSidle>();
         if(hpBar != null)
@@ -369,15 +382,22 @@ public class Character : MonoBehaviour
             presentMP = data.MPMax;
         }
     }
-   
+    private int hitStack = 0;
     IEnumerator hitColor()
-    {                
+    {
         if(spriteRenderer == null) yield break;
+        hitStack++;
         Color originColor = spriteRenderer.color;
 
         spriteRenderer.color = Color.red;
-        yield return new WaitForSeconds(0.1f);
-        spriteRenderer.color = originColor;               
+        yield return new WaitForSeconds(0.3f);
+        spriteRenderer.color = originColor;
+        hitStack--;
+        if(hitStack <= 0)
+        {
+            hitStack = 0;
+            spriteRenderer.color = originColor;
+        }
     }
     void Die()
     {
@@ -393,6 +413,23 @@ public class Character : MonoBehaviour
     IEnumerator Dead()
     {
         yield return new WaitForSeconds(0.4f);
+
+        TextManager tm = FindObjectOfType<TextManager>();
+        if (tm != null)
+        {
+            if (isEnemy)
+                tm.enemyUnit.Remove(gameObject);
+            else
+                tm.friendlyUnit.Remove(gameObject);
+        }
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.saveUnits.RemoveAll(u =>
+                u.unitName == gameObject.name &&
+                Vector3.Distance(u.position, transform.position) < 0.2f
+            );
+        }
+
         gameObject.SetActive(false);
     }
     public void ReSetState()
@@ -508,4 +545,15 @@ public class Character : MonoBehaviour
     {
         isAttacking = false;
     }
+    void OnDisable()
+    {
+        TextManager tm = FindObjectOfType<TextManager>();
+        if (tm != null)
+        {
+            if (isEnemy)
+                tm.enemyUnit.Remove(gameObject);
+            else
+                tm.friendlyUnit.Remove(gameObject);
+        }
+    }    
 }

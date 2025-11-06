@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: db7128d0197bb024a8775d86c23b5310
+guid: f8b7998540f42f54caddfef6c6fd79cb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_0
+      name: Fornt_1
       rect:
         serializedVersion: 2
-        x: 39
-        y: 39
-        width: 21
-        height: 18
+        x: 163
+        y: 1095
+        width: 701
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fab6f87559bfd545a9e6552359b9fa8
-      internalID: 794307266
+      spriteID: 40950f35a1c95e247949ed2ddba05e29
+      internalID: -225848336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_1
+      name: Fornt_8
       rect:
         serializedVersion: 2
-        x: 136
-        y: 39
-        width: 18
-        height: 18
+        x: 95
+        y: 755
+        width: 830
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 013ca55b7022b81429b3e5cf1e7692f4
-      internalID: 2095447236
+      spriteID: f97e91a8e0ca26a429330c9e69f0be58
+      internalID: -1268928263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_2
+      name: Fornt_17
       rect:
         serializedVersion: 2
-        x: 232
-        y: 39
-        width: 19
-        height: 21
+        x: 144
+        y: 440
+        width: 734
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cc5038ae98fcba46969f589eb57159f
-      internalID: -290587984
+      spriteID: ef0d69d9b933af34f8b24e89623d2d00
+      internalID: 914194040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_3
+      name: Fornt_25
       rect:
         serializedVersion: 2
-        x: 325
-        y: 39
-        width: 15
-        height: 26
+        x: 416
+        y: 159
+        width: 192
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,92 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d81b4ceabf0b8394fbb68fd846a94712
-      internalID: 54959733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 427
-        y: 37
-        width: 30
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71a649eb96a79634085a20262e9fc0c4
-      internalID: -797604752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 523
-        y: 37
-        width: 30
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56ca3bee866cc804791c158f64a557c6
-      internalID: 1458920188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 619
-        y: 37
-        width: 27
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b507ab4a08b2cb34bace1cdd8618fca1
-      internalID: 1396273072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 713
-        y: 38
-        width: 22
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 885d9f1a8d760384886897ed2e312a0d
-      internalID: -213234822
+      spriteID: d03a37fde49178c44a0a0cb4f0fa0e77
+      internalID: 2058164764
       vertices: []
       indices: 
       edges: []
@@ -301,14 +217,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Monster_Orc_Axe_Attack1-Sheet_0: 794307266
-      Monster_Orc_Axe_Attack1-Sheet_1: 2095447236
-      Monster_Orc_Axe_Attack1-Sheet_2: -290587984
-      Monster_Orc_Axe_Attack1-Sheet_3: 54959733
-      Monster_Orc_Axe_Attack1-Sheet_4: -797604752
-      Monster_Orc_Axe_Attack1-Sheet_5: 1458920188
-      Monster_Orc_Axe_Attack1-Sheet_6: 1396273072
-      Monster_Orc_Axe_Attack1-Sheet_7: -213234822
+      Fornt_0: 899825169
+      Fornt_1: -225848336
+      Fornt_10: 1401974103
+      Fornt_11: -2019292035
+      Fornt_12: 92263457
+      Fornt_13: 1455900196
+      Fornt_14: 1166321058
+      Fornt_15: 114026928
+      Fornt_16: 887560419
+      Fornt_17: 914194040
+      Fornt_18: -1062772322
+      Fornt_19: -963491545
+      Fornt_2: -1333739339
+      Fornt_20: 1752546875
+      Fornt_21: 1682355465
+      Fornt_22: -660933823
+      Fornt_23: -737003156
+      Fornt_24: -699741570
+      Fornt_25: 2058164764
+      Fornt_3: 991689758
+      Fornt_4: 1166729445
+      Fornt_5: -2056359136
+      Fornt_6: 802316894
+      Fornt_7: -762299530
+      Fornt_8: -1268928263
+      Fornt_9: 1803621292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: db7128d0197bb024a8775d86c23b5310
+guid: d5ed7684659fc9f4da2a3628f6b548e7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_0
+      name: coin-animation_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 39
-        width: 21
-        height: 18
+        x: 0
+        y: 0
+        width: 65
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fab6f87559bfd545a9e6552359b9fa8
-      internalID: 794307266
+      spriteID: a1e289e38611649439a0be9b5c2776c9
+      internalID: -1886460248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_1
+      name: coin-animation_1
       rect:
         serializedVersion: 2
-        x: 136
-        y: 39
-        width: 18
-        height: 18
+        x: 71
+        y: 0
+        width: 51
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 013ca55b7022b81429b3e5cf1e7692f4
-      internalID: 2095447236
+      spriteID: 0e20d7937640e5f4ba820dff179de38b
+      internalID: -456914495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_2
+      name: coin-animation_2
       rect:
         serializedVersion: 2
-        x: 232
-        y: 39
-        width: 19
-        height: 21
+        x: 149
+        y: 0
+        width: 23
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cc5038ae98fcba46969f589eb57159f
-      internalID: -290587984
+      spriteID: e27a6e2712cba8a4ca4a4d65961efbc9
+      internalID: 1135398674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_3
+      name: coin-animation_3
       rect:
         serializedVersion: 2
-        x: 325
-        y: 39
-        width: 15
-        height: 26
+        x: 199
+        y: 0
+        width: 50
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,92 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d81b4ceabf0b8394fbb68fd846a94712
-      internalID: 54959733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 427
-        y: 37
-        width: 30
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71a649eb96a79634085a20262e9fc0c4
-      internalID: -797604752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 523
-        y: 37
-        width: 30
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56ca3bee866cc804791c158f64a557c6
-      internalID: 1458920188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 619
-        y: 37
-        width: 27
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b507ab4a08b2cb34bace1cdd8618fca1
-      internalID: 1396273072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster_Orc_Axe_Attack1-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 713
-        y: 38
-        width: 22
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 885d9f1a8d760384886897ed2e312a0d
-      internalID: -213234822
+      spriteID: c611de00bc37f6d4c8d34c68d0a70681
+      internalID: -710101226
       vertices: []
       indices: 
       edges: []
@@ -301,14 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Monster_Orc_Axe_Attack1-Sheet_0: 794307266
-      Monster_Orc_Axe_Attack1-Sheet_1: 2095447236
-      Monster_Orc_Axe_Attack1-Sheet_2: -290587984
-      Monster_Orc_Axe_Attack1-Sheet_3: 54959733
-      Monster_Orc_Axe_Attack1-Sheet_4: -797604752
-      Monster_Orc_Axe_Attack1-Sheet_5: 1458920188
-      Monster_Orc_Axe_Attack1-Sheet_6: 1396273072
-      Monster_Orc_Axe_Attack1-Sheet_7: -213234822
+      coin-animation_0: -1886460248
+      coin-animation_1: -456914495
+      coin-animation_2: 1135398674
+      coin-animation_3: -710101226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

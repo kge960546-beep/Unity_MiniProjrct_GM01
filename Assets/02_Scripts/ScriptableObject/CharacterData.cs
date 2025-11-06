@@ -10,6 +10,7 @@ public enum SkillClassification
 [CreateAssetMenu(fileName = "CharacterData", menuName = "OnData")]
 public class CharacterData : ScriptableObject 
 {
+    public int instanceID;
     public int id;
     
 

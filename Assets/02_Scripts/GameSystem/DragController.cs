@@ -3,148 +3,227 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UIElements;
-using static UnityEditorInternal.ReorderableList;
-
 public class DragController : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
-    Vector2 DefaultPos;
-    public bool isSpawnZone;
+    Vector2 defaultPos;
+    Transform originalParent;
 
     SpriteRenderer sr;
     Collider2D col;
-    Character thisChar;
+    MergeObject merge;
 
-    private Transform originalSpParent;
-    public Transform myOriginalSpPaernt;
+    public bool isDragging;
+    int originalLayer;
+    Color originalColor;
+    int originalSortingOrder;
+
+    public bool isSpawnZone;
+    const string IgnoreLayerName = "Ignore Raycast";
+    int ignoreLayer;
+    Camera dragCam;
+    private bool hasInitialized = false;
+
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
         col = GetComponent<Collider2D>();
-        thisChar = GetComponent<Character>();
-    }   
-    void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
-    {
-        DefaultPos = transform.position;
-        originalSpParent = myOriginalSpPaernt; 
-        transform.SetParent(null);
+        merge = GetComponent<MergeObject>();
+        originalLayer = gameObject.layer;
+        originalColor = sr != null ? sr.color : Color.white;
+        originalSortingOrder = sr != null ? sr.sortingOrder : 0;
+        ignoreLayer = LayerMask.NameToLayer(IgnoreLayerName);
 
-        sr.color = new Color(1.0f, 1.0f, 1.0f, 0.6f);
-        col.isTrigger = true;       
-        col.enabled = false;
-    }
-    void IDragHandler.OnDrag(PointerEventData eventData)
-    {
-        Vector3 currentPos = Camera.main.ScreenToWorldPoint(eventData.position);
-        currentPos.z = 0;
-        transform.position = currentPos;
-    }
-    void IEndDragHandler.OnEndDrag(PointerEventData eventData)
-    {        
-        Character otherCharacter = FindMergeableCharacterAt(transform.position);
-
-        if (otherCharacter != null)
-        {            
-            if (TryMerge(otherCharacter))
-            {
-                return;
-            }
-        }
-        PlaceOnTile(eventData.position);
-        ResetToDefaultState();
-
-        sr.color = Color.white;
-        col.isTrigger = false;
-        col.enabled = true;
-    }
-    private Character FindMergeableCharacterAt(Vector2 pos)
-    {
-        col.enabled = true;
-        Collider2D[] hitCol = Physics2D.OverlapCircleAll(pos, 0.4f);
-        col.enabled = false;
-
-        foreach(var hitCollider in hitCol)
+        if (col != null)
         {
-            if (hitCollider.gameObject == this.gameObject) continue;
-
-            Character targetChar = hitCollider.GetComponent<Character>();
-            
-            if (targetChar != null &&
-                targetChar.data.id == this.thisChar.data.id &&
-                targetChar.star == this.thisChar.star)
-            {
-                return targetChar; 
-            }
+            Debug.LogWarning($"[{gameObject.name}] Start - 콜라이더가 비활성화되어 있습니다! 활성화합니다.");
+            col.enabled = true;
+            col.isTrigger = false;
         }
-        return null; 
-    }    
-    private bool TryMerge(Character otherChar)
+        Debug.Log($"[{gameObject.name}] Awake - 콜라이더: enabled={col?.enabled}, isTrigger={col?.isTrigger}, layer={gameObject.layer}");
+    }
+
+    public void UpdatePositionAndParent()
     {
-        int currentStar = thisChar.star;
-        int nextPrefabIndex = currentStar;
-        
-        if (thisChar.data.Prefabs.Length > nextPrefabIndex && thisChar.data.Prefabs[nextPrefabIndex] != null)
+        defaultPos = transform.position;
+        originalParent = transform.parent;
+        hasInitialized = true;
+        Debug.Log($"[{gameObject.name}] UpdatePositionAndParent - pos={defaultPos}, parent={originalParent?.name}");
+    }
+    public void ResetColliderState()
+    {
+        if (col != null)
         {
-            Transform mergeTile = otherChar.transform.parent;
-
-            GameObject newUnitObj = Instantiate(thisChar.data.Prefabs[nextPrefabIndex], mergeTile.position, Quaternion.identity);
-            newUnitObj.transform.SetParent(mergeTile);
-
-            // 다음 등급 유닛을 상대방 캐릭터 위치에 생성
-            Character newUnitCharacter = newUnitObj.GetComponent<Character>();
-            DragController newUnitDragCon = newUnitObj.GetComponent<DragController>();
-
-            if (newUnitCharacter != null && newUnitDragCon != null)
-            {
-                newUnitCharacter.star = currentStar + 1; // 새 유닛의 star 등급 설정               
-
-                newUnitDragCon.isSpawnZone = true;
-                newUnitCharacter.ReSetState();
-            }
-            
-            Destroy(otherChar.gameObject);
-            Destroy(this.gameObject);
-            return true;
+            col.enabled = true;
+            col.isTrigger = false;
         }
-        else
+        gameObject.layer = originalLayer;
+    }
+    Vector3 ScreenToWorld(Camera cam, Vector2 screenPos)
+    {
+        if (cam == null) cam = Camera.main;
+        Vector3 wp = cam.ScreenToWorldPoint(new Vector3(screenPos.x, screenPos.y, 0.0f));
+        wp.z = 0.0f;
+        return wp;
+    }
+
+    bool ScreenPosOnUnit(Vector2 screenPos)
+    {
+        if (col == null)
         {
             return false;
         }
-    }
-    private void PlaceOnTile(Vector2 screenPos)
-    {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(screenPos);
-        mousePos.z = 0;
-
-        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
-        Transform targetTile = null;
-
-        if(hit.collider != null)
+        
+        bool wasEnabled = col.enabled;
+        if (!wasEnabled)
         {
-            if (hit.collider.CompareTag("Tile") || hit.collider.CompareTag("SpawnPoint"))
+            col.enabled = true;
+        }
+
+        Vector3 worldPos = Camera.main.ScreenToWorldPoint(screenPos);
+        Vector2 worldPos2D = new Vector2(worldPos.x, worldPos.y);
+        bool result = col.OverlapPoint(worldPos2D);
+
+        if (!wasEnabled)
+        {
+            col.enabled = false;
+        }
+        return result;
+    }
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        if (!hasInitialized) UpdatePositionAndParent();
+
+        dragCam = eventData.pressEventCamera != null ? eventData.pressEventCamera : Camera.main;
+        
+        if (!ScreenPosOnUnit(eventData.pressPosition))
+        {
+            Debug.LogWarning($"[{gameObject.name}] OnBeginDrag - ScreenPosOnUnit 체크 실패!");
+            eventData.pointerDrag = null;
+            isDragging = false;
+            return;
+        }
+
+        isDragging = true;
+        defaultPos = transform.position;
+        originalParent = transform.parent;
+
+        transform.SetAsLastSibling();
+
+        if (sr != null)
+        {
+            sr.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0.4f);
+            sr.sortingOrder = originalSortingOrder + 100;
+        }
+
+        if (col != null)
+        {
+            col.enabled = true;
+            col.isTrigger = true;
+        }
+
+        if (ignoreLayer >= 0)
+        {
+            gameObject.layer = ignoreLayer;
+        }
+    }
+
+
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        if (!isDragging) return;
+        transform.position = ScreenToWorld(dragCam, eventData.position);
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {        
+        if (col != null)
+        {            
+            col.enabled = false;
+        }
+
+        try
+        {
+            MergeObject potentialMergeTarget = null;
+            Transform potentialEmptyTile = null;
+            Vector3 wp = ScreenToWorld(dragCam, eventData.position);
+            Collider2D[] hits = Physics2D.OverlapCircleAll(new Vector2(wp.x, wp.y), 0.2f);
+
+            foreach (var h in hits)
             {
-                targetTile = hit.collider.transform;
+                Debug.Log($"  - 충돌: {h.gameObject.name}, tag={h.tag}");
+
+                MergeObject otherMerge = h.GetComponent<MergeObject>();
+                if (merge != null && merge.CanMergeWith(otherMerge))
+                {
+                    potentialMergeTarget = otherMerge;
+                }
+
+                if (h.CompareTag("Tile") || h.CompareTag("SpawnPoint"))
+                {
+                    if (h.transform.childCount == 0)
+                    {
+                        potentialEmptyTile = h.transform;                        
+                    }
+                }
+            }
+           
+            if (potentialMergeTarget != null)
+            {
+                MergeObject me = merge;
+                MergeObject other = potentialMergeTarget;
+                MergeObject leader = (me.GetInstanceID() >= other.GetInstanceID()) ? me : other;
+                MergeObject follower = (leader == me) ? other : me;
+
+                if (leader.ExecuteMerge(follower))
+                    return;
+            }
+            if (potentialEmptyTile != null)
+            {
+                PlaceOnTile(potentialEmptyTile);
+            }
+            else
+            {
+                ReturnToDefaultPosition();
             }
         }
-        if (targetTile != null && targetTile.childCount == 0)
+        finally
         {
-            transform.position = targetTile.position;
-            transform.SetParent(targetTile);
-            myOriginalSpPaernt = targetTile;
-            isSpawnZone = targetTile.CompareTag("SpawnPoint");
-            thisChar?.ReSetState();
-        }
-        else
-        {
-            transform.position = DefaultPos;
-            transform.SetParent(myOriginalSpPaernt);
+            if (this != null && gameObject != null)
+            {
+                ResetToDefaultState();
+            }
+            isDragging = false;
+            dragCam = null;
         }
     }
-    private void ResetToDefaultState()
+    void PlaceOnTile(Transform targetTile)
     {
-        sr.sortingOrder = 5;
-        sr.color = Color.white;
-        col.isTrigger = false;
-        col.enabled = true;
+        transform.position = targetTile.position;
+        transform.SetParent(targetTile, true);
+        isSpawnZone = targetTile.CompareTag("SpawnPoint");
+        defaultPos = transform.position;
+        originalParent = transform.parent;
     }
+
+    void ReturnToDefaultPosition()
+    {
+        transform.position = defaultPos;
+        transform.SetParent(originalParent, true);
+    }
+    void ResetToDefaultState()
+    {
+        if (sr != null)
+        {
+            sr.color = originalColor;
+            sr.sortingOrder = originalSortingOrder;
+        }
+
+        if (col != null)
+        {
+            col.enabled = true;  // 반드시 활성화
+            col.isTrigger = false;
+        }
+        gameObject.layer = originalLayer;
+    }  
 }

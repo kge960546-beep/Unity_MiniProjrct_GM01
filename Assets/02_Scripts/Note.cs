@@ -443,4 +443,155 @@ public class Character : MonoBehaviour
         isUsingSkill = false;
     }
 } 
+
+
+
+
+
+
+
+
+머지오브젝트
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MergeObject : MonoBehaviour
+{
+    public int star;
+    public int id;
+    public GameObject nextStarPrefab;
+
+    private Vector2 mousePos;
+    private float offsetX, offsetY;
+    public static bool mouseButtonReleased;
+    private void OnMouseDown()
+    {
+        mouseButtonReleased = false;
+        offsetX = Camera.main.ScreenToWorldPoint( Input.mousePosition ).x-transform.position.x;
+        offsetY = Camera.main.ScreenToWorldPoint( Input.mousePosition ).y-transform.position.y;
+    }
+    private void OnMouseDrag()
+    {
+        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        transform.position = new Vector2(mousePos.x - offsetX, mousePos.y - offsetY);
+    }
+    private void OnMouseUp()
+    {
+        mouseButtonReleased = true;
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        MergeObject otherUnit = collision.GetComponent<MergeObject>();
+        if (otherUnit == null) return;
+
+        if (mouseButtonReleased && this.id == otherUnit.id && this.star == otherUnit.star)
+        {
+            string nextPrefab = id + "_" + (star + 1);
+            GameObject nextLevelUnitPrefab = Resources.Load<GameObject>(nextPrefab);
+            if(nextLevelUnitPrefab != null)
+            {
+                Instantiate(Resources.Load("All_1"), transform.position, Quaternion.identity);             
+                Destroy(collision.gameObject);
+                Destroy(gameObject);
+            }
+            else
+            {
+                Debug.LogError(nextPrefab + " 프리팹을 Resources 폴더에서 찾을 수 없습니다!");
+            }
+            mouseButtonReleased = false;
+        }       
+    }
+}
+
+
+현재 마지오브젝트
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MergeObject : MonoBehaviour
+{
+    Character Character;     
+    DragController dragController;
+
+    private MergeObject potentialMergeTarget;
+    private bool mergeExecuted = false;
+    void Awake()
+    {
+        Character = GetComponent<Character>();
+        dragController = GetComponent<DragController>();
+    }
+    public bool CanMergeWith(MergeObject other)
+    {
+        if (other == null || other.gameObject == gameObject) return false;
+        if (Character == null || other.Character == null) return false;
+        return other.Character.data.id == Character.data.id && other.Character.star == Character.star;
+    }
+    public bool ExecuteMerge(MergeObject target)
+    {
+        Debug.Log($"<color=magenta>[{gameObject.name}] ExecuteMerge 시작 - myID={GetInstanceID()}, targetID={target.GetInstanceID()}</color>");
+        // 중복 병합을 막기 위해 고유 ID가 더 큰 쪽이 항상 병합을 주도
+        if (this.GetInstanceID() < target.GetInstanceID()) 
+        {
+            Debug.Log($"<color=yellow>[{gameObject.name}] ID가 작아서 병합 중단</color>");
+            return false;
+        }
+
+        int currentStar = Character.star;
+        int nextIndex = currentStar;
+        var data = Character.data;
+
+        if (data == null || data.Prefabs == null || data.Prefabs.Length <= nextIndex || data.Prefabs[nextIndex] == null)
+        {
+            Debug.LogError("다음 등급의 유닛 프리팹이 설정되지 않았습니다!");
+            return false;
+        }
+        GameObject nextPrefab = data.Prefabs[nextIndex];
+        Transform mergeTile = (target.transform.parent != null) ? target.transform.parent : transform.parent;
+        Vector3 spawnPos = (target.transform.position + transform.position) * 0.5f;
+
+        GameObject newUnitObj = Instantiate(nextPrefab, spawnPos, Quaternion.identity);
+        if (mergeTile != null) newUnitObj.transform.SetParent(mergeTile, true);
+
+        var newCs = newUnitObj.GetComponent<Character>();
+       
+
+        if (newCs != null)
+        {
+            newCs.star = currentStar + 1;
+            newCs.isEnemy = Character.isEnemy;
+            newCs.ReSetState();
+        }
+        var newDc = newUnitObj.GetComponent<DragController>();
+        if (newDc != null)
+        {
+            bool spawnFlag = (mergeTile != null && mergeTile.CompareTag("SpawnPoint"));
+            newDc.isSpawnZone = spawnFlag;
+            newDc.UpdatePositionAndParent();
+            // ★★★ 핵심 수정: 콜라이더 상태 명시적 초기화 ★★★
+            newDc.ResetColliderState();
+
+            Debug.Log($"[MergeObject] 새 유닛 {newUnitObj.name} 생성 완료 - isSpawnZone={spawnFlag}");
+        }
+        else
+        {
+            Debug.LogError($"<color=red>[{newUnitObj.name}] DragController가 없습니다!</color>");
+        }
+
+        if (GameManager.Instance != null)
+        {
+            List<GameObject> mergedUnits = new List<GameObject> { gameObject, target.gameObject };
+            GameManager.Instance.ProcessUnitMerge(mergedUnits, newUnitObj);
+        }
+        Debug.Log($"<color=magenta>[{gameObject.name}] 병합 완료!</color>");
+
+        Destroy(target.gameObject);
+        Destroy(gameObject);
+
+        return true; // 병합 성공
+    }  
+}
+
  */

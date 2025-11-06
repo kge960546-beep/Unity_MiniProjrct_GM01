@@ -770,7 +770,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -788,8 +788,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1532bb82c8eba224995abba7c063a9ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragging: 0
   isSpawnZone: 0
-  myOriginalSpPaernt: {fileID: 0}
 --- !u!50 &8667689358548887725
 Rigidbody2D:
   serializedVersion: 4
@@ -829,9 +829,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2feb1c897df090d479697fef5001ae8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  star: 2
-  id: 1
-  nextStarPrefab: {fileID: 0}
 --- !u!114 &1601579943744498833
 MonoBehaviour:
   m_ObjectHideFlags: 0

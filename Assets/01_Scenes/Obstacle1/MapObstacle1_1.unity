@@ -577,6 +577,8 @@ MonoBehaviour:
   mapData: {fileID: 11400000, guid: e65fcf4a1fe1c08469889f16ff29abe6, type: 2}
   playerGold: 100
   goldConsumption: 20
+  lifeCount: 3
+  maxLife: 3
 --- !u!4 &144468013
 Transform:
   m_ObjectHideFlags: 0
@@ -2063,11 +2065,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4185840902093735451, guid: 4a5d804f423497047ba42bfe721d7c19, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -66.13
+      value: -56.28
       objectReference: {fileID: 0}
     - target: {fileID: 4185840902093735451, guid: 4a5d804f423497047ba42bfe721d7c19, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.85
+      value: 2.74
       objectReference: {fileID: 0}
     - target: {fileID: 4185840902093735451, guid: 4a5d804f423497047ba42bfe721d7c19, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9538,13 +9540,21 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2665812115245194459, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665812115245194459, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3553608112064599171, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -58.89244
+      value: -56.37
       objectReference: {fileID: 0}
     - target: {fileID: 3553608112064599171, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0789927
+      value: -1.19
       objectReference: {fileID: 0}
     - target: {fileID: 3553608112064599171, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9578,13 +9588,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3893388043435759952, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893388043435759952, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6485415352901622634, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
       propertyPath: m_Name
       value: AxeOrc
       objectReference: {fileID: 0}
     - target: {fileID: 6485415352901622634, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586304088432344377, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 960.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586304088432344377, guid: b7590018a007ab749aec18ff3d1cb381, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 540.12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -22,7 +22,7 @@ MonoBehaviour:
   AttackPower: 20
   AttackSpeed: 0.8
   moveSpeed: 1
-  attackRange: 1
+  attackRange: 2
   MPMax: 60
   MPRefill: 15
   skillDamage: 30
