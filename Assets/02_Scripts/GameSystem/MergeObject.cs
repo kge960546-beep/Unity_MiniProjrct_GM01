@@ -8,7 +8,6 @@ public class MergeObject : MonoBehaviour
     DragController dragController;
 
     private MergeObject potentialMergeTarget;
-    //private bool mergeExecuted = false;
     void Awake()
     {
         Character = GetComponent<Character>();
@@ -26,6 +25,11 @@ public class MergeObject : MonoBehaviour
         {           
             return false;
         }
+        Transform mergeTile = target.transform.parent;
+        if (mergeTile != null && mergeTile.CompareTag("Tile"))
+        {
+            return false;
+        }
 
         int currentStar = Character.star;
         int nextIndex = currentStar;
@@ -35,8 +39,7 @@ public class MergeObject : MonoBehaviour
         {          
             return false;
         }
-        GameObject nextPrefab = data.Prefabs[nextIndex];
-        Transform mergeTile = (target.transform.parent != null) ? target.transform.parent : transform.parent;
+        GameObject nextPrefab = data.Prefabs[nextIndex];        
         Vector3 spawnPos = (target.transform.position + transform.position) * 0.5f;
 
         GameObject newUnitObj = Instantiate(nextPrefab, spawnPos, Quaternion.identity);

@@ -20,7 +20,7 @@ public class Character : MonoBehaviour
 
     public bool isEnemy;   
     private float lastAttackTime;   
-    private bool isDead = false;
+    public bool isDead = false;
     private bool skillReady;
     private bool isAttacking = false;
 
@@ -43,9 +43,6 @@ public class Character : MonoBehaviour
 
     [Header("AI 전투 오프셋")]
     [SerializeField] private Vector2 attackOffset;
-
-    
-    
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -110,10 +107,22 @@ public class Character : MonoBehaviour
             if (presentTarget != null)
             {
                 lastPathUpdate = Time.time;
-                finalAttackPos = (Vector2)presentTarget.position+attackOffset;
-                RePath();
+                Character targetChar = presentTarget.GetComponent<Character>();
+                if(targetChar != null)
+                {
+                    finalAttackPos = FindAttackPosition(targetChar);
+                    RePath();
+                }
+                else
+                {
+                    presentTarget = null;
+                    ChangeState(State.Idle);
+                }                
             }
-            
+            else
+            {
+                ChangeState(State.Idle);
+            }
         }
         if (anim != null)
         {
@@ -121,10 +130,11 @@ public class Character : MonoBehaviour
             if (newState == State.Attacking)
             {
                 anim.SetFloat("attackSpeed", currentAttackSpeed);
-                lastAttackTime = Time.time - (1.0f / currentAttackSpeed);
+                //lastAttackTime = Time.time - (1.0f / currentAttackSpeed);
             }
         }    
-    }   
+    }
+    //========================대기 상태=======================
     public void SearchTarget()
     {
         if (dragController != null && dragController.isSpawnZone)
@@ -154,6 +164,7 @@ public class Character : MonoBehaviour
             ChangeState(State.Moving);           
         }       
     }
+    //========================이동 상태=========================
     public void MoveTarget()
     {
         if (presentTarget == null || !presentTarget.gameObject.activeSelf)
@@ -245,8 +256,9 @@ public class Character : MonoBehaviour
     public void RePath()
     {
         if (presentTarget == null) return;
+        if (GameManager.Instance.map == null) return;
 
-        Vector2Int start = new Vector2Int(Mathf.FloorToInt(transform.position.x) + GameManager.Instance.mapOffset.x, Mathf.FloorToInt(transform.position.y) + GameManager.Instance.mapOffset.y);
+            Vector2Int start = new Vector2Int(Mathf.FloorToInt(transform.position.x) + GameManager.Instance.mapOffset.x, Mathf.FloorToInt(transform.position.y) + GameManager.Instance.mapOffset.y);
         Vector2Int end = new Vector2Int(Mathf.FloorToInt(finalAttackPos.x) + GameManager.Instance.mapOffset.x, Mathf.FloorToInt(finalAttackPos.y) + GameManager.Instance.mapOffset.y);
 
         start.x = Mathf.Clamp(start.x, 0, GameManager.Instance.width - 1);
@@ -254,16 +266,108 @@ public class Character : MonoBehaviour
         end.x = Mathf.Clamp(end.x, 0, GameManager.Instance.width - 1);
         end.y = Mathf.Clamp(end.y, 0, GameManager.Instance.height - 1);
 
+        if (!GameManager.Instance.map[end.x, end.y])
+        {
+            Debug.LogWarning($"{name}의 목표 지점({end.x}, {end.y})이 이동 불가 지역입니다. 주변 타일을 탐색합니다.");
+
+            Vector2Int[] offsets = { new Vector2Int(0, 1), new Vector2Int(0, -1), new Vector2Int(-1, 0), new Vector2Int(1, 0),
+                                 new Vector2Int(1, 1), new Vector2Int(1, -1), new Vector2Int(-1, 1), new Vector2Int(-1, -1) }; // 대각선 포함
+
+            float closestDist = float.MaxValue;
+            Vector2Int newEnd = end;
+            bool foundNewEnd = false;
+
+            foreach (var offset in offsets)
+            {
+                Vector2Int checkPos = end + offset;
+               
+                if (checkPos.x < 0 || checkPos.x >= GameManager.Instance.width || checkPos.y < 0 || checkPos.y >= GameManager.Instance.height)
+                    continue;
+               
+                if (GameManager.Instance.map[checkPos.x, checkPos.y])
+                {                   
+                    float dist = Vector2Int.Distance(start, checkPos);
+                    if (dist < closestDist)
+                    {
+                        closestDist = dist;
+                        newEnd = checkPos;
+                        foundNewEnd = true;
+                    }
+                }
+            }
+           
+            if (foundNewEnd)
+            {               
+                end = newEnd;
+            }
+        }
+
         path = Node.FindPath(GameManager.Instance.map, start, end);
         if (path != null && path.Count > 1)
         {
-            if (path[0] == start)
+            if (path[0] == start) 
             {
                 path.RemoveAt(0);
             }
         }
         pathIndex = 0;
     }
+    private Vector3 FindAttackPosition(Character target)
+    {       
+        if (GameManager.Instance.map == null)
+        {           
+            return transform.position;
+        }
+
+        Vector2Int myGridPos = new Vector2Int(
+            Mathf.FloorToInt(transform.position.x) + GameManager.Instance.mapOffset.x,
+            Mathf.FloorToInt(transform.position.y) + GameManager.Instance.mapOffset.y
+        );
+
+        Vector2Int targetGridPos = new Vector2Int(
+            Mathf.FloorToInt(target.transform.position.x) + GameManager.Instance.mapOffset.x,
+            Mathf.FloorToInt(target.transform.position.y) + GameManager.Instance.mapOffset.y
+        );
+       
+        Vector2Int[] offsets = { new Vector2Int(0, 1), new Vector2Int(0, -1), new Vector2Int(-1, 0), new Vector2Int(1, 0) };
+
+        float closestDist = float.MaxValue;
+        Vector2Int bestSpot = targetGridPos;
+        bool foundValidSpot = false;
+
+        foreach (var offset in offsets)
+        {
+            Vector2Int checkPos = targetGridPos + offset;
+           
+            if (checkPos.x < 0 || checkPos.x >= GameManager.Instance.width || checkPos.y < 0 || checkPos.y >= GameManager.Instance.height)
+            {
+                continue;
+            }
+          
+            if (GameManager.Instance.map[checkPos.x, checkPos.y])
+            {                
+                float dist = Vector2Int.Distance(myGridPos, checkPos);
+                if (dist < closestDist)
+                {
+                    closestDist = dist;
+                    bestSpot = checkPos;
+                    foundValidSpot = true;
+                }
+            }
+        }
+        
+        if (!foundValidSpot)
+        {           
+            bestSpot = targetGridPos;
+        }
+        
+        return new Vector3(
+            bestSpot.x - GameManager.Instance.mapOffset.x + 0.5f,
+            bestSpot.y - GameManager.Instance.mapOffset.y + 0.5f,
+            0
+        );
+    }
+    //=========================공격 상태===========================
     public void AttackTarget()
     {       
         if (presentTarget == null || !presentTarget.gameObject.activeSelf)
@@ -373,11 +477,7 @@ public class Character : MonoBehaviour
             mpBar.RegenerateMana(gainMP);
         }
         if (presentMP >= data.MPMax)
-        {
-            if (!skillReady) // 스킬 준비 메시지는 한 번만 출력하도록 함
-            {
-                Debug.Log("<color=cyan><b>" + gameObject.name + ": 스킬 준비 완료! (skillReady = true)</b></color>");
-            }
+        {            
             skillReady = true;
             presentMP = data.MPMax;
         }

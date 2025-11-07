@@ -22,7 +22,6 @@ public class DragController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
     int ignoreLayer;
     Camera dragCam;
     private bool hasInitialized = false;
-
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -35,19 +34,15 @@ public class DragController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
 
         if (col != null)
         {
-            Debug.LogWarning($"[{gameObject.name}] Start - 콜라이더가 비활성화되어 있습니다! 활성화합니다.");
             col.enabled = true;
             col.isTrigger = false;
         }
-        Debug.Log($"[{gameObject.name}] Awake - 콜라이더: enabled={col?.enabled}, isTrigger={col?.isTrigger}, layer={gameObject.layer}");
     }
-
     public void UpdatePositionAndParent()
     {
         defaultPos = transform.position;
         originalParent = transform.parent;
         hasInitialized = true;
-        Debug.Log($"[{gameObject.name}] UpdatePositionAndParent - pos={defaultPos}, parent={originalParent?.name}");
     }
     public void ResetColliderState()
     {
@@ -97,7 +92,6 @@ public class DragController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
         
         if (!ScreenPosOnUnit(eventData.pressPosition))
         {
-            Debug.LogWarning($"[{gameObject.name}] OnBeginDrag - ScreenPosOnUnit 체크 실패!");
             eventData.pointerDrag = null;
             isDragging = false;
             return;
@@ -126,15 +120,11 @@ public class DragController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
             gameObject.layer = ignoreLayer;
         }
     }
-
-
-
     public void OnDrag(PointerEventData eventData)
     {
         if (!isDragging) return;
         transform.position = ScreenToWorld(dragCam, eventData.position);
     }
-
     public void OnEndDrag(PointerEventData eventData)
     {        
         if (col != null)
@@ -151,8 +141,6 @@ public class DragController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
 
             foreach (var h in hits)
             {
-                Debug.Log($"  - 충돌: {h.gameObject.name}, tag={h.tag}");
-
                 MergeObject otherMerge = h.GetComponent<MergeObject>();
                 if (merge != null && merge.CanMergeWith(otherMerge))
                 {
@@ -221,7 +209,7 @@ public class DragController : MonoBehaviour, IDragHandler, IBeginDragHandler, IE
 
         if (col != null)
         {
-            col.enabled = true;  // 반드시 활성화
+            col.enabled = true;
             col.isTrigger = false;
         }
         gameObject.layer = originalLayer;

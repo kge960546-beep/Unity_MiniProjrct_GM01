@@ -39,8 +39,8 @@ public class Node
 
         if (pos.x < 0 || pos.x >= w || pos.y < 0 || pos.y >= h)
             return false;
-        if (!map[pos.x, pos.y])        { 
-           
+        if (!map[pos.x, pos.y])        
+        {            
             return false;
         }
 

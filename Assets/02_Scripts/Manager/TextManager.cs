@@ -14,6 +14,7 @@ public class TextManager : MonoBehaviour
     [SerializeField] private Transform restartButton;
     [SerializeField] private Transform[] lifeHeart;
     [SerializeField] private TextMeshProUGUI coinText;
+    [SerializeField] private Transform RetuenToStartButton;
     [SerializeField] private List<GameObject> objsHide;
     public List<GameObject> friendlyUnit;
     public List<GameObject> enemyUnit;
@@ -79,6 +80,8 @@ public class TextManager : MonoBehaviour
                 obj.SetActive(false);
             }
         }
+        GameManager.Instance.SnapshotUnitsFromScene();
+        GameManager.Instance.SaveToJson();
         Character[] allUnits = FindObjectsOfType<Character>();
         friendlyUnit.Clear();
         enemyUnit.Clear();
@@ -98,18 +101,18 @@ public class TextManager : MonoBehaviour
         }
         StartCoroutine(BattleCheck());
     }
-    public void StopTime()
+    public void StopTime(bool showUI = true)
     {
         Time.timeScale = 0;
 
-        foreach (GameObject obj in objsHide)
+        if (showUI)
         {
-            if (obj != null)
+            foreach (GameObject obj in objsHide)
             {
-                obj.SetActive(true);
+                if (obj != null)
+                    obj.SetActive(true);
             }
         }
-
         var units = FindObjectsOfType<Character>();
         foreach (var u in units)
         {
@@ -125,8 +128,13 @@ public class TextManager : MonoBehaviour
     void Restart()
     {
         isGameOver = true;
-        if (gameOver) gameOver.gameObject.SetActive(true);
-        StopTime();
+        if (gameOver)
+        {
+            gameOver.gameObject.SetActive(true);
+            RetuenToStartButton.gameObject.SetActive(true);
+        }
+
+        StopTime(false);
     }
     void NextGame()
     {
@@ -135,33 +143,46 @@ public class TextManager : MonoBehaviour
 
         isStageClear = true;
         stageclear.gameObject.SetActive(true);
-        AddCoin(100);
+        AddCoin(150);
+        GameManager.Instance.SnapshotUnitsFromScene();
+        GameManager.Instance.SaveToJson();
+        GameManager.Instance.restoreOnLoad = true;
 
-        StopTime();
+        StopTime(false);
         StartCoroutine(LoadNextScene());              
     }
-    void AgainGame()
+    public void AgainGame()
     {
         if (_restarting) return;
         _restarting = true;
-        isYouDead = true;
-        if (GameManager.Instance.lifeCount > 0)
-        {
-            GameManager.Instance.lifeCount--;
-            UpdateLifeUI();
-          
-            GameManager.Instance.SnapshotUnitsFromScene();
-            GameManager.Instance.SaveToJson();
 
-            StartCoroutine(RestartStage());
-        }
-        else
+        GameManager.Instance.lifeCount--;
+        UpdateLifeUI();
+
+        if (GameManager.Instance.lifeCount <= 0)
         {
             isGameOver = true;
-            isYouDead = false;
-            gameOver.gameObject.SetActive(true);
+            if (gameOver) gameOver.gameObject.SetActive(true);
+            StopTime(false);
             _restarting = false;
+            return;
         }
+              
+        GameManager.Instance.restoreOnLoad = true;
+
+        if (youDead) youDead.gameObject.SetActive(true);
+        if (restartButton) restartButton.gameObject.SetActive(true);
+
+        StopTime(false);
+        isYouDead = false;
+        _restarting = false;
+    }
+    public void OnClickRestartStageKeepBoard()
+    {
+        if (GameManager.Instance != null)
+            GameManager.Instance.restoreOnLoad = true;
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void UpdateLifeUI()
     {
@@ -173,7 +194,7 @@ public class TextManager : MonoBehaviour
             if (lifeHeart[i] == null) continue;
             lifeHeart[i].gameObject.SetActive(i < life);
         }
-    }
+    }   
     IEnumerator LoadNextScene()
     {
         yield return new WaitForSecondsRealtime(2f);
@@ -186,11 +207,7 @@ public class TextManager : MonoBehaviour
         if (nextScene < SceneManager.sceneCountInBuildSettings)
         {
             SceneManager.LoadScene(nextScene);           
-        }
-        else
-        {
-            Debug.Log("Last Scene");
-        }
+        }       
         _loadingNext = false;
     }
     IEnumerator BattleCheck()
@@ -231,24 +248,11 @@ public class TextManager : MonoBehaviour
             }
         }       
     }
-    IEnumerator RestartStage()
-    {
-        youDead.gameObject.SetActive(true);
-        StopTime();
-
-        yield return new WaitForSecondsRealtime(2.5f);
-        GameManager.Instance.playerGold = stageStartGold;
-
-        friendlyUnit.Clear();
-        enemyUnit.Clear();
-
-        string currentScene = SceneManager.GetActiveScene().name;
-        SceneManager.LoadScene(currentScene);
-    }
     public void RestartButton()
     {
         GameManager.Instance.ResetGameData();
         UpdateLifeUI();
+        if (youDead) youDead.gameObject.SetActive(false);
         restartButton.gameObject.SetActive(false);
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");

@@ -44,8 +44,6 @@ public class Spawn : MonoBehaviour
         else
         {
             return;
-        }
-        
-       
+        }       
     }   
 }

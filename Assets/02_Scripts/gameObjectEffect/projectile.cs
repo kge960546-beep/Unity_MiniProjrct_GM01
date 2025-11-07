@@ -17,8 +17,7 @@ public class projectile : MonoBehaviour
         character = target;
         this.owner = owner;
         damage = dmg;
-        this.isSkill = isSkill;
-        
+        this.isSkill = isSkill;        
     }
     private void Awake()
     {

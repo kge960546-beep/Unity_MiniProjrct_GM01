@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
 
     //JSON
     string savePath => Path.Combine(Application.persistentDataPath, "saveData.json");
-
+    public bool restoreOnLoad = false;
     private void Awake()
     {
         if (Instance == null)
@@ -68,8 +68,7 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
-
-        InitializeMap();
+        
         Physics2D.autoSyncTransforms = true;
     }
     public bool SpendGold(int amountSpend)
@@ -82,7 +81,6 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("골드가 부족합니다");
             return false;
         }
     }
@@ -99,6 +97,11 @@ public class GameManager : MonoBehaviour
         playerGold = 100;
         lifeCount = maxLife;
         saveUnits.Clear();
+
+        if (File.Exists(savePath))
+        {
+            File.Delete(savePath);                   
+        }
     }
     [System.Serializable]
     public class PlayerUnitData
@@ -119,52 +122,58 @@ public class GameManager : MonoBehaviour
     }
     [System.Serializable]
     public class SavePayload
-    {
-        public int playerGold;
-        public int lifeCount;
+    {      
         public List<PlayerUnitData> saveUnits;
     }
     public void SnapshotUnitsFromScene()
     {
         saveUnits.Clear();
 
-        var units = GameObject.FindObjectsOfType<Character>();
+        var units = GameObject.FindObjectsOfType<Character>(true);
         foreach (var cs in units)
         {
+            if (cs.isEnemy) continue; 
+            if (cs.isDead) continue;
             var go = cs.gameObject;
-            string cleanName = go.name.Replace("(Clone)", "").Trim();
+            string cleanName = go.name
+                .Replace("(Clone)", "")
+                .Replace("(1)", "")
+                .Replace("(2)", "")
+                .Replace("(3)", "")
+                .Replace(" Variant", "")
+                .Trim();
 
-            // instanceID는 세션마다 바뀌어도 OK (복원 후 새 ID로 갱신 안 해도 JSON 로직엔 영향 없음)
+            Vector3 savePos = go.transform.position;
+            if (go.transform.parent != null)
+            {
+                savePos = go.transform.parent.position;
+            }
+
             saveUnits.Add(new PlayerUnitData(
                 cleanName,
-                go.transform.position,
+                savePos,
                 cs.star,
                 cs.isEnemy,
                 0
-            ));
+                ));
         }
-
-        Debug.Log($"[SnapshotUnitsFromScene] 스냅샷 완료: {saveUnits.Count}개");
-    }
-    // ======= JSON으로 디스크 저장 =======
+    }    
     public void SaveToJson()
     {
+        saveUnits.RemoveAll(u => u == null);
+
         var payload = new SavePayload
-        {
-            playerGold = playerGold,
-            lifeCount = lifeCount,
+        {           
             saveUnits = new List<PlayerUnitData>(saveUnits)
         };
 
         string json = JsonUtility.ToJson(payload, true);
         File.WriteAllText(savePath, json);
-        Debug.Log($"[SaveToJson] 저장 완료: {savePath}");
     }
     public bool LoadFromJson()
     {
         if (!File.Exists(savePath))
         {
-            Debug.LogWarning($"[LoadFromJson] 저장 파일 없음: {savePath}");
             return false;
         }
 
@@ -172,39 +181,34 @@ public class GameManager : MonoBehaviour
         var payload = JsonUtility.FromJson<SavePayload>(json);
         if (payload == null)
         {
-            Debug.LogError("[LoadFromJson] 파싱 실패");
             return false;
-        }
-
-        playerGold = payload.playerGold;
-        lifeCount = payload.lifeCount;
+        }        
         saveUnits = payload.saveUnits ?? new List<PlayerUnitData>();
 
-        Debug.Log($"[LoadFromJson] 로드 완료: 유닛 {saveUnits.Count}개");
         return true;
     }
     public void DestroyAllUnitsInScene()
     {
-        var units = GameObject.FindObjectsOfType<Character>();
+        var units = GameObject.FindObjectsOfType<Character>(true);
         foreach (var cs in units)
-            Destroy(cs.gameObject);
-
+        {            
+            if (!cs.isEnemy)
+            {
+                Destroy(cs.gameObject);
+            }
+        }
         Physics2D.SyncTransforms();
-        Debug.Log("[DestroyAllUnitsInScene] 씬 유닛 제거 완료");
     }
     public void LoadFromJsonAndRestore()
     {
         if (!LoadFromJson()) return;
 
-        DestroyAllUnitsInScene(); // 중복 방지
+        DestroyAllUnitsInScene();
 
-        bool prev = saveUnitsEnabled;
-        saveUnitsEnabled = true;  //  일시적으로 가드 해제
-        RestoreUnits();           // 저장본 복원
-        saveUnitsEnabled = prev;
+        saveUnitsEnabled = true;
+        RestoreUnits();         
 
         Physics2D.SyncTransforms();
-        Debug.Log("[LoadFromJsonAndRestore] 복원 완료");
     }
 
     public void RestoreUnits()
@@ -216,59 +220,102 @@ public class GameManager : MonoBehaviour
 
         foreach (var data in saveUnits)
         {
-            if (unitPrefabDict.TryGetValue(data.unitName, out GameObject prefab))
-            {
-                GameObject unit = Instantiate(prefab, data.position, Quaternion.identity);
-                Character cs = unit.GetComponent<Character>();
+            GameObject prefab = null;
+           
+            if (!unitPrefabDict.TryGetValue(data.unitName, out prefab))
+            {               
+                string fallbackName = data.unitName.Replace("(Clone)", "").Replace(" Variant", "").Trim();
 
-                if (cs != null)
+                foreach (var kvp in unitPrefabDict)
                 {
-                    cs.star = data.star;
-                    cs.isEnemy = data.isEnemy;
-                    cs.Upgrade();
-                    cs.ReSetState();
-                }
-
-                // 부모 타일 찾아주기
-                Transform parentTile = null;
-                float closestDist = 0.2f;
-
-                foreach (var tile in allTiles)
-                {
-                    float dist = Vector3.Distance(tile.transform.position, unit.transform.position);
-                    if (dist < closestDist)
+                    if (kvp.Key.Equals(fallbackName, StringComparison.OrdinalIgnoreCase))
                     {
-                        parentTile = tile.transform;
-                        closestDist = dist;
+                        prefab = kvp.Value;
+                        break;
                     }
                 }
 
-                if (parentTile != null)
+                if (prefab == null)
                 {
-                    unit.transform.SetParent(parentTile);
-                }
-
-                DragController dc = unit.GetComponent<DragController>();
-                if (dc != null)
-                {
-                    dc.isSpawnZone = (parentTile != null && parentTile.CompareTag("SpawnPoint"));
-                    dc.UpdatePositionAndParent();
-                    dc.ResetColliderState(); // 콜라이더 상태 명시적 초기화
+                    Debug.LogWarning($"[RestoreUnits] 프리팹 찾기 실패: {data.unitName} / fallback={fallbackName}");
+                    continue;
                 }
             }
+            GameObject unit = Instantiate(prefab, data.position, Quaternion.identity);
+            unit.SetActive(true);
+            Character cs = unit.GetComponent<Character>();
+
+            if (cs != null)
+            {
+                cs.star = data.star;
+                cs.isEnemy = data.isEnemy;
+                cs.presentHP = cs.data.HPMax;        
+                cs.isDead = false;       
+                cs.gameObject.SetActive(true);
+                cs.Upgrade();
+                cs.ReSetState();
+            }
+
+            Transform parentTile = null;
+            float closestDist = 0.6f;
+
+            foreach (var tile in allTiles)
+            {
+                float dist = Vector3.Distance(tile.transform.position, unit.transform.position);
+                if (dist < closestDist)
+                {
+                    parentTile = tile.transform;
+                    closestDist = dist;
+                }
+            }
+
+            if (parentTile != null)
+                unit.transform.SetParent(parentTile);
+            
+            DragController dc = unit.GetComponent<DragController>();
+            if (dc != null)
+            {
+                dc.isSpawnZone = (parentTile != null && parentTile.CompareTag("SpawnPoint"));
+                dc.UpdatePositionAndParent();
+                dc.ResetColliderState();
+            }
         }
-    }
+
+        Physics2D.SyncTransforms();       
+    }    
     public void RestartStageKeepBoard()
     {
         SnapshotUnitsFromScene();
         SaveToJson();
+        restoreOnLoad = true;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     void OnSceneLoaded(Scene scene,LoadSceneMode mode)
     {
-        mapData = FindObjectOfType<MapData>();
+        Debug.Log($"[GameManager] 씬 로드됨: {scene.name}, restoreOnLoad={restoreOnLoad}");
+        MapLoader loader = FindObjectOfType<MapLoader>();
+        if (loader != null && loader.mapData != null)
+        {           
+            mapData = loader.mapData;
+        }
+        else
+        {            
+            mapData = null;
+        }
         InitializeMap();
-        LoadFromJsonAndRestore();
+        StartCoroutine(DelayedRestore());
+    }
+    private IEnumerator DelayedRestore()
+    {        
+        yield return null;
+        yield return null;
+
+        if (restoreOnLoad)
+        {
+            restoreOnLoad = false;
+            saveUnitsEnabled = true;
+            LoadFromJsonAndRestore();
+        }
     }
     void OnEnable() { SceneManager.sceneLoaded += OnSceneLoaded; }
     void OnDisable() { SceneManager.sceneLoaded -= OnSceneLoaded; }
@@ -282,16 +329,21 @@ public class GameManager : MonoBehaviour
         width = mapData.width;
         height = mapData.height;
         wallPositions = new List<Vector3Int>(mapData.wallPos);
-
         mapOffset = new Vector2Int(width / 2, height / 2);
-
-        Debug.Log($"[GameManager] wallPositions.Count = {wallPositions.Count}");
-        foreach (var wall in wallPositions)
-        {
-            Debug.Log($"[GameManager] wall pos = {wall}");
-        }
         map = Node.ConvertToMap(wallPositions, width, height);
 
+        for (int x = 0; x < width; x++)
+        {
+            for (int y = 0; y < height; y++)
+            {                
+                Vector2Int worldPos = new Vector2Int(x - mapOffset.x, y - mapOffset.y);
+                
+                if (!IsInsideBattle(worldPos))
+                {                    
+                    map[x, y] = false;
+                }
+            }
+        }
         map = InflateWalls(map, 1);
         ValidateMap();
     }
