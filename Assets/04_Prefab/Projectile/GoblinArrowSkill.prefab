@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4923250154794590121}
   - component: {fileID: -6551513733037524357}
   - component: {fileID: -9036700305535192892}
+  - component: {fileID: 3381625395110672880}
   m_Layer: 0
   m_Name: GoblinArrowSkill
   m_TagString: Untagged
@@ -183,3 +184,16 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &3381625395110672880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637840839249479185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee818bf5a76e22c42b8c29e997a3433e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 15

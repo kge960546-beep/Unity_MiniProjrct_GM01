@@ -17,6 +17,8 @@ public class Character : MonoBehaviour
     public CharacterData data;
     private SpriteRenderer spriteRenderer;
     private Animator anim;
+    public DragController dragController;
+    private TextManager textManager;
 
     public bool isEnemy;   
     private float lastAttackTime;   
@@ -25,7 +27,6 @@ public class Character : MonoBehaviour
     private bool isAttacking = false;
 
     private Transform presentTarget;
-    public DragController dragController;
 
     [Header("A*알고리즘")]
     public LayerMask obstacleLayer;
@@ -41,6 +42,9 @@ public class Character : MonoBehaviour
     public int star = 1;
     public bool isBattle = false;
 
+    private Color originalColor;
+    private Coroutine hitColorCoroutine;
+
     [Header("AI 전투 오프셋")]
     [SerializeField] private Vector2 attackOffset;
     private void Awake()
@@ -49,24 +53,30 @@ public class Character : MonoBehaviour
         anim = GetComponent<Animator>();
         dragController = GetComponent<DragController>();
         attackOffset = new Vector2(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f));
+        if (spriteRenderer != null)
+        {
+            originalColor = spriteRenderer.color;
+        }
     }
     void Start()
-    {
-        Time.timeScale = 0;
+    {        
         Upgrade();
         ChangeState(State.Idle);
 
-        TextManager tm = FindObjectOfType<TextManager>();
-        if (tm != null)
+        if (GameManager.Instance != null)
+        {
+            textManager = GameManager.Instance.textManager;
+        }
+        if (textManager != null)
         {
             bool isFromBattleField = (dragController == null || !dragController.isSpawnZone);
 
             if (isFromBattleField)
             {
                 if (isEnemy)
-                    tm.enemyUnit.Add(gameObject);
+                    textManager.enemyUnit.Add(gameObject);
                 else
-                    tm.friendlyUnit.Add(gameObject);
+                    textManager.friendlyUnit.Add(gameObject);
             }
         }
     }    
@@ -142,13 +152,19 @@ public class Character : MonoBehaviour
 
         Character nearestTarget = null;
         float nearestDistance = Mathf.Infinity;
-
+        List<GameObject> targetList = isEnemy ? textManager.friendlyUnit : textManager.enemyUnit;       
+        
         foreach (Character other in FindObjectsOfType<Character>())
         {
             if (other == this) continue;
             if(other.isEnemy == isEnemy) continue;
             if (!other.gameObject.activeSelf) continue;
             if (other.dragController != null && other.dragController.isSpawnZone) continue;
+            if (other.isDead)
+            {
+                Debug.Log($"{name}이(가) 죽어있는 {other.name}을(를) 타겟 후보에서 제외했습니다.");
+                continue;
+            }
 
             float dist = Vector2.Distance(transform.position, other.transform.position);
             if (dist<nearestDistance)
@@ -162,16 +178,20 @@ public class Character : MonoBehaviour
         {
             presentTarget = nearestTarget.transform;            
             ChangeState(State.Moving);           
-        }       
+        }
+        else
+        {
+            presentTarget = null;
+            ChangeState(State.Idle);
+        }
     }
     //========================이동 상태=========================
     public void MoveTarget()
     {
-        if (presentTarget == null || !presentTarget.gameObject.activeSelf)
+        Character enemy = presentTarget.GetComponent<Character>();
+        if (presentTarget == null || !presentTarget.gameObject.activeSelf || (enemy != null && enemy.isDead))
         {
-            presentTarget = null;
-            path = null;
-            ChangeState(State.Idle);
+            ResetState();
             return;
         }
 
@@ -367,13 +387,26 @@ public class Character : MonoBehaviour
             0
         );
     }
+    void ResetState()
+    {
+        presentTarget = null;
+        path = null;
+        pathIndex = 0;
+        isAttacking = false;
+        if(anim != null)
+        {
+            anim.ResetTrigger("Attack");
+            anim.ResetTrigger("useSkill");
+        }
+        ChangeState(State.Idle);
+    }
     //=========================공격 상태===========================
     public void AttackTarget()
-    {       
-        if (presentTarget == null || !presentTarget.gameObject.activeSelf)
+    {
+        Character enemy = presentTarget.GetComponent<Character>();
+        if (presentTarget == null || !presentTarget.gameObject.activeSelf || (enemy != null && enemy.isDead))
         {
-            presentTarget = null;          
-            ChangeState(State.Idle);
+            ResetState();
             return;
         }
        
@@ -381,21 +414,20 @@ public class Character : MonoBehaviour
 
         if (dragController != null && dragController.isSpawnZone)
         {
-            ChangeState(State.Idle);
+            ResetState();
             return;
         }
         
-        Character enemy = presentTarget.GetComponent<Character>();
+        
         if(enemy != null && enemy.dragController != null && enemy.dragController.isSpawnZone)
         {
-            presentTarget = null;
-            ChangeState(State.Idle);
+            ResetState();
             return;
         }
 
-        if(distance > data.attackRange)
+        if(distance > data.attackRange * 1.1f)
         {
-            ChangeState(State.Moving);            
+            ChangeState(State.Moving);
             return;
         }
         else
@@ -405,18 +437,14 @@ public class Character : MonoBehaviour
      
         if(!isAttacking && (Time.time - lastAttackTime) >= 1.0f / currentAttackSpeed || skillReady)
         {
-            Debug.Log($"[{gameObject.name}] AttackTarget() 진입됨. skillReady = {skillReady}");
             isAttacking = true;
 
             if (skillReady)
             {
-                Debug.Log($"[{gameObject.name}] useSkill Trigger 발동됨!");
-                anim.SetTrigger("useSkill");
-                skillReady = false;
+                anim.SetTrigger("useSkill");                
             }
             else
             {
-                Debug.Log($"[{gameObject.name}] 일반 Attack Trigger 발동됨!");
                 anim.SetTrigger("Attack");
             }
             lastAttackTime = Time.time;
@@ -442,7 +470,11 @@ public class Character : MonoBehaviour
 
         presentHP -= damage;
 
-        StartCoroutine(hitColor());
+        if (hitColorCoroutine != null)
+        {
+            StopCoroutine(hitColorCoroutine);
+        }
+        hitColorCoroutine = StartCoroutine(hitColor());
         HpSidle hpBar = GetComponentInChildren<HpSidle>();
         if(hpBar != null)
         {
@@ -459,7 +491,11 @@ public class Character : MonoBehaviour
             return;
         }        
         presentHP -= skillDamage;
-        StartCoroutine(hitColor());
+        if (hitColorCoroutine != null)
+        {
+            StopCoroutine(hitColorCoroutine);
+        }
+        hitColorCoroutine = StartCoroutine(hitColor());
         HpSidle hpBar = GetComponentInChildren<HpSidle>();
         if (hpBar != null)
         {
@@ -469,6 +505,7 @@ public class Character : MonoBehaviour
     }
     public void ManaGain()
     {
+        if (isDead || skillReady) return;
         gainMP = data.MPRefill;
         presentMP = Mathf.Min(presentMP + gainMP, data.MPMax);
         MpSidle mpBar = GetComponentInChildren<MpSidle>();
@@ -482,29 +519,28 @@ public class Character : MonoBehaviour
             presentMP = data.MPMax;
         }
     }
-    private int hitStack = 0;
+   
     IEnumerator hitColor()
     {
-        if(spriteRenderer == null) yield break;
-        hitStack++;
-        Color originColor = spriteRenderer.color;
+        if(spriteRenderer == null) yield break;        
 
         spriteRenderer.color = Color.red;
-        yield return new WaitForSeconds(0.3f);
-        spriteRenderer.color = originColor;
-        hitStack--;
-        if(hitStack <= 0)
-        {
-            hitStack = 0;
-            spriteRenderer.color = originColor;
-        }
+        yield return new WaitForSeconds(0.2f);
+        spriteRenderer.color = originalColor;
     }
     void Die()
     {
         if(isDead) return;
         isDead = true;
+        isBattle = false;
+        ChangeState(State.Idle);
 
-        if(anim != null)
+        Collider2D col = GetComponent<Collider2D>();
+        if(col != null)
+        {
+            col.enabled = false;
+        }
+        if (anim != null)
         {            
             anim.SetTrigger("Dead");
         }
@@ -535,11 +571,13 @@ public class Character : MonoBehaviour
     public void ReSetState()
     {
         presentTarget = null;
-        ChangeState(State.Idle);
-        //isHit = false;
+        ChangeState(State.Idle);        
         isDead = false;
 
-        if(anim != null)
+        Collider2D col = GetComponent<Collider2D>();
+        if (col != null) col.enabled = true;
+
+        if (anim != null)
         {
             anim.ResetTrigger("Attack");
             anim.SetInteger("State", (int)State.Idle);
@@ -563,7 +601,7 @@ public class Character : MonoBehaviour
         float skillUp = Mathf.Pow(1.35f,star -1);
         presentHP = Mathf.RoundToInt(data.HPMax * hpUp);
         currentAttackPower = Mathf.RoundToInt(data.AttackPower * atkUp);
-        currentAttackSpeed = data.AttackSpeed * atkUp;
+        currentAttackSpeed = data.AttackSpeed * atsUp;
         currentSkillPower = Mathf.RoundToInt(data.skillDamage * skillUp);
     }
     private projectile projectilleCs;
@@ -597,20 +635,30 @@ public class Character : MonoBehaviour
 
             case SkillClassification.justPrefab:
                 // 발사형: 캐스터 위치에서 스킬용 발사체 발사
-                if (data.skillprojectilePrefab == null) return;
+                if (data.skillprojectilePrefab == null)
+                {
+                    Debug.Log(gameObject.name + "의 CharacterData에 skillprojectilePrefab이 할당되지 않았습니다!");
+                    return; 
+                }
 
                 GameObject projectileSkill = Instantiate(data.skillprojectilePrefab, transform.position, Quaternion.identity);
                 projectilleCs = projectileSkill.GetComponent<projectile>();
+                if (projectilleCs == null)
+                {
+                    Debug.LogError(data.skillprojectilePrefab.name + " 프리팹에 projectile 스크립트가 없습니다!");
+                    Destroy(projectileSkill);
+                    return;
+                }
                 projectilleCs.Initialize(presentTarget.GetComponent<Character>(), this, currentSkillPower, true);                           
                 break;
         }
-        skillReady = false;
         presentMP = 0;
         MpSidle mpBar = GetComponentInChildren<MpSidle>();
         if (mpBar != null)
         {
             mpBar.UseMana(data.MPMax); // 전부 소모
         }
+        skillReady = false; 
     }
     void BlowHit()
     {
@@ -653,7 +701,7 @@ public class Character : MonoBehaviour
             if (isEnemy)
                 tm.enemyUnit.Remove(gameObject);
             else
-                tm.friendlyUnit.Remove(gameObject);
+                tm.friendlyUnit.Remove(gameObject); 
         }
     }    
 }

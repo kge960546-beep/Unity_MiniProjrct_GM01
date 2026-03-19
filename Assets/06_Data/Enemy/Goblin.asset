@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5064f3215a0e212439de5d5790b9ddff, type: 3}
   m_Name: Goblin
   m_EditorClassIdentifier: 
+  instanceID: 0
   id: 8
   CharacterName: Goblin
   Prefabs:
@@ -27,7 +28,7 @@ MonoBehaviour:
   MPRefill: 11
   skillDamage: 30
   isRanged: 1
-  SkillClassification: 0
+  SkillClassification: 1
   projectilePrefab: {fileID: 2567813042081770120, guid: 0beb07ab32259d44d9a62d8618604994, type: 3}
   skillEffectPrefab: {fileID: 0}
   skillprojectilePrefab: {fileID: 1637840839249479185, guid: bd4d0fd664defd4429bd106fa3a8c9bd, type: 3}
