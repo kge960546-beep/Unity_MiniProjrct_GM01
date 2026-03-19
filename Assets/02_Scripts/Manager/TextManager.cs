@@ -207,7 +207,11 @@ public class TextManager : MonoBehaviour
         if (nextScene < SceneManager.sceneCountInBuildSettings)
         {
             SceneManager.LoadScene(nextScene);           
-        }       
+        }
+        else
+        {
+            SceneManager.LoadScene("EndGame");
+        }
         _loadingNext = false;
     }
     IEnumerator BattleCheck()

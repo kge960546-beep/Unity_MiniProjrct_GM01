@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+    public TextManager textManager;
 
     [Header("¸Ê ¼³Á¤")]
     public int width = 40;
@@ -45,6 +46,7 @@ public class GameManager : MonoBehaviour
     public bool restoreOnLoad = false;
     private void Awake()
     {
+        Time.timeScale = 0;
         if (Instance == null)
         {
             Instance = this;
@@ -293,7 +295,9 @@ public class GameManager : MonoBehaviour
     void OnSceneLoaded(Scene scene,LoadSceneMode mode)
     {
         Debug.Log($"[GameManager] ¾À ·ÎµåµÊ: {scene.name}, restoreOnLoad={restoreOnLoad}");
+        textManager = FindObjectOfType<TextManager>();
         MapLoader loader = FindObjectOfType<MapLoader>();
+
         if (loader != null && loader.mapData != null)
         {           
             mapData = loader.mapData;
